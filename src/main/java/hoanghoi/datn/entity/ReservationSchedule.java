@@ -1,52 +1,23 @@
 package hoanghoi.datn.entity;
 
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.time.Instant;
 import java.util.UUID;
 
+@Setter
+@Getter
+@Entity
+@Table(name = "reservation_schedules")
 public class ReservationSchedule {
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private UUID accountId;
     private UUID parkingId;
     private Instant startTime;
     private Instant endTime;
 
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public UUID getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(UUID accountId) {
-        this.accountId = accountId;
-    }
-
-    public UUID getParkingId() {
-        return parkingId;
-    }
-
-    public void setParkingId(UUID parkingId) {
-        this.parkingId = parkingId;
-    }
-
-    public Instant getStartTime() {
-        return startTime;
-    }
-
-    public void setStartTime(Instant startTime) {
-        this.startTime = startTime;
-    }
-
-    public Instant getEndTime() {
-        return endTime;
-    }
-
-    public void setEndTime(Instant endTime) {
-        this.endTime = endTime;
-    }
 }
