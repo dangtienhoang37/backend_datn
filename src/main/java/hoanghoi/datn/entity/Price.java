@@ -1,33 +1,20 @@
 package hoanghoi.datn.entity;
 
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.UUID;
 
+@Setter
+@Getter
+@Entity
+@Table(name = "prices")
 public class Price {
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private Long dayTimeRate;
     private Long nightTimeRate;
 
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
-
-    public Long getDayTimeRate() {
-        return dayTimeRate;
-    }
-
-    public void setDayTimeRate(Long dayTimeRate) {
-        this.dayTimeRate = dayTimeRate;
-    }
-
-    public Long getNightTimeRate() {
-        return nightTimeRate;
-    }
-
-    public void setNightTimeRate(Long nightTimeRate) {
-        this.nightTimeRate = nightTimeRate;
-    }
 }

@@ -1,33 +1,20 @@
 package hoanghoi.datn.entity;
 
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.UUID;
 
+@Setter
+@Getter
+@Entity
+@Table(name = "areas")
 public class Area {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int areaId;
     private String areaName;
     private UUID staffId;
 
-    public int getAreaId() {
-        return areaId;
-    }
-
-    public void setAreaId(int areaId) {
-        this.areaId = areaId;
-    }
-
-    public String getAreaName() {
-        return areaName;
-    }
-
-    public void setAreaName(String areaName) {
-        this.areaName = areaName;
-    }
-
-    public UUID getStaffId() {
-        return staffId;
-    }
-
-    public void setStaffId(UUID staffId) {
-        this.staffId = staffId;
-    }
 }
