@@ -28,5 +28,5 @@ public interface AccountService {
 
     ApiResponse getDetailAccount(UUID id);
 
-    ApiResponse changePassword(AccountUpdatePassword request);
+    ApiResponse changePassword(String Token, AccountUpdatePassword request);
 }

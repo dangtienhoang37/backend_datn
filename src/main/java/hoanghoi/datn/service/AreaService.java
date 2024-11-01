@@ -2,6 +2,7 @@ package hoanghoi.datn.service;
 
 import hoanghoi.datn.dto.response.ApiResponse;
 
+
 public interface AreaService {
     // admin space
     ApiResponse adminAddAreaService();
