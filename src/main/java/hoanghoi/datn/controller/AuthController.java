@@ -5,6 +5,7 @@ import hoanghoi.datn.dto.request.Creation.loginRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
 import hoanghoi.datn.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,4 +27,9 @@ public class AuthController {
     public ApiResponse login(@RequestBody loginRequest request) {
         return accountService.login(request);
     }
+    @PostMapping("/create-staff-account")
+    public ApiResponse createStaffAccount(@RequestBody AccountCreationRequest request) {
+        return accountService.createStaffAccount(request);
+    }
+
 }

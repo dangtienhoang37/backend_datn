@@ -1,19 +1,24 @@
 package hoanghoi.datn.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.validation.constraints.NotNull;
+import lombok.*;
 
 import java.util.UUID;
 
 @Setter
 @Getter
 @Entity
+//@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "parking")
 public class Parking {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
+    @NotNull
     private int areaId;
     private UUID priceId;
     private UUID staffId;

@@ -1,5 +1,10 @@
 package hoanghoi.datn.exception;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class CustomException  extends RuntimeException{
     public CustomException(ErrorCode errorCode){
         super(errorCode.getMessage());
@@ -8,11 +13,4 @@ public class CustomException  extends RuntimeException{
 
     private ErrorCode errorCode;
 
-    public ErrorCode getErrorCode() {
-        return errorCode;
-    }
-
-    public void setErrorCode(ErrorCode errorCode) {
-        this.errorCode = errorCode;
-    }
 }

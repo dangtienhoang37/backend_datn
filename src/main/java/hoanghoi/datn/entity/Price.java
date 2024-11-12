@@ -16,5 +16,7 @@ public class Price {
     private UUID id;
     private Long dayTimeRate;
     private Long nightTimeRate;
+    @Column(nullable = false)
+    private Boolean isActive = true;
 
 }

@@ -4,6 +4,7 @@ import hoanghoi.datn.dto.request.Creation.AccountCreationRequest;
 import hoanghoi.datn.dto.request.Creation.loginRequest;
 import hoanghoi.datn.dto.request.Update.AccountUpdatePassword;
 import hoanghoi.datn.dto.response.ApiResponse;
+import org.springframework.http.ResponseEntity;
 
 import java.util.UUID;
 
@@ -26,7 +27,9 @@ public interface AccountService {
 
     ApiResponse regCard();
 
-    ApiResponse getDetailAccount(UUID id);
+    ApiResponse getDetailAccount(String Token);
 
     ApiResponse changePassword(String Token, AccountUpdatePassword request);
+
+    ApiResponse createStaffAccount(AccountCreationRequest request);
 }

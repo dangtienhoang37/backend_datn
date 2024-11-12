@@ -1,16 +1,21 @@
 package hoanghoi.datn.service;
 
+import hoanghoi.datn.dto.request.Creation.ParkingCreationRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
+
+import java.util.UUID;
 
 public interface ParkingService {
     //admin space
-    ApiResponse adminCreateParkingService();
-    ApiResponse adminUpdateParkingService();
+    ApiResponse adminCreateParkingService(ParkingCreationRequest request);
+    ApiResponse adminUpdateParkingService(UUID id, ParkingCreationRequest request);
     ApiResponse adminDisableParkingService();
 
     //end admin space
     ApiResponse slotRemainingservice();
     ApiResponse bookingService();
     ApiResponse getAllParking();
-    ApiResponse getDetalParking();
+    ApiResponse getDetailParking(UUID id);
+
+    ApiResponse getAllParkingByArea(int areaId);
 }

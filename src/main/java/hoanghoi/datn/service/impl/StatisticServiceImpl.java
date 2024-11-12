@@ -1,6 +1,8 @@
 package hoanghoi.datn.service.impl;
 
-public class statisticServiceImpl {
+import hoanghoi.datn.service.statisticService;
+
+public class statisticServiceImpl implements statisticService {
 
     // cahn thi vl
 }

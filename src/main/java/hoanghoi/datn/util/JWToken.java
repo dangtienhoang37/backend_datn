@@ -8,6 +8,8 @@ import com.nimbusds.jwt.SignedJWT;
 import hoanghoi.datn.entity.Account;
 import lombok.experimental.NonFinal;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.jose.jws.MacAlgorithm;
 import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.security.oauth2.jwt.JwtDecoder;
@@ -19,6 +21,7 @@ import java.text.ParseException;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
+import java.util.UUID;
 
 @Component
 public class JWToken {
@@ -31,6 +34,7 @@ public class JWToken {
         String username = acc.getUserName();
         String role = acc.getRole().toString();
         String id = acc.getId().toString();
+        boolean isInit = acc.isInit();
         JWSHeader header = new JWSHeader(JWSAlgorithm.HS512); // dua vao bien moi truong
 
         //Tạo payload
@@ -43,6 +47,7 @@ public class JWToken {
                 ))
                 .claim("Id", id)
                 .claim("Role", role)
+                .claim("Init",isInit)
                 .build();
 
         Payload payload = new Payload(jwtClaimsSet.toJSONObject());
@@ -66,6 +71,20 @@ public class JWToken {
     }
     public  String TokenConcat (String token) {
         return token.substring(7);
+    }
+
+    public String getToken(){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        if(authentication != null && authentication.getCredentials() != null) {
+            return authentication.getCredentials().toString();
+        }
+        else {
+            return null;
+        }
+    }
+    public UUID getIdFromToken(String token){
+        var targetJWToken = jwtDecoder(TokenConcat(token));
+        return UUID.fromString(targetJWToken.getClaim("Id"));
     }
 
 }

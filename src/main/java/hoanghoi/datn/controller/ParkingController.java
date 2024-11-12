@@ -1,6 +1,9 @@
 package hoanghoi.datn.controller;
 
+import hoanghoi.datn.dto.request.Creation.ParkingCreationRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
+import hoanghoi.datn.service.ParkingService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -9,29 +12,31 @@ import java.util.UUID;
 @RequestMapping("/parking")
 public class ParkingController {
     // tao moi
+    @Autowired
+    private ParkingService parkingService;
     @PostMapping("/create")
-    public ApiResponse create() {
-        return null;
+    public ApiResponse create(@RequestBody ParkingCreationRequest request) {
+        return parkingService.adminCreateParkingService(request);
     }
     // get all
     @GetMapping("/get-all")
     public ApiResponse getAll() {
-        return null;
+        return parkingService.getAllParking();
     }
     // get all by Area
-    @GetMapping("/get-all-by-area")
-    public ApiResponse getAllbyArea() {
-        return null;
+    @GetMapping("/get-all/{areaId}")
+    public ApiResponse getAllbyArea(@PathVariable int areaId) {
+        return parkingService.getAllParkingByArea(areaId);
     }
     // get detail
     @GetMapping("/{id}")
     public ApiResponse getDetail(@PathVariable UUID id) {
-        return null;
+        return parkingService.getDetailParking(id);
     }
     // chinh sua
-    @PostMapping("/update")
-    public ApiResponse update() {
-        return null;
+    @PatchMapping("/{id}")
+    public ApiResponse update(@PathVariable UUID id, @RequestBody ParkingCreationRequest request) {
+        return parkingService.adminUpdateParkingService(id, request);
     }
 
 

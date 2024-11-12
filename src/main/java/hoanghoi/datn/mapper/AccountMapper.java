@@ -17,7 +17,14 @@ public interface AccountMapper {
 //    @Mapping(target = "password",expression = "java(passwordEncoder.encode(request.getPassword()))")
     @Mappings({
             @Mapping(target = "role", constant = "USER" ),
+//            @Mapping(target = "isActive", constant = "true"),
             @Mapping(target = "password",expression = "java(passwordEncoder.encode(request.getPassword()))")
     })
     Account toAccount(AccountCreationRequest request, CustomPasswordEncoder passwordEncoder);
+    @Mappings({
+            @Mapping(target = "role", constant = "STAFF" ),
+//            @Mapping(target = "isActive", constant = "true"),
+            @Mapping(target = "password",expression = "java(passwordEncoder.encode(request.getPassword()))")
+    })
+    Account toStaffAccount(AccountCreationRequest request, CustomPasswordEncoder passwordEncoder);
 }

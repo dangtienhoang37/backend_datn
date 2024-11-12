@@ -20,9 +20,10 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
 
-    @GetMapping("/infor/{id}")
-    public ApiResponse getInformation(@PathVariable("id") UUID id) {
-        return accountService.getDetailAccount(id);
+
+    @GetMapping("/infor")
+    public ApiResponse getInformation(@RequestHeader("Authorization") String token) {
+        return accountService.getDetailAccount(token);
     }
 
     @PostMapping("/change-password")
@@ -31,5 +32,6 @@ public class AccountController {
     // for admin
     @GetMapping("/get-all")
     public ApiResponse getAll() {return accountService.adminGetAllAccount();}
-
+    // vô hiệu hóa người dùng
+    // vô hiệu hóa staff
 }
