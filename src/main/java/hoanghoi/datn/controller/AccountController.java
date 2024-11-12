@@ -7,37 +7,31 @@ import hoanghoi.datn.dto.request.Update.AccountUpdatePassword;
 import hoanghoi.datn.dto.response.ApiResponse;
 import hoanghoi.datn.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+
+
 @RestController
-//@RequestMapping("/api/v1")
+@RequestMapping("/account")
 public class AccountController {
     @Autowired
     private AccountService accountService;
 
 
-    @PostMapping("/register")
-    public ApiResponse createAccount(@RequestBody AccountCreationRequest request) {
-        return accountService.register(request);
-
-    }
-    @PostMapping("/login")
-    public ApiResponse login(@RequestBody loginRequest request) {
-        return accountService.login(request);
-    }
-
-    @GetMapping("/infor/{id}")
-    public ApiResponse getInformation(@PathVariable("id") UUID id) {
-        return accountService.getDetailAccount(id);
+    @GetMapping("/infor")
+    public ApiResponse getInformation(@RequestHeader("Authorization") String token) {
+        return accountService.getDetailAccount(token);
     }
 
     @PostMapping("/change-password")
-    public ApiResponse changePassword(@RequestBody AccountUpdatePassword request) {return accountService.changePassword(request);}
+    public ApiResponse changePassword(@RequestHeader("Authorization") String token,@RequestBody AccountUpdatePassword request) {return accountService.changePassword(token,request);}
 
     // for admin
     @GetMapping("/get-all")
     public ApiResponse getAll() {return accountService.adminGetAllAccount();}
-
+    // vô hiệu hóa người dùng
+    // vô hiệu hóa staff
 }

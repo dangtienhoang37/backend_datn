@@ -1,6 +1,8 @@
 package hoanghoi.datn.service.impl;
 
-public class staffServiceImpl {
+import hoanghoi.datn.service.StaffService;
+
+public class staffServiceImpl implements StaffService {
 
     // ///chan thi vl
 }

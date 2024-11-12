@@ -3,6 +3,7 @@ package hoanghoi.datn.mapper;
 import hoanghoi.datn.config.CustomPasswordEncoder;
 import hoanghoi.datn.dto.request.Creation.AccountCreationRequest;
 import hoanghoi.datn.entity.Account;
+import hoanghoi.datn.enumvar.Role;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
@@ -15,8 +16,15 @@ public interface AccountMapper {
 //    @Mapping(target = "role", constant = "USER")
 //    @Mapping(target = "password",expression = "java(passwordEncoder.encode(request.getPassword()))")
     @Mappings({
-            @Mapping(target = "role", constant = "USER"),
+            @Mapping(target = "role", constant = "USER" ),
+//            @Mapping(target = "isActive", constant = "true"),
             @Mapping(target = "password",expression = "java(passwordEncoder.encode(request.getPassword()))")
     })
     Account toAccount(AccountCreationRequest request, CustomPasswordEncoder passwordEncoder);
+    @Mappings({
+            @Mapping(target = "role", constant = "STAFF" ),
+//            @Mapping(target = "isActive", constant = "true"),
+            @Mapping(target = "password",expression = "java(passwordEncoder.encode(request.getPassword()))")
+    })
+    Account toStaffAccount(AccountCreationRequest request, CustomPasswordEncoder passwordEncoder);
 }

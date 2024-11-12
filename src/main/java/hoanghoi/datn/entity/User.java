@@ -2,8 +2,10 @@ package hoanghoi.datn.entity;
 
 import hoanghoi.datn.enumvar.Gender;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.GenericGenerator;
 
 import java.util.UUID;
 
@@ -14,7 +16,7 @@ import java.util.UUID;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID) 
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private String fullName;
     private Gender gender;
@@ -23,6 +25,13 @@ public class User {
     private String email;
     private String address;
     private String userImg;
-    private String userRecordHistoryId;
+    private UUID userRecordHistoryId;
+
+    @PrePersist
+    public void prePersist(){
+        if(userRecordHistoryId == null){
+            userRecordHistoryId = UUID.randomUUID();
+        }
+    }
 
 }
