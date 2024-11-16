@@ -1,5 +1,6 @@
 package hoanghoi.datn.service.impl;
 
+import com.cloudinary.Cloudinary;
 import hoanghoi.datn.dto.request.Creation.UserCreationRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
 import hoanghoi.datn.entity.Account;
@@ -9,10 +10,13 @@ import hoanghoi.datn.exception.ErrorCode;
 import hoanghoi.datn.mapper.UserMapper;
 import hoanghoi.datn.repository.AccountRepository;
 import hoanghoi.datn.repository.UserRepository;
+import hoanghoi.datn.service.CloudinaryService;
 import hoanghoi.datn.service.UserService;
 import hoanghoi.datn.util.JWToken;
+import hoanghoi.datn.util.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Objects;
 import java.util.Optional;
@@ -29,6 +33,11 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
     @Autowired
     private JWToken jwToken;
+    @Autowired
+    private UserUtils userUtils;
+    @Autowired
+    private CloudinaryService cloudinaryService;
+
     @Override
     public ApiResponse adminGetAllUser() {
         return null;
@@ -50,8 +59,22 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ApiResponse updateAvatar() {
-        return null;
+    public ApiResponse updateAvatar(String token, MultipartFile file) {
+        try {
+            User targetUser = userUtils.findUserFromToken(token);
+            var imgUrl = cloudinaryService.uploadImg(file);
+            targetUser.setUserImg(imgUrl);
+            new ApiResponse<User>();
+            return ApiResponse.builder()
+                    .code(1000)
+                    .message("upload img sucessfully")
+                    .isSucess(true)
+                    .result(userRepository.save(targetUser))
+                    .build();
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
@@ -93,8 +116,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public ApiResponse getDetailUser(String token) {
         try {
-            var AccountToken = jwToken.getIdFromToken(token);
-            var account = accountRepository.findById(AccountToken).orElse(null);
+            var AccountId = jwToken.getIdFromToken(token);
+            var account = accountRepository.findById(AccountId).orElse(null);
             if(Objects.isNull(account)) {
                 throw new CustomException(ErrorCode.NOT_EXISTED);
             }

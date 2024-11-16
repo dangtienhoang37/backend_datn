@@ -7,6 +7,7 @@ import hoanghoi.datn.dto.request.Update.AccountUpdatePassword;
 import hoanghoi.datn.dto.response.ApiResponse;
 import hoanghoi.datn.entity.Account;
 import hoanghoi.datn.entity.User;
+import hoanghoi.datn.enumvar.Role;
 import hoanghoi.datn.exception.CustomException;
 import hoanghoi.datn.exception.ErrorCode;
 import hoanghoi.datn.mapper.AccountMapper;
@@ -44,11 +45,13 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     @PreAuthorize("hasAuthority('ADMIN')")
-    public ApiResponse adminGetAllAccount() {
+    public ApiResponse adminGetAllAccount(Role role) {
+
         ApiResponse res = new ApiResponse();
         res.setCode(1000);
         res.setMessage("Register Sucessfully!");
-        res.setResult(accountRepository.findAll());
+        res.setSucess(true);
+        res.setResult(accountRepository.findAllByRole(role));
         return res;
     }
 
@@ -217,16 +220,19 @@ public class AccountServiceImpl implements AccountService {
             if (accountRepository.existsByUserName(username))
                 throw new CustomException(ErrorCode.USER_EXISTED);
 
-
+            User newUser = new User();
+            userRepository.save(newUser);
             Account account = accountMapper.toStaffAccount(request, passwordEncoder);
 //        Account acc = Account.builder().build();
 
 //        Account account = new Account();
 //        account.setUserName(request.getUserName());
 //        account.setPassword(passwordEncoder.encode(request.getPassword()));
-//        account.setRole(Role.USER);
+//        account.setRole(Role.USER);       ac
+            account.setIdUser(newUser.getId());
             ApiResponse res = new ApiResponse();
             res.setCode(1000);
+            res.setSucess(true);
             res.setMessage("Register Sucessfully!");
             res.setResult(accountRepository.save(account));
 

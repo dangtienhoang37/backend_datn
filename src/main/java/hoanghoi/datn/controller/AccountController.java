@@ -5,6 +5,7 @@ import hoanghoi.datn.dto.request.Creation.loginRequest;
 
 import hoanghoi.datn.dto.request.Update.AccountUpdatePassword;
 import hoanghoi.datn.dto.response.ApiResponse;
+import hoanghoi.datn.enumvar.Role;
 import hoanghoi.datn.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -31,7 +32,10 @@ public class AccountController {
 
     // for admin
     @GetMapping("/get-all")
-    public ApiResponse getAll() {return accountService.adminGetAllAccount();}
+    public ApiResponse getAll(@RequestParam Role role) {return accountService.adminGetAllAccount(role);}
     // vô hiệu hóa người dùng
+
+    @GetMapping("/disable/{id}")
+    public ApiResponse disable(@PathVariable UUID id) {return accountService.adminDisableAccount();}
     // vô hiệu hóa staff
 }
