@@ -9,5 +9,7 @@ import java.util.UUID;
 @Repository
 public interface ParkingRepository extends JpaRepository<Parking, UUID> {
 
-    List<Parking> findByareaId(int areaId);
+    List<Parking> findByWardId(String id);
+//    List<Parking> findByDistrictId(String id);
+
 }

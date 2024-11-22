@@ -2,11 +2,11 @@ package hoanghoi.datn.service.impl;
 
 import hoanghoi.datn.dto.request.Creation.ParkingCreationRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
-import hoanghoi.datn.entity.Parking;
+import hoanghoi.datn.entity.*;
 import hoanghoi.datn.exception.CustomException;
 import hoanghoi.datn.exception.ErrorCode;
 import hoanghoi.datn.mapper.ParkingMapper;
-import hoanghoi.datn.repository.ParkingRepository;
+import hoanghoi.datn.repository.*;
 import hoanghoi.datn.service.ParkingService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -22,6 +22,14 @@ import java.util.UUID;
 @Service
 public class ParkingServiceImpl implements ParkingService {
     @Autowired
+    private AccountRepository accountRepository;
+    @Autowired
+    private DistrictRepository districtRepository;
+    @Autowired
+    private WardRepository wardRepository;
+    @Autowired
+    private PriceRepository priceRepository;
+    @Autowired
     private ParkingRepository parkingRepository;
     @Autowired
     private ParkingMapper parkingMapper;
@@ -31,9 +39,23 @@ public class ParkingServiceImpl implements ParkingService {
     @Override
     public ApiResponse adminCreateParkingService(ParkingCreationRequest request) {
         try{
-            Parking newParking = parkingMapper.toParking(request);
-//            logger.info("mappp", newParking);
-//            return null;
+            Ward targetWard = wardRepository.findById(request.getWardId()).orElse(null);
+            Price targetPrice = priceRepository.findById(request.getPriceId()).orElse(null);
+            Account targetStaff = accountRepository.findById(request.getStaffId()).orElse(null);
+            // mapper
+            Parking newParking = Parking.builder()
+                    .parkingName(request.getParkingName())
+                    .price(targetPrice)
+                    .account(targetStaff)
+                    .directSpacesAvailible(request.getDirectSpacesAvailible())
+                    .directSpacesCap(request.getDirectSpacesCap())
+                    .longtitude(request.getLongtitude())
+                    .latitude(request.getLatitude())
+                    .reservedSpacesCap(request.getReservedSpacesCap())
+                    .reservedSpacesAvailible(request.getReservedSpacesAvailible())
+                    .ward(targetWard)
+                    .build();
+            log.info("okkkkkkk1");
             return new ApiResponse<>(1000,"create Parking Sucessfully",true,parkingRepository.save(newParking));
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -82,13 +104,24 @@ public class ParkingServiceImpl implements ParkingService {
     }
     // get by area
     @Override
-    public ApiResponse getAllParkingByArea(int areaId) {
+    public ApiResponse getAllParkingByDistrict(String districtId) {
         new ApiResponse<List<Parking>>();
         return  ApiResponse.builder()
                 .code(1000)
                 .message("get by Area sucessfully")
                 .isSucess(true)
-                .result(parkingRepository.findByareaId(areaId))
+                .result(parkingRepository.findByWardId(districtId))
+                .build();
+    }
+
+    @Override
+    public ApiResponse getAllParkingByWard(String wardId) {
+        new ApiResponse<List<Parking>>();
+        return  ApiResponse.builder()
+                .code(1000)
+                .message("get by Area sucessfully")
+                .isSucess(true)
+                .result(parkingRepository.findByWardId(wardId))
                 .build();
     }
 

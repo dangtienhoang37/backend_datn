@@ -1,28 +1,27 @@
 package hoanghoi.datn.service;
 
+import com.fasterxml.jackson.databind.DatabindException;
 import hoanghoi.datn.dto.request.Creation.AreaCreationRequest;
 import hoanghoi.datn.dto.request.granted.AreaStaffGrantedRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
 
+import java.io.IOException;
+
 
 public interface AreaService {
-    // admin space
-    ApiResponse adminAddAreaService(AreaCreationRequest request);
 
-    ApiResponse adminAddAreaService();
 
-    ApiResponse adminGrantStaffService(int id,AreaStaffGrantedRequest request);
+    ApiResponse initLocation() throws IOException;
 
-    ApiResponse adminRemoveAreaService(int id);
+    ApiResponse initWard() throws IOException;
 
-    // end admin space
-    //
-    ApiResponse changeAreaInforService();
-    ApiResponse getAllAreaService();
+    ApiResponse getAllDistrict();
 
-    ApiResponse getDetailAreaService(int id);
+    ApiResponse getDistrict(String id);
 
-    ApiResponse changeAreaInforService(int id, AreaCreationRequest request);
+    ApiResponse getWard(String id);
+
+    ApiResponse getAllWard(String id);
 
 
     //

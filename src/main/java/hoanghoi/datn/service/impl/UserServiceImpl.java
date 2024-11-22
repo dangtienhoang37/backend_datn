@@ -85,7 +85,7 @@ public class UserServiceImpl implements UserService {
             if (Objects.isNull(Account)) {
                 throw new CustomException(ErrorCode.NOT_EXISTED);
             }
-            UUID idUser = Account.getIdUser();
+            UUID idUser = Account.getUser().getId();
             User targetUser = userRepository.findById(idUser).orElse(null);
             if(Objects.isNull(targetUser)) {
                 throw new CustomException(ErrorCode.NOT_EXISTED);
@@ -121,7 +121,7 @@ public class UserServiceImpl implements UserService {
             if(Objects.isNull(account)) {
                 throw new CustomException(ErrorCode.NOT_EXISTED);
             }
-            var user = userRepository.findById(account.getIdUser()).orElse(null);
+            var user = userRepository.findById(account.getUser().getId()).orElse(null);
             if(Objects.isNull(user)) {
                 throw new CustomException(ErrorCode.NOT_EXISTED);
             }

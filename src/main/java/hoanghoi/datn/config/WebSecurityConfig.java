@@ -1,6 +1,7 @@
 package hoanghoi.datn.config;
 
 
+import hoanghoi.datn.config.filter.ApiKeyFilter;
 import hoanghoi.datn.util.JWToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -18,6 +19,7 @@ import org.springframework.security.oauth2.jwt.JwtDecoder;
 import org.springframework.security.oauth2.jwt.NimbusJwtDecoder;
 import org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import javax.crypto.spec.SecretKeySpec;
 
@@ -34,11 +36,14 @@ public class WebSecurityConfig {
     private JWToken JwToken;
     @Autowired
     private JWTDecoder jwtDecoder;
+    @Autowired
+    private ApiKeyFilter apiKeyFilter;
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
         http
 
+                .addFilterBefore(apiKeyFilter, UsernamePasswordAuthenticationFilter.class)
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST,permitUrlPost).permitAll()

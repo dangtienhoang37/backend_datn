@@ -15,6 +15,7 @@ import hoanghoi.datn.repository.AccountRepository;
 import hoanghoi.datn.repository.UserRepository;
 import hoanghoi.datn.service.AccountService;
 import hoanghoi.datn.util.JWToken;
+import hoanghoi.datn.util.UserUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -41,6 +42,8 @@ public class AccountServiceImpl implements AccountService {
     private CustomPasswordEncoder passwordEncoder;
     @Autowired
     private JWToken jwToken;
+    @Autowired
+    private UserUtils userUtils;
 
 
     @Override
@@ -49,7 +52,7 @@ public class AccountServiceImpl implements AccountService {
 
         ApiResponse res = new ApiResponse();
         res.setCode(1000);
-        res.setMessage("Register Sucessfully!");
+        res.setMessage("get all Sucessfully!");
         res.setSucess(true);
         res.setResult(accountRepository.findAllByRole(role));
         return res;
@@ -113,7 +116,8 @@ public class AccountServiceImpl implements AccountService {
             User newUser = new User();
             userRepository.save(newUser);
             Account account = accountMapper.toAccount(request, passwordEncoder);
-            account.setIdUser(newUser.getId());
+//            account.setIdUser(newUser.getId());
+            account.setUser(newUser);
             ApiResponse res = new ApiResponse();
             res.setCode(1000);
             res.setMessage("Register Sucessfully!");
@@ -229,7 +233,8 @@ public class AccountServiceImpl implements AccountService {
 //        account.setUserName(request.getUserName());
 //        account.setPassword(passwordEncoder.encode(request.getPassword()));
 //        account.setRole(Role.USER);       ac
-            account.setIdUser(newUser.getId());
+//            account.setIdUser(newUser.getId());
+            account.setUser(newUser);
             ApiResponse res = new ApiResponse();
             res.setCode(1000);
             res.setSucess(true);
@@ -240,5 +245,26 @@ public class AccountServiceImpl implements AccountService {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public ApiResponse forgotPassword(String email)  {
+
+
+        try{
+            var acc = userUtils.findAccountFromEmail(email);
+            var resetToken = jwToken.genResetPasswordToken(acc);
+            // send email
+            new  ApiResponse<>();
+
+            return ApiResponse.builder()
+                    .isSucess(true)
+                    .code(1000)
+                    .message("send email sucessfully")
+                    .build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }

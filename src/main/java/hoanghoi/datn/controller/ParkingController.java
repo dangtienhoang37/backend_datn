@@ -23,10 +23,14 @@ public class ParkingController {
     public ApiResponse getAll() {
         return parkingService.getAllParking();
     }
-    // get all by Area
-    @GetMapping("/get-all/{areaId}")
-    public ApiResponse getAllbyArea(@PathVariable int areaId) {
-        return parkingService.getAllParkingByArea(areaId);
+    // get all by district
+    @GetMapping("/get-all-by-district/{districtId}")
+    public ApiResponse getAllbyDistrict(@PathVariable String districtId) {
+        return parkingService.getAllParkingByDistrict(districtId);
+    }
+    @GetMapping("/get-all-by-ward/{ward}")
+    public ApiResponse getAllbyWard(@PathVariable String wardId) {
+        return parkingService.getAllParkingByWard(wardId);
     }
     // get detail
     @GetMapping("/{id}")
@@ -40,6 +44,11 @@ public class ParkingController {
     }
 
 
+
+
+
+    // get all parking spot now by Area (admin- staff)
+    // get detail parking spot now bằng id record gửi xe ( sử dụng redis)(admin-staff-user)
     // gan quyền
     // vô hiệu hóa
 

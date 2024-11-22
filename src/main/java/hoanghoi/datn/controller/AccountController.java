@@ -30,12 +30,14 @@ public class AccountController {
     @PostMapping("/change-password")
     public ApiResponse changePassword(@RequestHeader("Authorization") String token,@RequestBody AccountUpdatePassword request) {return accountService.changePassword(token,request);}
 
-    // for admin
-    @GetMapping("/get-all")
-    public ApiResponse getAll(@RequestParam Role role) {return accountService.adminGetAllAccount(role);}
-    // vô hiệu hóa người dùng
+    @PostMapping("/forgot")
+    public ApiResponse forgot(@RequestParam String email){
+        return accountService.forgotPassword(email);
+    }
 
-    @GetMapping("/disable/{id}")
-    public ApiResponse disable(@PathVariable UUID id) {return accountService.adminDisableAccount();}
+
+
     // vô hiệu hóa staff
+
+    // logout
 }

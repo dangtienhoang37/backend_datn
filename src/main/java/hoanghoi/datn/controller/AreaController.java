@@ -1,5 +1,6 @@
 package hoanghoi.datn.controller;
 
+import com.fasterxml.jackson.databind.DatabindException;
 import hoanghoi.datn.dto.request.Creation.AreaCreationRequest;
 import hoanghoi.datn.dto.request.granted.AreaStaffGrantedRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
@@ -7,42 +8,43 @@ import hoanghoi.datn.service.AreaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
+
 @RestController
 @RequestMapping("/Area")
 public class AreaController {
     @Autowired
     private AreaService areaService;
-    // get all`
-    @GetMapping("/get-all")
-    public ApiResponse getAll() {
-        return areaService.getAllAreaService();
+
+
+
+
+    // init location
+    @GetMapping("/init-district")
+    public ApiResponse initLocation() throws IOException {
+        return areaService.initLocation();
     }
-    // get detail
-    @GetMapping("/{id}")
-    public ApiResponse getDetail(@PathVariable int id) {
-        return areaService.getDetailAreaService(id);
-    }
-    // create
-    @PostMapping("/create")
-    public ApiResponse create(@RequestBody AreaCreationRequest request) {
-        return areaService.adminAddAreaService(request);
-    }
-    // update
-    @PostMapping("/update/{id}")
-    public ApiResponse update(@PathVariable int id, @RequestBody AreaCreationRequest request) {
-        return areaService.changeAreaInforService(id, request);
-    }
-    // gan quyen - id user
-    @PostMapping("/granted/{id}")
-    public ApiResponse grantedArea(@PathVariable int id, @RequestBody AreaStaffGrantedRequest request) {
-        return areaService.adminGrantStaffService(id, request);
-    }
-    // vo hieu hoa
-    @PostMapping("/disable/{id}")
-    public ApiResponse disableArea(@PathVariable int id) {
-        return areaService.adminRemoveAreaService(id);
+    // init location
+    @GetMapping("/init-ward")
+    public ApiResponse initWard() throws IOException {
+        return areaService.initWard();
     }
 
-    // tam khoa
+    @GetMapping("/get-all-district")
+    public ApiResponse getAllDistrict() throws IOException {
+        return areaService.getAllDistrict();
+    }
+    @GetMapping("/get-detail-district/{id}")
+    public ApiResponse getDistrict(@PathVariable String id) throws IOException {
+        return areaService.getDistrict(id);
+    }
+    @GetMapping("/get-detail-ward/{id}")
+    public ApiResponse getWard(@PathVariable String id) throws IOException {
+        return areaService.getWard(id);
+    }
+    @GetMapping("/get-all-ward-district/{id}")
+    public ApiResponse getAllWard(@PathVariable String id) throws IOException {
+        return areaService.getAllWard(id);
+    }
 
 }

@@ -46,6 +46,7 @@ public class JWToken {
                         Instant.now().plus(1, ChronoUnit.HOURS).toEpochMilli()
                 ))
                 .claim("Id", id)
+                .claim("JWTId", UUID.randomUUID().toString())
                 .claim("Role", role)
                 .claim("Init",isInit)
                 .build();
@@ -85,6 +86,35 @@ public class JWToken {
     public UUID getIdFromToken(String token){
         var targetJWToken = jwtDecoder(TokenConcat(token));
         return UUID.fromString(targetJWToken.getClaim("Id"));
+    }
+    public String genResetPasswordToken(Account acc) throws Exception{
+        // Tạo header
+
+        String username = acc.getUserName();
+        String role = acc.getRole().toString();
+        String id = acc.getId().toString();
+        boolean isInit = acc.isInit();
+        JWSHeader header = new JWSHeader(JWSAlgorithm.HS512); // dua vao bien moi truong
+
+        //Tạo payload
+        JWTClaimsSet jwtClaimsSet = new JWTClaimsSet.Builder()
+                .subject(username)
+                .issuer("http://localhost:8081")
+                .issueTime(new Date())
+                .expirationTime(new Date(
+                        Instant.now().plus(1, ChronoUnit.HOURS).toEpochMilli()
+                ))
+                .claim("Id", id)
+                .claim("JWTId", UUID.randomUUID().toString())
+                .claim("Role", role)
+                .claim("Init",isInit)
+                .build();
+
+        Payload payload = new Payload(jwtClaimsSet.toJSONObject());
+        JWSObject jwsObject = new JWSObject(header,payload);
+        jwsObject.sign(new MACSigner(SIGNER_KEY.getBytes()));
+
+        return jwsObject.serialize();
     }
 
 }

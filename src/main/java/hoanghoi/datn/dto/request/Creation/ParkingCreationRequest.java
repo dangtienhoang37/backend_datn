@@ -12,7 +12,8 @@ import java.util.UUID;
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class ParkingCreationRequest {
-    int areaId;
+    String districtId;
+    String wardId;
     UUID priceId;
     UUID staffId;
     Double latitude;

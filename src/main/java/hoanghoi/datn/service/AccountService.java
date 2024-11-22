@@ -33,4 +33,6 @@ public interface AccountService {
     ApiResponse changePassword(String Token, AccountUpdatePassword request);
 
     ApiResponse createStaffAccount(AccountCreationRequest request);
+
+    ApiResponse forgotPassword(String email);
 }
