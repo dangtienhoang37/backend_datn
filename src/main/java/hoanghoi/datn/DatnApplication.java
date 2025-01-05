@@ -4,6 +4,7 @@ package hoanghoi.datn;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.ApplicationContext;
 // Import the required packages
 
@@ -16,6 +17,7 @@ import java.util.Map;
 import java.util.Objects;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class DatnApplication {
 
 

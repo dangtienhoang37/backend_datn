@@ -25,9 +25,12 @@ public class ParkingSpot {
     @JoinColumn(name = "parkingId", referencedColumnName = "id")
     private Parking parking;
     private int spotIndex;
+    private String plateNumber;
+    private Boolean isEmpty;
     private Instant entryTime;
     private int dayTime;
     private int nightTime;
     private long estCost;
+    private Instant checkoutTime;
 
 }

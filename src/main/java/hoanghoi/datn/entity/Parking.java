@@ -21,9 +21,14 @@ public class Parking {
     @ManyToOne
     @JoinColumn(name = "wardId", referencedColumnName = "id")
     private Ward ward;
+    @ManyToOne
+    @JoinColumn(name = "districtId", referencedColumnName = "id")
+    private District district;
     @OneToOne
     @JoinColumn(name ="priceId" , referencedColumnName = "id")
     private Price price;
+
+    private UUID deviceId;
     @ManyToOne
     @JoinColumn(name ="staffId" , referencedColumnName = "id")
     private Account account;

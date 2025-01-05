@@ -6,6 +6,7 @@ import com.nimbusds.jose.crypto.MACVerifier;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
 import hoanghoi.datn.entity.Account;
+import hoanghoi.datn.enumvar.Role;
 import lombok.experimental.NonFinal;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.Authentication;
@@ -86,6 +87,10 @@ public class JWToken {
     public UUID getIdFromToken(String token){
         var targetJWToken = jwtDecoder(TokenConcat(token));
         return UUID.fromString(targetJWToken.getClaim("Id"));
+    }
+    public String getRoleFromToken(String token){
+        var targetJWToken = jwtDecoder(TokenConcat(token));
+        return targetJWToken.getClaim("Role");
     }
     public String genResetPasswordToken(Account acc) throws Exception{
         // Tạo header

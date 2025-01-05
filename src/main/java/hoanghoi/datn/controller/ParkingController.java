@@ -28,7 +28,7 @@ public class ParkingController {
     public ApiResponse getAllbyDistrict(@PathVariable String districtId) {
         return parkingService.getAllParkingByDistrict(districtId);
     }
-    @GetMapping("/get-all-by-ward/{ward}")
+    @GetMapping("/get-all-by-ward/{wardId}")
     public ApiResponse getAllbyWard(@PathVariable String wardId) {
         return parkingService.getAllParkingByWard(wardId);
     }

@@ -23,7 +23,6 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.UUID)
     UUID id;
     String userName;
-
     @JsonIgnore
     String password;
     @Enumerated(EnumType.STRING)

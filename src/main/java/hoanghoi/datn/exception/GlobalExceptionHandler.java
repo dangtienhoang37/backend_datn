@@ -23,6 +23,13 @@ public class GlobalExceptionHandler {
 //        res.setResult(exception.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(res);
     }
+    @ExceptionHandler(RuntimeException.class)
+    public ResponseEntity<ApiResponse<String>> handleRuntimeException(RuntimeException ex) {
+        ApiResponse<String> response = new ApiResponse<>();
+        response.setData(null);
+        response.setMessage(ex.getMessage());
+        return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
 
 //    @ExceptionHandler(value = CustomException.class)
 //    ResponseEntity<ApiResponse> handlingCustomException(CustomException exception) {

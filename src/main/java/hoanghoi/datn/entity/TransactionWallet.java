@@ -1,25 +1,25 @@
 package hoanghoi.datn.entity;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.UUID;
 
-@Setter
 @Getter
+@Setter
 @Entity
+@Table(name = "transaction_wallet")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "prices")
-public class Price {
+public class TransactionWallet {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private String name;
-    private Long dayTimeRate;
-    private Long nightTimeRate;
+    int balance;
     @Column(nullable = false)
-    private Boolean isActive = true;
+    UUID accountId;
+
 
 }

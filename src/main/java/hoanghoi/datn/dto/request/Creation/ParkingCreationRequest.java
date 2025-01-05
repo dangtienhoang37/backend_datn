@@ -19,6 +19,7 @@ public class ParkingCreationRequest {
     Double latitude;
     Double longtitude;
     String parkingName;
+    UUID deviceId;
     int directSpacesCap;
     int directSpacesAvailible;
     int reservedSpacesCap;

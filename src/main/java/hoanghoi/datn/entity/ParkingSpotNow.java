@@ -26,6 +26,8 @@ public class ParkingSpotNow {
     private Instant entryTime;
     private int dayTime;
     private int nightTime;
+    private Instant checkoutTime;
+
     private long estCost;
 
 }

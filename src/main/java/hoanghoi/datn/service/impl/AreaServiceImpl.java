@@ -2,16 +2,11 @@ package hoanghoi.datn.service.impl;
 
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import hoanghoi.datn.dto.dbobj.warDTO;
-import hoanghoi.datn.dto.request.Creation.AreaCreationRequest;
-import hoanghoi.datn.dto.request.granted.AreaStaffGrantedRequest;
 import hoanghoi.datn.dto.response.ApiResponse;
-import hoanghoi.datn.entity.Account;
-import hoanghoi.datn.entity.Area;
 import hoanghoi.datn.entity.District;
 import hoanghoi.datn.entity.Ward;
-import hoanghoi.datn.exception.CustomException;
-import hoanghoi.datn.exception.ErrorCode;
 import hoanghoi.datn.mapper.ApiResponseMapper;
 import hoanghoi.datn.mapper.AreaMapper;
 import hoanghoi.datn.repository.AccountRepository;
@@ -106,7 +101,7 @@ public class AreaServiceImpl implements AreaService {
                 .code(1000)
                 .message("get all sucessfully")
                 .isSucess(true)
-                .result(districtRepository.findAll())
+                .data(districtRepository.findAll())
                 .build();
     }
 
@@ -118,7 +113,7 @@ public class AreaServiceImpl implements AreaService {
                 .code(1000)
                 .message("get all sucessfully")
                 .isSucess(true)
-                .result(districtRepository.findById(id))
+                .data(districtRepository.findById(id))
                 .build();
     }
 
@@ -130,23 +125,32 @@ public class AreaServiceImpl implements AreaService {
                 .code(1000)
                 .message("get all sucessfully")
                 .isSucess(true)
-                .result(wardRepository.findById(id))
+                .data(wardRepository.findById(id))
                 .build();
     }
 
     @Override
-    public ApiResponse getAllWard(String id) {
-        var district = districtRepository.findById(id).orElse(null);
+    public ApiResponse getAllWard(String districtId) {
+        var district = districtRepository.findById(districtId).orElse(null);
+
         if(Objects.isNull(district)) {
             throw  new RuntimeException("cant find district by id");
         }
         new ApiResponse<>();
+        var listd = wardRepository.findAllByDistrict(district);
+        // khai mapper
+        ObjectMapper mapper = new ObjectMapper();
+        List<ObjectNode> newListRes = new ArrayList<>();
+        for(Ward index : listd){
+            ObjectNode node =  mapper.valueToTree(index);
+            node.remove("district");
+            newListRes.add(node);        }
 
         return ApiResponse.builder()
                 .code(1000)
                 .message("get all sucessfully")
                 .isSucess(true)
-                .result(wardRepository.findAllByDistrict(district))
+                .data(newListRes)
                 .build();
     }
 }

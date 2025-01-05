@@ -17,7 +17,7 @@ public interface AccountService {
     //admin Space
     ApiResponse adminGetAllAccount(Role role);
     ApiResponse adminGetDetailAccount();
-    ApiResponse adminDisableAccount();
+    ApiResponse adminDisableAccount(UUID id);
     //end Admin Space
 
 
@@ -35,4 +35,8 @@ public interface AccountService {
     ApiResponse createStaffAccount(AccountCreationRequest request);
 
     ApiResponse forgotPassword(String email);
+
+    ApiResponse getDetailAccByAdmin(UUID id);
+
+    ApiResponse adminCreateAccount(AccountCreationRequest request);
 }

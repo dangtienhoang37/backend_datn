@@ -18,7 +18,7 @@ import java.io.IOException;
 @Component
 public class ApiKeyFilter extends OncePerRequestFilter {
     private static final String API_KEY_HEADER = "X-api-key";
-    private static final String API_KEY = "apikey";
+    private static final String API_KEY = "internalApikey";
     @Autowired
     private ObjectMapper objectMapper;
 

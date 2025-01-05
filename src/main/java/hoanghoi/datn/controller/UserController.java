@@ -33,7 +33,7 @@ public class UserController {
 
     @PatchMapping
     public ApiResponse changeInfor(@RequestHeader("Authorization") String token, @RequestBody UserCreationRequest request) {
-        return userService.updatePersonalInformation();
+        return userService.updatePersonalInformation(token,request);
     }
 
 

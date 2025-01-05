@@ -2,9 +2,7 @@ package hoanghoi.datn.entity;
 
 import hoanghoi.datn.enumvar.Gender;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
-import org.hibernate.annotations.GenericGenerator;
 
 import java.util.UUID;
 
@@ -27,13 +25,10 @@ public class User {
     private String email;
     private String address;
     private String userImg;
-    private UUID userRecordHistoryId;
+    @JoinColumn(name = "walletId", referencedColumnName = "id")
+    @OneToOne
+    private TransactionWallet transactionWallet;
 
-    @PrePersist
-    public void prePersist(){
-        if(userRecordHistoryId == null){
-            userRecordHistoryId = UUID.randomUUID();
-        }
-    }
+
 
 }

@@ -18,7 +18,9 @@ public interface UserService {
     public ApiResponse getListParking();
     public ApiResponse updateAvatar(String token, MultipartFile file);
     public ApiResponse addInfor(String token, UserCreationRequest request);
-    public ApiResponse updatePersonalInformation();
+    public ApiResponse updatePersonalInformation(String token,UserCreationRequest request);
 
     ApiResponse getDetailUser(String token);
+
+    ApiResponse adminCreateUserInfor(String token, UserCreationRequest request, UUID id, MultipartFile file);
 }

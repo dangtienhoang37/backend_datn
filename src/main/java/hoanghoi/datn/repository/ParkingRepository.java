@@ -1,6 +1,8 @@
 package hoanghoi.datn.repository;
 
+import hoanghoi.datn.entity.District;
 import hoanghoi.datn.entity.Parking;
+import hoanghoi.datn.entity.Ward;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,7 +11,11 @@ import java.util.UUID;
 @Repository
 public interface ParkingRepository extends JpaRepository<Parking, UUID> {
 
-    List<Parking> findByWardId(String id);
+    List<Parking> findAllByWard(Ward ward);
+
+    List<Parking> findAllByDistrict(District district);
+
+    Parking findByDeviceId(UUID deviceId);
 //    List<Parking> findByDistrictId(String id);
 
 }
