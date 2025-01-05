@@ -1,7 +1,9 @@
 package hoanghoi.datn.config;
 
 
+import hoanghoi.datn.config.filter.ApiKeyFilter;
 import hoanghoi.datn.util.JWToken;
+import org.apache.catalina.filters.CorsFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -18,27 +20,34 @@ import org.springframework.security.oauth2.jwt.JwtDecoder;
 import org.springframework.security.oauth2.jwt.NimbusJwtDecoder;
 import org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import javax.crypto.spec.SecretKeySpec;
+import java.util.List;
 
 
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
 public class WebSecurityConfig {
-    String[] permitUrlPost = new String[]{"/auth/login","/auth/register"};
-    String[] permitUrlGet = new String[]{"/tokenSpec"};
+    String[] permitUrlPost = new String[]{"/auth/login","/auth/register","/user-parking/*", "/auth/introspect"};
+    String[] permitUrlGet = new String[]{"/tokenSpec","/parking/*"};
 //    @Value("${jwt.signerKey}")
 //    private String signerKey;
     @Autowired
     private JWToken JwToken;
     @Autowired
     private JWTDecoder jwtDecoder;
+    @Autowired
+    private ApiKeyFilter apiKeyFilter;
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
         http
-
+                .addFilterBefore(apiKeyFilter, UsernamePasswordAuthenticationFilter.class)
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST,permitUrlPost).permitAll()
@@ -53,6 +62,22 @@ public class WebSecurityConfig {
 
         return http.build();
     }
+    // Cấu hình CORS
+//    @Bean
+//    public UrlBasedCorsConfigurationSource  corsConfigurationSource(){
+//        CorsConfiguration corsConfiguration = new CorsConfiguration();
+//        corsConfiguration.addAllowedOrigin("http://localhost:5173");
+//        corsConfiguration.addAllowedOrigin("http://localhost:8888");
+//
+////        corsConfiguration.addAllowedOrigin("*");
+////        corsConfiguration.setAllowedOrigins(List.of("*"));
+//        corsConfiguration.addAllowedMethod("*");
+//        corsConfiguration.addAllowedHeader("*");
+//
+//        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+//        source.registerCorsConfiguration("/**",corsConfiguration);
+//        return source;
+//    }
 
 
 

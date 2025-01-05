@@ -21,6 +21,7 @@ public class PriceServiceImpl implements PriceService {
     @Override
     public ApiResponse adminCreateNewPricing(PriceCreationRequest priceCreationRequest) {
         Price newPriceRecord = new Price();
+        newPriceRecord.setName(priceCreationRequest.getName());
         newPriceRecord.setDayTimeRate(priceCreationRequest.getDayTimeRate());
         newPriceRecord.setNightTimeRate(priceCreationRequest.getNightTimeRate());
 
@@ -28,7 +29,7 @@ public class PriceServiceImpl implements PriceService {
                 .code(1000)
                 .isSucess(true)
                 .message("Sucessfully")
-                .result(priceRepository.save(newPriceRecord))
+                .data(priceRepository.save(newPriceRecord))
                 .build();
 //        response.setCode(1000);
 //        res.
@@ -44,6 +45,7 @@ public class PriceServiceImpl implements PriceService {
         if (Objects.isNull(targetPrice)) {
             throw new RuntimeException("cant find price record");
         }
+        targetPrice.setName(request.getName());
         targetPrice.setDayTimeRate(request.getDayTimeRate());
         targetPrice.setNightTimeRate(request.getNightTimeRate());
 
@@ -51,7 +53,7 @@ public class PriceServiceImpl implements PriceService {
         response.setCode(1000);
         response.setSucess(true);
         response.setMessage("Sucessfully");
-        response.setResult(priceRepository.save(targetPrice));
+        response.setData(priceRepository.save(targetPrice));
         return response ;
 
 
@@ -93,7 +95,7 @@ public class PriceServiceImpl implements PriceService {
             response.setSucess(true);
 
             response.setMessage("remove sucessfully");
-            response.setResult(priceRepository.save(priceRecord));
+            response.setData(priceRepository.save(priceRecord));
             return response;
         } catch (Exception e) {
             throw new CustomException(ErrorCode.UNCATEGORIZED_EXCEPTION);
@@ -108,7 +110,7 @@ public class PriceServiceImpl implements PriceService {
             response.setCode(1000);
 
             response.setMessage("get all sucessfully");
-            response.setResult(priceRepository.findAll());
+            response.setData(priceRepository.findAll());
             return response;
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -128,7 +130,7 @@ public class PriceServiceImpl implements PriceService {
             response.setSucess(true);
             response.setCode(1000);
             response.setMessage("sucessfully");
-            response.setResult(detailPricingRecord);
+            response.setData(detailPricingRecord);
             return  response;
         } catch (Exception e) {
             throw new RuntimeException(e);

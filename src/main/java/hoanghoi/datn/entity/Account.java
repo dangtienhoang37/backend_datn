@@ -1,10 +1,12 @@
 package hoanghoi.datn.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import hoanghoi.datn.enumvar.Role;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Size;
 import lombok.*;
+import lombok.experimental.FieldDefaults;
 
 import java.util.UUID;
 
@@ -15,20 +17,24 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "accounts")
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
-    private String userName;
-    private String password;
+    UUID id;
+    String userName;
+    @JsonIgnore
+    String password;
     @Enumerated(EnumType.STRING)
-    private Role role;
-    private UUID idUser;
+    Role role;
+    @OneToOne
+    @JoinColumn(name = "userId", referencedColumnName = "id")
+    User user;
     @Builder.Default
-    private boolean isActive=true;
+    boolean isActive=true;
     @Column(nullable = false)
     @Builder.Default
-    private boolean init = true;
+    boolean init = true;
 
 
 }

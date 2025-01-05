@@ -17,5 +17,7 @@ public interface ParkingService {
     ApiResponse getAllParking();
     ApiResponse getDetailParking(UUID id);
 
-    ApiResponse getAllParkingByArea(int areaId);
+    ApiResponse getAllParkingByDistrict(String districtId);
+
+    ApiResponse getAllParkingByWard(String wardId);
 }

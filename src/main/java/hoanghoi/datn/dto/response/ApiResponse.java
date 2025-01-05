@@ -16,6 +16,6 @@ public class ApiResponse<T> {
     private int code;
     private String message;
     private boolean isSucess = (code == 1000);
-    private T result;
+    private T data;
 
 }

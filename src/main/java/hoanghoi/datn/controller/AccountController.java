@@ -5,6 +5,7 @@ import hoanghoi.datn.dto.request.Creation.loginRequest;
 
 import hoanghoi.datn.dto.request.Update.AccountUpdatePassword;
 import hoanghoi.datn.dto.response.ApiResponse;
+import hoanghoi.datn.enumvar.Role;
 import hoanghoi.datn.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -29,9 +30,14 @@ public class AccountController {
     @PostMapping("/change-password")
     public ApiResponse changePassword(@RequestHeader("Authorization") String token,@RequestBody AccountUpdatePassword request) {return accountService.changePassword(token,request);}
 
-    // for admin
-    @GetMapping("/get-all")
-    public ApiResponse getAll() {return accountService.adminGetAllAccount();}
-    // vô hiệu hóa người dùng
+    @PostMapping("/forgot")
+    public ApiResponse forgot(@RequestParam String email){
+        return accountService.forgotPassword(email);
+    }
+
+
+
     // vô hiệu hóa staff
+
+    // logout
 }

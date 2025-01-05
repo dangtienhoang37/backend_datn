@@ -1,0 +1,5213 @@
+[
+  {
+    "id": "00001",
+    "name": "Phúc Xá",
+    "enName": "Phuc Xa",
+    "fullName": "Phường Phúc Xá",
+    "enFullName": "Phuc Xa Ward",
+    "codeName": "phuc_xa",
+    "district_id": "001"
+  },
+  {
+    "id": "00004",
+    "name": "Trúc Bạch",
+    "enName": "Truc Bach",
+    "fullName": "Phường Trúc Bạch",
+    "enFullName": "Truc Bach Ward",
+    "codeName": "truc_bach",
+    "district_id": "001"
+  },
+  {
+    "id": "00006",
+    "name": "Vĩnh Phúc",
+    "enName": "Vinh Phuc",
+    "fullName": "Phường Vĩnh Phúc",
+    "enFullName": "Vinh Phuc Ward",
+    "codeName": "vinh_phuc",
+    "district_id": "001"
+  },
+  {
+    "id": "00007",
+    "name": "Cống Vị",
+    "enName": "Cong Vi",
+    "fullName": "Phường Cống Vị",
+    "enFullName": "Cong Vi Ward",
+    "codeName": "cong_vi",
+    "district_id": "001"
+  },
+  {
+    "id": "00008",
+    "name": "Liễu Giai",
+    "enName": "Lieu Giai",
+    "fullName": "Phường Liễu Giai",
+    "enFullName": "Lieu Giai Ward",
+    "codeName": "lieu_giai",
+    "district_id": "001"
+  },
+  {
+    "id": "00010",
+    "name": "Nguyễn Trung Trực",
+    "enName": "Nguyen Trung Truc",
+    "fullName": "Phường Nguyễn Trung Trực",
+    "enFullName": "Nguyen Trung Truc Ward",
+    "codeName": "nguyen_trung_truc",
+    "district_id": "001"
+  },
+  {
+    "id": "00013",
+    "name": "Quán Thánh",
+    "enName": "Quan Thanh",
+    "fullName": "Phường Quán Thánh",
+    "enFullName": "Quan Thanh Ward",
+    "codeName": "quan_thanh",
+    "district_id": "001"
+  },
+  {
+    "id": "00016",
+    "name": "Ngọc Hà",
+    "enName": "Ngoc Ha",
+    "fullName": "Phường Ngọc Hà",
+    "enFullName": "Ngoc Ha Ward",
+    "codeName": "ngoc_ha",
+    "district_id": "001"
+  },
+  {
+    "id": "00019",
+    "name": "Điện Biên",
+    "enName": "Dien Bien",
+    "fullName": "Phường Điện Biên",
+    "enFullName": "Dien Bien Ward",
+    "codeName": "dien_bien",
+    "district_id": "001"
+  },
+  {
+    "id": "00022",
+    "name": "Đội Cấn",
+    "enName": "Doi Can",
+    "fullName": "Phường Đội Cấn",
+    "enFullName": "Doi Can Ward",
+    "codeName": "doi_can",
+    "district_id": "001"
+  },
+  {
+    "id": "00025",
+    "name": "Ngọc Khánh",
+    "enName": "Ngoc Khanh",
+    "fullName": "Phường Ngọc Khánh",
+    "enFullName": "Ngoc Khanh Ward",
+    "codeName": "ngoc_khanh",
+    "district_id": "001"
+  },
+  {
+    "id": "00028",
+    "name": "Kim Mã",
+    "enName": "Kim Ma",
+    "fullName": "Phường Kim Mã",
+    "enFullName": "Kim Ma Ward",
+    "codeName": "kim_ma",
+    "district_id": "001"
+  },
+  {
+    "id": "00031",
+    "name": "Giảng Võ",
+    "enName": "Giang Vo",
+    "fullName": "Phường Giảng Võ",
+    "enFullName": "Giang Vo Ward",
+    "codeName": "giang_vo",
+    "district_id": "001"
+  },
+  {
+    "id": "00034",
+    "name": "Thành Công",
+    "enName": "Thanh Cong",
+    "fullName": "Phường Thành Công",
+    "enFullName": "Thanh Cong Ward",
+    "codeName": "thanh_cong",
+    "district_id": "001"
+  },
+  {
+    "id": "00037",
+    "name": "Phúc Tân",
+    "enName": "Phuc Tan",
+    "fullName": "Phường Phúc Tân",
+    "enFullName": "Phuc Tan Ward",
+    "codeName": "phuc_tan",
+    "district_id": "002"
+  },
+  {
+    "id": "00040",
+    "name": "Đồng Xuân",
+    "enName": "Dong Xuan",
+    "fullName": "Phường Đồng Xuân",
+    "enFullName": "Dong Xuan Ward",
+    "codeName": "dong_xuan",
+    "district_id": "002"
+  },
+  {
+    "id": "00043",
+    "name": "Hàng Mã",
+    "enName": "Hang Ma",
+    "fullName": "Phường Hàng Mã",
+    "enFullName": "Hang Ma Ward",
+    "codeName": "hang_ma",
+    "district_id": "002"
+  },
+  {
+    "id": "00046",
+    "name": "Hàng Buồm",
+    "enName": "Hang Buom",
+    "fullName": "Phường Hàng Buồm",
+    "enFullName": "Hang Buom Ward",
+    "codeName": "hang_buom",
+    "district_id": "002"
+  },
+  {
+    "id": "00049",
+    "name": "Hàng Đào",
+    "enName": "Hang Dao",
+    "fullName": "Phường Hàng Đào",
+    "enFullName": "Hang Dao Ward",
+    "codeName": "hang_dao",
+    "district_id": "002"
+  },
+  {
+    "id": "00052",
+    "name": "Hàng Bồ",
+    "enName": "Hang Bo",
+    "fullName": "Phường Hàng Bồ",
+    "enFullName": "Hang Bo Ward",
+    "codeName": "hang_bo",
+    "district_id": "002"
+  },
+  {
+    "id": "00055",
+    "name": "Cửa Đông",
+    "enName": "Cua Dong",
+    "fullName": "Phường Cửa Đông",
+    "enFullName": "Cua Dong Ward",
+    "codeName": "cua_dong",
+    "district_id": "002"
+  },
+  {
+    "id": "00058",
+    "name": "Lý Thái Tổ",
+    "enName": "Ly Thai To",
+    "fullName": "Phường Lý Thái Tổ",
+    "enFullName": "Ly Thai To Ward",
+    "codeName": "ly_thai_to",
+    "district_id": "002"
+  },
+  {
+    "id": "00061",
+    "name": "Hàng Bạc",
+    "enName": "Hang Bac",
+    "fullName": "Phường Hàng Bạc",
+    "enFullName": "Hang Bac Ward",
+    "codeName": "hang_bac",
+    "district_id": "002"
+  },
+  {
+    "id": "00064",
+    "name": "Hàng Gai",
+    "enName": "Hang Gai",
+    "fullName": "Phường Hàng Gai",
+    "enFullName": "Hang Gai Ward",
+    "codeName": "hang_gai",
+    "district_id": "002"
+  },
+  {
+    "id": "00067",
+    "name": "Chương Dương",
+    "enName": "Chuong Duong",
+    "fullName": "Phường Chương Dương",
+    "enFullName": "Chuong Duong Ward",
+    "codeName": "chuong_duong",
+    "district_id": "002"
+  },
+  {
+    "id": "00070",
+    "name": "Hàng Trống",
+    "enName": "Hang Trong",
+    "fullName": "Phường Hàng Trống",
+    "enFullName": "Hang Trong Ward",
+    "codeName": "hang_trong",
+    "district_id": "002"
+  },
+  {
+    "id": "00073",
+    "name": "Cửa Nam",
+    "enName": "Cua Nam",
+    "fullName": "Phường Cửa Nam",
+    "enFullName": "Cua Nam Ward",
+    "codeName": "cua_nam",
+    "district_id": "002"
+  },
+  {
+    "id": "00076",
+    "name": "Hàng Bông",
+    "enName": "Hang Bong",
+    "fullName": "Phường Hàng Bông",
+    "enFullName": "Hang Bong Ward",
+    "codeName": "hang_bong",
+    "district_id": "002"
+  },
+  {
+    "id": "00079",
+    "name": "Tràng Tiền",
+    "enName": "Trang Tien",
+    "fullName": "Phường Tràng Tiền",
+    "enFullName": "Trang Tien Ward",
+    "codeName": "trang_tien",
+    "district_id": "002"
+  },
+  {
+    "id": "00082",
+    "name": "Trần Hưng Đạo",
+    "enName": "Tran Hung Dao",
+    "fullName": "Phường Trần Hưng Đạo",
+    "enFullName": "Tran Hung Dao Ward",
+    "codeName": "tran_hung_dao",
+    "district_id": "002"
+  },
+  {
+    "id": "00085",
+    "name": "Phan Chu Trinh",
+    "enName": "Phan Chu Trinh",
+    "fullName": "Phường Phan Chu Trinh",
+    "enFullName": "Phan Chu Trinh Ward",
+    "codeName": "phan_chu_trinh",
+    "district_id": "002"
+  },
+  {
+    "id": "00088",
+    "name": "Hàng Bài",
+    "enName": "Hang Bai",
+    "fullName": "Phường Hàng Bài",
+    "enFullName": "Hang Bai Ward",
+    "codeName": "hang_bai",
+    "district_id": "002"
+  },
+  {
+    "id": "00091",
+    "name": "Phú Thượng",
+    "enName": "Phu Thuong",
+    "fullName": "Phường Phú Thượng",
+    "enFullName": "Phu Thuong Ward",
+    "codeName": "phu_thuong",
+    "district_id": "003"
+  },
+  {
+    "id": "00094",
+    "name": "Nhật Tân",
+    "enName": "Nhat Tan",
+    "fullName": "Phường Nhật Tân",
+    "enFullName": "Nhat Tan Ward",
+    "codeName": "nhat_tan",
+    "district_id": "003"
+  },
+  {
+    "id": "00097",
+    "name": "Tứ Liên",
+    "enName": "Tu Lien",
+    "fullName": "Phường Tứ Liên",
+    "enFullName": "Tu Lien Ward",
+    "codeName": "tu_lien",
+    "district_id": "003"
+  },
+  {
+    "id": "00100",
+    "name": "Quảng An",
+    "enName": "Quang An",
+    "fullName": "Phường Quảng An",
+    "enFullName": "Quang An Ward",
+    "codeName": "quang_an",
+    "district_id": "003"
+  },
+  {
+    "id": "00103",
+    "name": "Xuân La",
+    "enName": "Xuan La",
+    "fullName": "Phường Xuân La",
+    "enFullName": "Xuan La Ward",
+    "codeName": "xuan_la",
+    "district_id": "003"
+  },
+  {
+    "id": "00106",
+    "name": "Yên Phụ",
+    "enName": "Yen Phu",
+    "fullName": "Phường Yên Phụ",
+    "enFullName": "Yen Phu Ward",
+    "codeName": "yen_phu",
+    "district_id": "003"
+  },
+  {
+    "id": "00109",
+    "name": "Bưởi",
+    "enName": "Buoi",
+    "fullName": "Phường Bưởi",
+    "enFullName": "Buoi Ward",
+    "codeName": "buoi",
+    "district_id": "003"
+  },
+  {
+    "id": "00112",
+    "name": "Thụy Khuê",
+    "enName": "Thuy Khue",
+    "fullName": "Phường Thụy Khuê",
+    "enFullName": "Thuy Khue Ward",
+    "codeName": "thuy_khue",
+    "district_id": "003"
+  },
+  {
+    "id": "00115",
+    "name": "Thượng Thanh",
+    "enName": "Thuong Thanh",
+    "fullName": "Phường Thượng Thanh",
+    "enFullName": "Thuong Thanh Ward",
+    "codeName": "thuong_thanh",
+    "district_id": "004"
+  },
+  {
+    "id": "00118",
+    "name": "Ngọc Thụy",
+    "enName": "Ngoc Thuy",
+    "fullName": "Phường Ngọc Thụy",
+    "enFullName": "Ngoc Thuy Ward",
+    "codeName": "ngoc_thuy",
+    "district_id": "004"
+  },
+  {
+    "id": "00121",
+    "name": "Giang Biên",
+    "enName": "Giang Bien",
+    "fullName": "Phường Giang Biên",
+    "enFullName": "Giang Bien Ward",
+    "codeName": "giang_bien",
+    "district_id": "004"
+  },
+  {
+    "id": "00124",
+    "name": "Đức Giang",
+    "enName": "Duc Giang",
+    "fullName": "Phường Đức Giang",
+    "enFullName": "Duc Giang Ward",
+    "codeName": "duc_giang",
+    "district_id": "004"
+  },
+  {
+    "id": "00127",
+    "name": "Việt Hưng",
+    "enName": "Viet Hung",
+    "fullName": "Phường Việt Hưng",
+    "enFullName": "Viet Hung Ward",
+    "codeName": "viet_hung",
+    "district_id": "004"
+  },
+  {
+    "id": "00130",
+    "name": "Gia Thụy",
+    "enName": "Gia Thuy",
+    "fullName": "Phường Gia Thụy",
+    "enFullName": "Gia Thuy Ward",
+    "codeName": "gia_thuy",
+    "district_id": "004"
+  },
+  {
+    "id": "00133",
+    "name": "Ngọc Lâm",
+    "enName": "Ngoc Lam",
+    "fullName": "Phường Ngọc Lâm",
+    "enFullName": "Ngoc Lam Ward",
+    "codeName": "ngoc_lam",
+    "district_id": "004"
+  },
+  {
+    "id": "00136",
+    "name": "Phúc Lợi",
+    "enName": "Phuc Loi",
+    "fullName": "Phường Phúc Lợi",
+    "enFullName": "Phuc Loi Ward",
+    "codeName": "phuc_loi",
+    "district_id": "004"
+  },
+  {
+    "id": "00139",
+    "name": "Bồ Đề",
+    "enName": "Bo De",
+    "fullName": "Phường Bồ Đề",
+    "enFullName": "Bo De Ward",
+    "codeName": "bo_de",
+    "district_id": "004"
+  },
+  {
+    "id": "00142",
+    "name": "Sài Đồng",
+    "enName": "Sai Dong",
+    "fullName": "Phường Sài Đồng",
+    "enFullName": "Sai Dong Ward",
+    "codeName": "sai_dong",
+    "district_id": "004"
+  },
+  {
+    "id": "00145",
+    "name": "Long Biên",
+    "enName": "Long Bien",
+    "fullName": "Phường Long Biên",
+    "enFullName": "Long Bien Ward",
+    "codeName": "long_bien",
+    "district_id": "004"
+  },
+  {
+    "id": "00148",
+    "name": "Thạch Bàn",
+    "enName": "Thach Ban",
+    "fullName": "Phường Thạch Bàn",
+    "enFullName": "Thach Ban Ward",
+    "codeName": "thach_ban",
+    "district_id": "004"
+  },
+  {
+    "id": "00151",
+    "name": "Phúc Đồng",
+    "enName": "Phuc Dong",
+    "fullName": "Phường Phúc Đồng",
+    "enFullName": "Phuc Dong Ward",
+    "codeName": "phuc_dong",
+    "district_id": "004"
+  },
+  {
+    "id": "00154",
+    "name": "Cự Khối",
+    "enName": "Cu Khoi",
+    "fullName": "Phường Cự Khối",
+    "enFullName": "Cu Khoi Ward",
+    "codeName": "cu_khoi",
+    "district_id": "004"
+  },
+  {
+    "id": "00157",
+    "name": "Nghĩa Đô",
+    "enName": "Nghia Do",
+    "fullName": "Phường Nghĩa Đô",
+    "enFullName": "Nghia Do Ward",
+    "codeName": "nghia_do",
+    "district_id": "005"
+  },
+  {
+    "id": "00160",
+    "name": "Nghĩa Tân",
+    "enName": "Nghia Tan",
+    "fullName": "Phường Nghĩa Tân",
+    "enFullName": "Nghia Tan Ward",
+    "codeName": "nghia_tan",
+    "district_id": "005"
+  },
+  {
+    "id": "00163",
+    "name": "Mai Dịch",
+    "enName": "Mai Dich",
+    "fullName": "Phường Mai Dịch",
+    "enFullName": "Mai Dich Ward",
+    "codeName": "mai_dich",
+    "district_id": "005"
+  },
+  {
+    "id": "00166",
+    "name": "Dịch Vọng",
+    "enName": "Dich Vong",
+    "fullName": "Phường Dịch Vọng",
+    "enFullName": "Dich Vong Ward",
+    "codeName": "dich_vong",
+    "district_id": "005"
+  },
+  {
+    "id": "00167",
+    "name": "Dịch Vọng Hậu",
+    "enName": "Dich Vong Hau",
+    "fullName": "Phường Dịch Vọng Hậu",
+    "enFullName": "Dich Vong Hau Ward",
+    "codeName": "dich_vong_hau",
+    "district_id": "005"
+  },
+  {
+    "id": "00169",
+    "name": "Quan Hoa",
+    "enName": "Quan Hoa",
+    "fullName": "Phường Quan Hoa",
+    "enFullName": "Quan Hoa Ward",
+    "codeName": "quan_hoa",
+    "district_id": "005"
+  },
+  {
+    "id": "00172",
+    "name": "Yên Hoà",
+    "enName": "Yen Hoa",
+    "fullName": "Phường Yên Hoà",
+    "enFullName": "Yen Hoa Ward",
+    "codeName": "yen_hoa",
+    "district_id": "005"
+  },
+  {
+    "id": "00175",
+    "name": "Trung Hoà",
+    "enName": "Trung Hoa",
+    "fullName": "Phường Trung Hoà",
+    "enFullName": "Trung Hoa Ward",
+    "codeName": "trung_hoa",
+    "district_id": "005"
+  },
+  {
+    "id": "00178",
+    "name": "Cát Linh",
+    "enName": "Cat Linh",
+    "fullName": "Phường Cát Linh",
+    "enFullName": "Cat Linh Ward",
+    "codeName": "cat_linh",
+    "district_id": "006"
+  },
+  {
+    "id": "00181",
+    "name": "Văn Miếu",
+    "enName": "Van Mieu",
+    "fullName": "Phường Văn Miếu",
+    "enFullName": "Van Mieu Ward",
+    "codeName": "van_mieu",
+    "district_id": "006"
+  },
+  {
+    "id": "00184",
+    "name": "Quốc Tử Giám",
+    "enName": "Quoc Tu Giam",
+    "fullName": "Phường Quốc Tử Giám",
+    "enFullName": "Quoc Tu Giam Ward",
+    "codeName": "quoc_tu_giam",
+    "district_id": "006"
+  },
+  {
+    "id": "00187",
+    "name": "Láng Thượng",
+    "enName": "Lang Thuong",
+    "fullName": "Phường Láng Thượng",
+    "enFullName": "Lang Thuong Ward",
+    "codeName": "lang_thuong",
+    "district_id": "006"
+  },
+  {
+    "id": "00190",
+    "name": "Ô Chợ Dừa",
+    "enName": "O Cho Dua",
+    "fullName": "Phường Ô Chợ Dừa",
+    "enFullName": "O Cho Dua Ward",
+    "codeName": "o_cho_dua",
+    "district_id": "006"
+  },
+  {
+    "id": "00193",
+    "name": "Văn Chương",
+    "enName": "Van Chuong",
+    "fullName": "Phường Văn Chương",
+    "enFullName": "Van Chuong Ward",
+    "codeName": "van_chuong",
+    "district_id": "006"
+  },
+  {
+    "id": "00196",
+    "name": "Hàng Bột",
+    "enName": "Hang Bot",
+    "fullName": "Phường Hàng Bột",
+    "enFullName": "Hang Bot Ward",
+    "codeName": "hang_bot",
+    "district_id": "006"
+  },
+  {
+    "id": "00199",
+    "name": "Láng Hạ",
+    "enName": "Lang Ha",
+    "fullName": "Phường Láng Hạ",
+    "enFullName": "Lang Ha Ward",
+    "codeName": "lang_ha",
+    "district_id": "006"
+  },
+  {
+    "id": "00202",
+    "name": "Khâm Thiên",
+    "enName": "Kham Thien",
+    "fullName": "Phường Khâm Thiên",
+    "enFullName": "Kham Thien Ward",
+    "codeName": "kham_thien",
+    "district_id": "006"
+  },
+  {
+    "id": "00205",
+    "name": "Thổ Quan",
+    "enName": "Tho Quan",
+    "fullName": "Phường Thổ Quan",
+    "enFullName": "Tho Quan Ward",
+    "codeName": "tho_quan",
+    "district_id": "006"
+  },
+  {
+    "id": "00208",
+    "name": "Nam Đồng",
+    "enName": "Nam Dong",
+    "fullName": "Phường Nam Đồng",
+    "enFullName": "Nam Dong Ward",
+    "codeName": "nam_dong",
+    "district_id": "006"
+  },
+  {
+    "id": "00211",
+    "name": "Trung Phụng",
+    "enName": "Trung Phung",
+    "fullName": "Phường Trung Phụng",
+    "enFullName": "Trung Phung Ward",
+    "codeName": "trung_phung",
+    "district_id": "006"
+  },
+  {
+    "id": "00214",
+    "name": "Quang Trung",
+    "enName": "Quang Trung",
+    "fullName": "Phường Quang Trung",
+    "enFullName": "Quang Trung Ward",
+    "codeName": "quang_trung",
+    "district_id": "006"
+  },
+  {
+    "id": "00217",
+    "name": "Trung Liệt",
+    "enName": "Trung Liet",
+    "fullName": "Phường Trung Liệt",
+    "enFullName": "Trung Liet Ward",
+    "codeName": "trung_liet",
+    "district_id": "006"
+  },
+  {
+    "id": "00220",
+    "name": "Phương Liên",
+    "enName": "Phuong Lien",
+    "fullName": "Phường Phương Liên",
+    "enFullName": "Phuong Lien Ward",
+    "codeName": "phuong_lien",
+    "district_id": "006"
+  },
+  {
+    "id": "00223",
+    "name": "Thịnh Quang",
+    "enName": "Thinh Quang",
+    "fullName": "Phường Thịnh Quang",
+    "enFullName": "Thinh Quang Ward",
+    "codeName": "thinh_quang",
+    "district_id": "006"
+  },
+  {
+    "id": "00226",
+    "name": "Trung Tự",
+    "enName": "Trung Tu",
+    "fullName": "Phường Trung Tự",
+    "enFullName": "Trung Tu Ward",
+    "codeName": "trung_tu",
+    "district_id": "006"
+  },
+  {
+    "id": "00229",
+    "name": "Kim Liên",
+    "enName": "Kim Lien",
+    "fullName": "Phường Kim Liên",
+    "enFullName": "Kim Lien Ward",
+    "codeName": "kim_lien",
+    "district_id": "006"
+  },
+  {
+    "id": "00232",
+    "name": "Phương Mai",
+    "enName": "Phuong Mai",
+    "fullName": "Phường Phương Mai",
+    "enFullName": "Phuong Mai Ward",
+    "codeName": "phuong_mai",
+    "district_id": "006"
+  },
+  {
+    "id": "00235",
+    "name": "Ngã Tư Sở",
+    "enName": "Nga Tu So",
+    "fullName": "Phường Ngã Tư Sở",
+    "enFullName": "Nga Tu So Ward",
+    "codeName": "nga_tu_so",
+    "district_id": "006"
+  },
+  {
+    "id": "00238",
+    "name": "Khương Thượng",
+    "enName": "Khuong Thuong",
+    "fullName": "Phường Khương Thượng",
+    "enFullName": "Khuong Thuong Ward",
+    "codeName": "khuong_thuong",
+    "district_id": "006"
+  },
+  {
+    "id": "00241",
+    "name": "Nguyễn Du",
+    "enName": "Nguyen Du",
+    "fullName": "Phường Nguyễn Du",
+    "enFullName": "Nguyen Du Ward",
+    "codeName": "nguyen_du",
+    "district_id": "007"
+  },
+  {
+    "id": "00244",
+    "name": "Bạch Đằng",
+    "enName": "Bach Dang",
+    "fullName": "Phường Bạch Đằng",
+    "enFullName": "Bach Dang Ward",
+    "codeName": "bach_dang",
+    "district_id": "007"
+  },
+  {
+    "id": "00247",
+    "name": "Phạm Đình Hổ",
+    "enName": "Pham Dinh Ho",
+    "fullName": "Phường Phạm Đình Hổ",
+    "enFullName": "Pham Dinh Ho Ward",
+    "codeName": "pham_dinh_ho",
+    "district_id": "007"
+  },
+  {
+    "id": "00256",
+    "name": "Lê Đại Hành",
+    "enName": "Le Dai Hanh",
+    "fullName": "Phường Lê Đại Hành",
+    "enFullName": "Le Dai Hanh Ward",
+    "codeName": "le_dai_hanh",
+    "district_id": "007"
+  },
+  {
+    "id": "00259",
+    "name": "Đồng Nhân",
+    "enName": "Dong Nhan",
+    "fullName": "Phường Đồng Nhân",
+    "enFullName": "Dong Nhan Ward",
+    "codeName": "dong_nhan",
+    "district_id": "007"
+  },
+  {
+    "id": "00262",
+    "name": "Phố Huế",
+    "enName": "Pho Hue",
+    "fullName": "Phường Phố Huế",
+    "enFullName": "Pho Hue Ward",
+    "codeName": "pho_hue",
+    "district_id": "007"
+  },
+  {
+    "id": "00265",
+    "name": "Đống Mác",
+    "enName": "Dong Mac",
+    "fullName": "Phường Đống Mác",
+    "enFullName": "Dong Mac Ward",
+    "codeName": "dong_mac",
+    "district_id": "007"
+  },
+  {
+    "id": "00268",
+    "name": "Thanh Lương",
+    "enName": "Thanh Luong",
+    "fullName": "Phường Thanh Lương",
+    "enFullName": "Thanh Luong Ward",
+    "codeName": "thanh_luong",
+    "district_id": "007"
+  },
+  {
+    "id": "00271",
+    "name": "Thanh Nhàn",
+    "enName": "Thanh Nhan",
+    "fullName": "Phường Thanh Nhàn",
+    "enFullName": "Thanh Nhan Ward",
+    "codeName": "thanh_nhan",
+    "district_id": "007"
+  },
+  {
+    "id": "00274",
+    "name": "Cầu Dền",
+    "enName": "Cau Den",
+    "fullName": "Phường Cầu Dền",
+    "enFullName": "Cau Den Ward",
+    "codeName": "cau_den",
+    "district_id": "007"
+  },
+  {
+    "id": "00277",
+    "name": "Bách Khoa",
+    "enName": "Bach Khoa",
+    "fullName": "Phường Bách Khoa",
+    "enFullName": "Bach Khoa Ward",
+    "codeName": "bach_khoa",
+    "district_id": "007"
+  },
+  {
+    "id": "00280",
+    "name": "Đồng Tâm",
+    "enName": "Dong Tam",
+    "fullName": "Phường Đồng Tâm",
+    "enFullName": "Dong Tam Ward",
+    "codeName": "dong_tam",
+    "district_id": "007"
+  },
+  {
+    "id": "00283",
+    "name": "Vĩnh Tuy",
+    "enName": "Vinh Tuy",
+    "fullName": "Phường Vĩnh Tuy",
+    "enFullName": "Vinh Tuy Ward",
+    "codeName": "vinh_tuy",
+    "district_id": "007"
+  },
+  {
+    "id": "00286",
+    "name": "Bạch Mai",
+    "enName": "Bach Mai",
+    "fullName": "Phường Bạch Mai",
+    "enFullName": "Bach Mai Ward",
+    "codeName": "bach_mai",
+    "district_id": "007"
+  },
+  {
+    "id": "00289",
+    "name": "Quỳnh Mai",
+    "enName": "Quynh Mai",
+    "fullName": "Phường Quỳnh Mai",
+    "enFullName": "Quynh Mai Ward",
+    "codeName": "quynh_mai",
+    "district_id": "007"
+  },
+  {
+    "id": "00292",
+    "name": "Quỳnh Lôi",
+    "enName": "Quynh Loi",
+    "fullName": "Phường Quỳnh Lôi",
+    "enFullName": "Quynh Loi Ward",
+    "codeName": "quynh_loi",
+    "district_id": "007"
+  },
+  {
+    "id": "00295",
+    "name": "Minh Khai",
+    "enName": "Minh Khai",
+    "fullName": "Phường Minh Khai",
+    "enFullName": "Minh Khai Ward",
+    "codeName": "minh_khai",
+    "district_id": "007"
+  },
+  {
+    "id": "00298",
+    "name": "Trương Định",
+    "enName": "Truong Dinh",
+    "fullName": "Phường Trương Định",
+    "enFullName": "Truong Dinh Ward",
+    "codeName": "truong_dinh",
+    "district_id": "007"
+  },
+  {
+    "id": "00301",
+    "name": "Thanh Trì",
+    "enName": "Thanh Tri",
+    "fullName": "Phường Thanh Trì",
+    "enFullName": "Thanh Tri Ward",
+    "codeName": "thanh_tri",
+    "district_id": "008"
+  },
+  {
+    "id": "00304",
+    "name": "Vĩnh Hưng",
+    "enName": "Vinh Hung",
+    "fullName": "Phường Vĩnh Hưng",
+    "enFullName": "Vinh Hung Ward",
+    "codeName": "vinh_hung",
+    "district_id": "008"
+  },
+  {
+    "id": "00307",
+    "name": "Định Công",
+    "enName": "Dinh Cong",
+    "fullName": "Phường Định Công",
+    "enFullName": "Dinh Cong Ward",
+    "codeName": "dinh_cong",
+    "district_id": "008"
+  },
+  {
+    "id": "00310",
+    "name": "Mai Động",
+    "enName": "Mai Dong",
+    "fullName": "Phường Mai Động",
+    "enFullName": "Mai Dong Ward",
+    "codeName": "mai_dong",
+    "district_id": "008"
+  },
+  {
+    "id": "00313",
+    "name": "Tương Mai",
+    "enName": "Tuong Mai",
+    "fullName": "Phường Tương Mai",
+    "enFullName": "Tuong Mai Ward",
+    "codeName": "tuong_mai",
+    "district_id": "008"
+  },
+  {
+    "id": "00316",
+    "name": "Đại Kim",
+    "enName": "Dai Kim",
+    "fullName": "Phường Đại Kim",
+    "enFullName": "Dai Kim Ward",
+    "codeName": "dai_kim",
+    "district_id": "008"
+  },
+  {
+    "id": "00319",
+    "name": "Tân Mai",
+    "enName": "Tan Mai",
+    "fullName": "Phường Tân Mai",
+    "enFullName": "Tan Mai Ward",
+    "codeName": "tan_mai",
+    "district_id": "008"
+  },
+  {
+    "id": "00322",
+    "name": "Hoàng Văn Thụ",
+    "enName": "Hoang Van Thu",
+    "fullName": "Phường Hoàng Văn Thụ",
+    "enFullName": "Hoang Van Thu Ward",
+    "codeName": "hoang_van_thu",
+    "district_id": "008"
+  },
+  {
+    "id": "00325",
+    "name": "Giáp Bát",
+    "enName": "Giap Bat",
+    "fullName": "Phường Giáp Bát",
+    "enFullName": "Giap Bat Ward",
+    "codeName": "giap_bat",
+    "district_id": "008"
+  },
+  {
+    "id": "00328",
+    "name": "Lĩnh Nam",
+    "enName": "Linh Nam",
+    "fullName": "Phường Lĩnh Nam",
+    "enFullName": "Linh Nam Ward",
+    "codeName": "linh_nam",
+    "district_id": "008"
+  },
+  {
+    "id": "00331",
+    "name": "Thịnh Liệt",
+    "enName": "Thinh Liet",
+    "fullName": "Phường Thịnh Liệt",
+    "enFullName": "Thinh Liet Ward",
+    "codeName": "thinh_liet",
+    "district_id": "008"
+  },
+  {
+    "id": "00334",
+    "name": "Trần Phú",
+    "enName": "Tran Phu",
+    "fullName": "Phường Trần Phú",
+    "enFullName": "Tran Phu Ward",
+    "codeName": "tran_phu",
+    "district_id": "008"
+  },
+  {
+    "id": "00337",
+    "name": "Hoàng Liệt",
+    "enName": "Hoang Liet",
+    "fullName": "Phường Hoàng Liệt",
+    "enFullName": "Hoang Liet Ward",
+    "codeName": "hoang_liet",
+    "district_id": "008"
+  },
+  {
+    "id": "00340",
+    "name": "Yên Sở",
+    "enName": "Yen So",
+    "fullName": "Phường Yên Sở",
+    "enFullName": "Yen So Ward",
+    "codeName": "yen_so",
+    "district_id": "008"
+  },
+  {
+    "id": "00343",
+    "name": "Nhân Chính",
+    "enName": "Nhan Chinh",
+    "fullName": "Phường Nhân Chính",
+    "enFullName": "Nhan Chinh Ward",
+    "codeName": "nhan_chinh",
+    "district_id": "009"
+  },
+  {
+    "id": "00346",
+    "name": "Thượng Đình",
+    "enName": "Thuong Dinh",
+    "fullName": "Phường Thượng Đình",
+    "enFullName": "Thuong Dinh Ward",
+    "codeName": "thuong_dinh",
+    "district_id": "009"
+  },
+  {
+    "id": "00349",
+    "name": "Khương Trung",
+    "enName": "Khuong Trung",
+    "fullName": "Phường Khương Trung",
+    "enFullName": "Khuong Trung Ward",
+    "codeName": "khuong_trung",
+    "district_id": "009"
+  },
+  {
+    "id": "00352",
+    "name": "Khương Mai",
+    "enName": "Khuong Mai",
+    "fullName": "Phường Khương Mai",
+    "enFullName": "Khuong Mai Ward",
+    "codeName": "khuong_mai",
+    "district_id": "009"
+  },
+  {
+    "id": "00355",
+    "name": "Thanh Xuân Trung",
+    "enName": "Thanh Xuan Trung",
+    "fullName": "Phường Thanh Xuân Trung",
+    "enFullName": "Thanh Xuan Trung Ward",
+    "codeName": "thanh_xuan_trung",
+    "district_id": "009"
+  },
+  {
+    "id": "00358",
+    "name": "Phương Liệt",
+    "enName": "Phuong Liet",
+    "fullName": "Phường Phương Liệt",
+    "enFullName": "Phuong Liet Ward",
+    "codeName": "phuong_liet",
+    "district_id": "009"
+  },
+  {
+    "id": "00361",
+    "name": "Hạ Đình",
+    "enName": "Ha Dinh",
+    "fullName": "Phường Hạ Đình",
+    "enFullName": "Ha Dinh Ward",
+    "codeName": "ha_dinh",
+    "district_id": "009"
+  },
+  {
+    "id": "00364",
+    "name": "Khương Đình",
+    "enName": "Khuong Dinh",
+    "fullName": "Phường Khương Đình",
+    "enFullName": "Khuong Dinh Ward",
+    "codeName": "khuong_dinh",
+    "district_id": "009"
+  },
+  {
+    "id": "00367",
+    "name": "Thanh Xuân Bắc",
+    "enName": "Thanh Xuan Bac",
+    "fullName": "Phường Thanh Xuân Bắc",
+    "enFullName": "Thanh Xuan Bac Ward",
+    "codeName": "thanh_xuan_bac",
+    "district_id": "009"
+  },
+  {
+    "id": "00370",
+    "name": "Thanh Xuân Nam",
+    "enName": "Thanh Xuan Nam",
+    "fullName": "Phường Thanh Xuân Nam",
+    "enFullName": "Thanh Xuan Nam Ward",
+    "codeName": "thanh_xuan_nam",
+    "district_id": "009"
+  },
+  {
+    "id": "00373",
+    "name": "Kim Giang",
+    "enName": "Kim Giang",
+    "fullName": "Phường Kim Giang",
+    "enFullName": "Kim Giang Ward",
+    "codeName": "kim_giang",
+    "district_id": "009"
+  },
+  {
+    "id": "00376",
+    "name": "Sóc Sơn",
+    "enName": "Soc Son",
+    "fullName": "Thị trấn Sóc Sơn",
+    "enFullName": "Soc Son Township",
+    "codeName": "soc_son",
+    "district_id": "016"
+  },
+  {
+    "id": "00379",
+    "name": "Bắc Sơn",
+    "enName": "Bac Son",
+    "fullName": "Xã Bắc Sơn",
+    "enFullName": "Bac Son Commune",
+    "codeName": "bac_son",
+    "district_id": "016"
+  },
+  {
+    "id": "00382",
+    "name": "Minh Trí",
+    "enName": "Minh Tri",
+    "fullName": "Xã Minh Trí",
+    "enFullName": "Minh Tri Commune",
+    "codeName": "minh_tri",
+    "district_id": "016"
+  },
+  {
+    "id": "00385",
+    "name": "Hồng Kỳ",
+    "enName": "Hong Ky",
+    "fullName": "Xã Hồng Kỳ",
+    "enFullName": "Hong Ky Commune",
+    "codeName": "hong_ky",
+    "district_id": "016"
+  },
+  {
+    "id": "00388",
+    "name": "Nam Sơn",
+    "enName": "Nam Son",
+    "fullName": "Xã Nam Sơn",
+    "enFullName": "Nam Son Commune",
+    "codeName": "nam_son",
+    "district_id": "016"
+  },
+  {
+    "id": "00391",
+    "name": "Trung Giã",
+    "enName": "Trung Gia",
+    "fullName": "Xã Trung Giã",
+    "enFullName": "Trung Gia Commune",
+    "codeName": "trung_gia",
+    "district_id": "016"
+  },
+  {
+    "id": "00394",
+    "name": "Tân Hưng",
+    "enName": "Tan Hung",
+    "fullName": "Xã Tân Hưng",
+    "enFullName": "Tan Hung Commune",
+    "codeName": "tan_hung",
+    "district_id": "016"
+  },
+  {
+    "id": "00397",
+    "name": "Minh Phú",
+    "enName": "Minh Phu",
+    "fullName": "Xã Minh Phú",
+    "enFullName": "Minh Phu Commune",
+    "codeName": "minh_phu",
+    "district_id": "016"
+  },
+  {
+    "id": "00400",
+    "name": "Phù Linh",
+    "enName": "Phu Linh",
+    "fullName": "Xã Phù Linh",
+    "enFullName": "Phu Linh Commune",
+    "codeName": "phu_linh",
+    "district_id": "016"
+  },
+  {
+    "id": "00403",
+    "name": "Bắc Phú",
+    "enName": "Bac Phu",
+    "fullName": "Xã Bắc Phú",
+    "enFullName": "Bac Phu Commune",
+    "codeName": "bac_phu",
+    "district_id": "016"
+  },
+  {
+    "id": "00406",
+    "name": "Tân Minh",
+    "enName": "Tan Minh",
+    "fullName": "Xã Tân Minh",
+    "enFullName": "Tan Minh Commune",
+    "codeName": "tan_minh",
+    "district_id": "016"
+  },
+  {
+    "id": "00409",
+    "name": "Quang Tiến",
+    "enName": "Quang Tien",
+    "fullName": "Xã Quang Tiến",
+    "enFullName": "Quang Tien Commune",
+    "codeName": "quang_tien",
+    "district_id": "016"
+  },
+  {
+    "id": "00412",
+    "name": "Hiền Ninh",
+    "enName": "Hien Ninh",
+    "fullName": "Xã Hiền Ninh",
+    "enFullName": "Hien Ninh Commune",
+    "codeName": "hien_ninh",
+    "district_id": "016"
+  },
+  {
+    "id": "00415",
+    "name": "Tân Dân",
+    "enName": "Tan Dan",
+    "fullName": "Xã Tân Dân",
+    "enFullName": "Tan Dan Commune",
+    "codeName": "tan_dan",
+    "district_id": "016"
+  },
+  {
+    "id": "00418",
+    "name": "Tiên Dược",
+    "enName": "Tien Duoc",
+    "fullName": "Xã Tiên Dược",
+    "enFullName": "Tien Duoc Commune",
+    "codeName": "tien_duoc",
+    "district_id": "016"
+  },
+  {
+    "id": "00421",
+    "name": "Việt Long",
+    "enName": "Viet Long",
+    "fullName": "Xã Việt Long",
+    "enFullName": "Viet Long Commune",
+    "codeName": "viet_long",
+    "district_id": "016"
+  },
+  {
+    "id": "00424",
+    "name": "Xuân Giang",
+    "enName": "Xuan Giang",
+    "fullName": "Xã Xuân Giang",
+    "enFullName": "Xuan Giang Commune",
+    "codeName": "xuan_giang",
+    "district_id": "016"
+  },
+  {
+    "id": "00427",
+    "name": "Mai Đình",
+    "enName": "Mai Dinh",
+    "fullName": "Xã Mai Đình",
+    "enFullName": "Mai Dinh Commune",
+    "codeName": "mai_dinh",
+    "district_id": "016"
+  },
+  {
+    "id": "00430",
+    "name": "Đức Hoà",
+    "enName": "Duc Hoa",
+    "fullName": "Xã Đức Hoà",
+    "enFullName": "Duc Hoa Commune",
+    "codeName": "duc_hoa",
+    "district_id": "016"
+  },
+  {
+    "id": "00433",
+    "name": "Thanh Xuân",
+    "enName": "Thanh Xuan",
+    "fullName": "Xã Thanh Xuân",
+    "enFullName": "Thanh Xuan Commune",
+    "codeName": "thanh_xuan",
+    "district_id": "016"
+  },
+  {
+    "id": "00436",
+    "name": "Đông Xuân",
+    "enName": "Dong Xuan",
+    "fullName": "Xã Đông Xuân",
+    "enFullName": "Dong Xuan Commune",
+    "codeName": "dong_xuan",
+    "district_id": "016"
+  },
+  {
+    "id": "00439",
+    "name": "Kim Lũ",
+    "enName": "Kim Lu",
+    "fullName": "Xã Kim Lũ",
+    "enFullName": "Kim Lu Commune",
+    "codeName": "kim_lu",
+    "district_id": "016"
+  },
+  {
+    "id": "00442",
+    "name": "Phú Cường",
+    "enName": "Phu Cuong",
+    "fullName": "Xã Phú Cường",
+    "enFullName": "Phu Cuong Commune",
+    "codeName": "phu_cuong",
+    "district_id": "016"
+  },
+  {
+    "id": "00445",
+    "name": "Phú Minh",
+    "enName": "Phu Minh",
+    "fullName": "Xã Phú Minh",
+    "enFullName": "Phu Minh Commune",
+    "codeName": "phu_minh",
+    "district_id": "016"
+  },
+  {
+    "id": "00448",
+    "name": "Phù Lỗ",
+    "enName": "Phu Lo",
+    "fullName": "Xã Phù Lỗ",
+    "enFullName": "Phu Lo Commune",
+    "codeName": "phu_lo",
+    "district_id": "016"
+  },
+  {
+    "id": "00451",
+    "name": "Xuân Thu",
+    "enName": "Xuan Thu",
+    "fullName": "Xã Xuân Thu",
+    "enFullName": "Xuan Thu Commune",
+    "codeName": "xuan_thu",
+    "district_id": "016"
+  },
+  {
+    "id": "00454",
+    "name": "Đông Anh",
+    "enName": "Dong Anh",
+    "fullName": "Thị trấn Đông Anh",
+    "enFullName": "Dong Anh Township",
+    "codeName": "dong_anh",
+    "district_id": "017"
+  },
+  {
+    "id": "00457",
+    "name": "Xuân Nộn",
+    "enName": "Xuan Non",
+    "fullName": "Xã Xuân Nộn",
+    "enFullName": "Xuan Non Commune",
+    "codeName": "xuan_non",
+    "district_id": "017"
+  },
+  {
+    "id": "00460",
+    "name": "Thuỵ Lâm",
+    "enName": "Thuy Lam",
+    "fullName": "Xã Thuỵ Lâm",
+    "enFullName": "Thuy Lam Commune",
+    "codeName": "thuy_lam",
+    "district_id": "017"
+  },
+  {
+    "id": "00463",
+    "name": "Bắc Hồng",
+    "enName": "Bac Hong",
+    "fullName": "Xã Bắc Hồng",
+    "enFullName": "Bac Hong Commune",
+    "codeName": "bac_hong",
+    "district_id": "017"
+  },
+  {
+    "id": "00466",
+    "name": "Nguyên Khê",
+    "enName": "Nguyen Khe",
+    "fullName": "Xã Nguyên Khê",
+    "enFullName": "Nguyen Khe Commune",
+    "codeName": "nguyen_khe",
+    "district_id": "017"
+  },
+  {
+    "id": "00469",
+    "name": "Nam Hồng",
+    "enName": "Nam Hong",
+    "fullName": "Xã Nam Hồng",
+    "enFullName": "Nam Hong Commune",
+    "codeName": "nam_hong",
+    "district_id": "017"
+  },
+  {
+    "id": "00472",
+    "name": "Tiên Dương",
+    "enName": "Tien Duong",
+    "fullName": "Xã Tiên Dương",
+    "enFullName": "Tien Duong Commune",
+    "codeName": "tien_duong",
+    "district_id": "017"
+  },
+  {
+    "id": "00475",
+    "name": "Vân Hà",
+    "enName": "Van Ha",
+    "fullName": "Xã Vân Hà",
+    "enFullName": "Van Ha Commune",
+    "codeName": "van_ha",
+    "district_id": "017"
+  },
+  {
+    "id": "00478",
+    "name": "Uy Nỗ",
+    "enName": "Uy No",
+    "fullName": "Xã Uy Nỗ",
+    "enFullName": "Uy No Commune",
+    "codeName": "uy_no",
+    "district_id": "017"
+  },
+  {
+    "id": "00481",
+    "name": "Vân Nội",
+    "enName": "Van Noi",
+    "fullName": "Xã Vân Nội",
+    "enFullName": "Van Noi Commune",
+    "codeName": "van_noi",
+    "district_id": "017"
+  },
+  {
+    "id": "00484",
+    "name": "Liên Hà",
+    "enName": "Lien Ha",
+    "fullName": "Xã Liên Hà",
+    "enFullName": "Lien Ha Commune",
+    "codeName": "lien_ha",
+    "district_id": "017"
+  },
+  {
+    "id": "00487",
+    "name": "Việt Hùng",
+    "enName": "Viet Hung",
+    "fullName": "Xã Việt Hùng",
+    "enFullName": "Viet Hung Commune",
+    "codeName": "viet_hung",
+    "district_id": "017"
+  },
+  {
+    "id": "00490",
+    "name": "Kim Nỗ",
+    "enName": "Kim No",
+    "fullName": "Xã Kim Nỗ",
+    "enFullName": "Kim No Commune",
+    "codeName": "kim_no",
+    "district_id": "017"
+  },
+  {
+    "id": "00493",
+    "name": "Kim Chung",
+    "enName": "Kim Chung",
+    "fullName": "Xã Kim Chung",
+    "enFullName": "Kim Chung Commune",
+    "codeName": "kim_chung",
+    "district_id": "017"
+  },
+  {
+    "id": "00496",
+    "name": "Dục Tú",
+    "enName": "Duc Tu",
+    "fullName": "Xã Dục Tú",
+    "enFullName": "Duc Tu Commune",
+    "codeName": "duc_tu",
+    "district_id": "017"
+  },
+  {
+    "id": "00499",
+    "name": "Đại Mạch",
+    "enName": "Dai Mach",
+    "fullName": "Xã Đại Mạch",
+    "enFullName": "Dai Mach Commune",
+    "codeName": "dai_mach",
+    "district_id": "017"
+  },
+  {
+    "id": "00502",
+    "name": "Vĩnh Ngọc",
+    "enName": "Vinh Ngoc",
+    "fullName": "Xã Vĩnh Ngọc",
+    "enFullName": "Vinh Ngoc Commune",
+    "codeName": "vinh_ngoc",
+    "district_id": "017"
+  },
+  {
+    "id": "00505",
+    "name": "Cổ Loa",
+    "enName": "Co Loa",
+    "fullName": "Xã Cổ Loa",
+    "enFullName": "Co Loa Commune",
+    "codeName": "co_loa",
+    "district_id": "017"
+  },
+  {
+    "id": "00508",
+    "name": "Hải Bối",
+    "enName": "Hai Boi",
+    "fullName": "Xã Hải Bối",
+    "enFullName": "Hai Boi Commune",
+    "codeName": "hai_boi",
+    "district_id": "017"
+  },
+  {
+    "id": "00511",
+    "name": "Xuân Canh",
+    "enName": "Xuan Canh",
+    "fullName": "Xã Xuân Canh",
+    "enFullName": "Xuan Canh Commune",
+    "codeName": "xuan_canh",
+    "district_id": "017"
+  },
+  {
+    "id": "00514",
+    "name": "Võng La",
+    "enName": "Vong La",
+    "fullName": "Xã Võng La",
+    "enFullName": "Vong La Commune",
+    "codeName": "vong_la",
+    "district_id": "017"
+  },
+  {
+    "id": "00517",
+    "name": "Tàm Xá",
+    "enName": "Tam Xa",
+    "fullName": "Xã Tàm Xá",
+    "enFullName": "Tam Xa Commune",
+    "codeName": "tam_xa",
+    "district_id": "017"
+  },
+  {
+    "id": "00520",
+    "name": "Mai Lâm",
+    "enName": "Mai Lam",
+    "fullName": "Xã Mai Lâm",
+    "enFullName": "Mai Lam Commune",
+    "codeName": "mai_lam",
+    "district_id": "017"
+  },
+  {
+    "id": "00523",
+    "name": "Đông Hội",
+    "enName": "Dong Hoi",
+    "fullName": "Xã Đông Hội",
+    "enFullName": "Dong Hoi Commune",
+    "codeName": "dong_hoi",
+    "district_id": "017"
+  },
+  {
+    "id": "00526",
+    "name": "Yên Viên",
+    "enName": "Yen Vien",
+    "fullName": "Thị trấn Yên Viên",
+    "enFullName": "Yen Vien Township",
+    "codeName": "yen_vien",
+    "district_id": "018"
+  },
+  {
+    "id": "00529",
+    "name": "Yên Thường",
+    "enName": "Yen Thuong",
+    "fullName": "Xã Yên Thường",
+    "enFullName": "Yen Thuong Commune",
+    "codeName": "yen_thuong",
+    "district_id": "018"
+  },
+  {
+    "id": "00532",
+    "name": "Yên Viên",
+    "enName": "Yen Vien",
+    "fullName": "Xã Yên Viên",
+    "enFullName": "Yen Vien Commune",
+    "codeName": "yen_vien",
+    "district_id": "018"
+  },
+  {
+    "id": "00535",
+    "name": "Ninh Hiệp",
+    "enName": "Ninh Hiep",
+    "fullName": "Xã Ninh Hiệp",
+    "enFullName": "Ninh Hiep Commune",
+    "codeName": "ninh_hiep",
+    "district_id": "018"
+  },
+  {
+    "id": "00538",
+    "name": "Đình Xuyên",
+    "enName": "Dinh Xuyen",
+    "fullName": "Xã Đình Xuyên",
+    "enFullName": "Dinh Xuyen Commune",
+    "codeName": "dinh_xuyen",
+    "district_id": "018"
+  },
+  {
+    "id": "00541",
+    "name": "Dương Hà",
+    "enName": "Duong Ha",
+    "fullName": "Xã Dương Hà",
+    "enFullName": "Duong Ha Commune",
+    "codeName": "duong_ha",
+    "district_id": "018"
+  },
+  {
+    "id": "00544",
+    "name": "Phù Đổng",
+    "enName": "Phu Dong",
+    "fullName": "Xã Phù Đổng",
+    "enFullName": "Phu Dong Commune",
+    "codeName": "phu_dong",
+    "district_id": "018"
+  },
+  {
+    "id": "00547",
+    "name": "Trung Mầu",
+    "enName": "Trung Mau",
+    "fullName": "Xã Trung Mầu",
+    "enFullName": "Trung Mau Commune",
+    "codeName": "trung_mau",
+    "district_id": "018"
+  },
+  {
+    "id": "00550",
+    "name": "Lệ Chi",
+    "enName": "Le Chi",
+    "fullName": "Xã Lệ Chi",
+    "enFullName": "Le Chi Commune",
+    "codeName": "le_chi",
+    "district_id": "018"
+  },
+  {
+    "id": "00553",
+    "name": "Cổ Bi",
+    "enName": "Co Bi",
+    "fullName": "Xã Cổ Bi",
+    "enFullName": "Co Bi Commune",
+    "codeName": "co_bi",
+    "district_id": "018"
+  },
+  {
+    "id": "00556",
+    "name": "Đặng Xá",
+    "enName": "Dang Xa",
+    "fullName": "Xã Đặng Xá",
+    "enFullName": "Dang Xa Commune",
+    "codeName": "dang_xa",
+    "district_id": "018"
+  },
+  {
+    "id": "00559",
+    "name": "Phú Thị",
+    "enName": "Phu Thi",
+    "fullName": "Xã Phú Thị",
+    "enFullName": "Phu Thi Commune",
+    "codeName": "phu_thi",
+    "district_id": "018"
+  },
+  {
+    "id": "00562",
+    "name": "Kim Sơn",
+    "enName": "Kim Son",
+    "fullName": "Xã Kim Sơn",
+    "enFullName": "Kim Son Commune",
+    "codeName": "kim_son",
+    "district_id": "018"
+  },
+  {
+    "id": "00565",
+    "name": "Trâu Quỳ",
+    "enName": "Trau Quy",
+    "fullName": "Thị trấn Trâu Quỳ",
+    "enFullName": "Trau Quy Township",
+    "codeName": "trau_quy",
+    "district_id": "018"
+  },
+  {
+    "id": "00568",
+    "name": "Dương Quang",
+    "enName": "Duong Quang",
+    "fullName": "Xã Dương Quang",
+    "enFullName": "Duong Quang Commune",
+    "codeName": "duong_quang",
+    "district_id": "018"
+  },
+  {
+    "id": "00571",
+    "name": "Dương Xá",
+    "enName": "Duong Xa",
+    "fullName": "Xã Dương Xá",
+    "enFullName": "Duong Xa Commune",
+    "codeName": "duong_xa",
+    "district_id": "018"
+  },
+  {
+    "id": "00574",
+    "name": "Đông Dư",
+    "enName": "Dong Du",
+    "fullName": "Xã Đông Dư",
+    "enFullName": "Dong Du Commune",
+    "codeName": "dong_du",
+    "district_id": "018"
+  },
+  {
+    "id": "00577",
+    "name": "Đa Tốn",
+    "enName": "Da Ton",
+    "fullName": "Xã Đa Tốn",
+    "enFullName": "Da Ton Commune",
+    "codeName": "da_ton",
+    "district_id": "018"
+  },
+  {
+    "id": "00580",
+    "name": "Kiêu Kỵ",
+    "enName": "Kieu Ky",
+    "fullName": "Xã Kiêu Kỵ",
+    "enFullName": "Kieu Ky Commune",
+    "codeName": "kieu_ky",
+    "district_id": "018"
+  },
+  {
+    "id": "00583",
+    "name": "Bát Tràng",
+    "enName": "Bat Trang",
+    "fullName": "Xã Bát Tràng",
+    "enFullName": "Bat Trang Commune",
+    "codeName": "bat_trang",
+    "district_id": "018"
+  },
+  {
+    "id": "00586",
+    "name": "Kim Lan",
+    "enName": "Kim Lan",
+    "fullName": "Xã Kim Lan",
+    "enFullName": "Kim Lan Commune",
+    "codeName": "kim_lan",
+    "district_id": "018"
+  },
+  {
+    "id": "00589",
+    "name": "Văn Đức",
+    "enName": "Van Duc",
+    "fullName": "Xã Văn Đức",
+    "enFullName": "Van Duc Commune",
+    "codeName": "van_duc",
+    "district_id": "018"
+  },
+  {
+    "id": "00592",
+    "name": "Cầu Diễn",
+    "enName": "Cau Dien",
+    "fullName": "Phường Cầu Diễn",
+    "enFullName": "Cau Dien Ward",
+    "codeName": "cau_dien",
+    "district_id": "019"
+  },
+  {
+    "id": "00622",
+    "name": "Xuân Phương",
+    "enName": "Xuan Phuong",
+    "fullName": "Phường Xuân Phương",
+    "enFullName": "Xuan Phuong Ward",
+    "codeName": "xuan_phuong",
+    "district_id": "019"
+  },
+  {
+    "id": "00623",
+    "name": "Phương Canh",
+    "enName": "Phuong Canh",
+    "fullName": "Phường Phương Canh",
+    "enFullName": "Phuong Canh Ward",
+    "codeName": "phuong_canh",
+    "district_id": "019"
+  },
+  {
+    "id": "00625",
+    "name": "Mỹ Đình 1",
+    "enName": "My Dinh 1",
+    "fullName": "Phường Mỹ Đình 1",
+    "enFullName": "Ward My Dinh 1",
+    "codeName": "my_dinh_1",
+    "district_id": "019"
+  },
+  {
+    "id": "00626",
+    "name": "Mỹ Đình 2",
+    "enName": "My Dinh 2",
+    "fullName": "Phường Mỹ Đình 2",
+    "enFullName": "Ward My Dinh 2",
+    "codeName": "my_dinh_2",
+    "district_id": "019"
+  },
+  {
+    "id": "00628",
+    "name": "Tây Mỗ",
+    "enName": "Tay Mo",
+    "fullName": "Phường Tây Mỗ",
+    "enFullName": "Tay Mo Ward",
+    "codeName": "tay_mo",
+    "district_id": "019"
+  },
+  {
+    "id": "00631",
+    "name": "Mễ Trì",
+    "enName": "Me Tri",
+    "fullName": "Phường Mễ Trì",
+    "enFullName": "Me Tri Ward",
+    "codeName": "me_tri",
+    "district_id": "019"
+  },
+  {
+    "id": "00632",
+    "name": "Phú Đô",
+    "enName": "Phu Do",
+    "fullName": "Phường Phú Đô",
+    "enFullName": "Phu Do Ward",
+    "codeName": "phu_do",
+    "district_id": "019"
+  },
+  {
+    "id": "00634",
+    "name": "Đại Mỗ",
+    "enName": "Dai Mo",
+    "fullName": "Phường Đại Mỗ",
+    "enFullName": "Dai Mo Ward",
+    "codeName": "dai_mo",
+    "district_id": "019"
+  },
+  {
+    "id": "00637",
+    "name": "Trung Văn",
+    "enName": "Trung Van",
+    "fullName": "Phường Trung Văn",
+    "enFullName": "Trung Van Ward",
+    "codeName": "trung_van",
+    "district_id": "019"
+  },
+  {
+    "id": "00640",
+    "name": "Văn Điển",
+    "enName": "Van Dien",
+    "fullName": "Thị trấn Văn Điển",
+    "enFullName": "Van Dien Township",
+    "codeName": "van_dien",
+    "district_id": "020"
+  },
+  {
+    "id": "00643",
+    "name": "Tân Triều",
+    "enName": "Tan Trieu",
+    "fullName": "Xã Tân Triều",
+    "enFullName": "Tan Trieu Commune",
+    "codeName": "tan_trieu",
+    "district_id": "020"
+  },
+  {
+    "id": "00646",
+    "name": "Thanh Liệt",
+    "enName": "Thanh Liet",
+    "fullName": "Xã Thanh Liệt",
+    "enFullName": "Thanh Liet Commune",
+    "codeName": "thanh_liet",
+    "district_id": "020"
+  },
+  {
+    "id": "00649",
+    "name": "Tả Thanh Oai",
+    "enName": "Ta Thanh Oai",
+    "fullName": "Xã Tả Thanh Oai",
+    "enFullName": "Ta Thanh Oai Commune",
+    "codeName": "ta_thanh_oai",
+    "district_id": "020"
+  },
+  {
+    "id": "00652",
+    "name": "Hữu Hoà",
+    "enName": "Huu Hoa",
+    "fullName": "Xã Hữu Hoà",
+    "enFullName": "Huu Hoa Commune",
+    "codeName": "huu_hoa",
+    "district_id": "020"
+  },
+  {
+    "id": "00655",
+    "name": "Tam Hiệp",
+    "enName": "Tam Hiep",
+    "fullName": "Xã Tam Hiệp",
+    "enFullName": "Tam Hiep Commune",
+    "codeName": "tam_hiep",
+    "district_id": "020"
+  },
+  {
+    "id": "00658",
+    "name": "Tứ Hiệp",
+    "enName": "Tu Hiep",
+    "fullName": "Xã Tứ Hiệp",
+    "enFullName": "Tu Hiep Commune",
+    "codeName": "tu_hiep",
+    "district_id": "020"
+  },
+  {
+    "id": "00661",
+    "name": "Yên Mỹ",
+    "enName": "Yen My",
+    "fullName": "Xã Yên Mỹ",
+    "enFullName": "Yen My Commune",
+    "codeName": "yen_my",
+    "district_id": "020"
+  },
+  {
+    "id": "00664",
+    "name": "Vĩnh Quỳnh",
+    "enName": "Vinh Quynh",
+    "fullName": "Xã Vĩnh Quỳnh",
+    "enFullName": "Vinh Quynh Commune",
+    "codeName": "vinh_quynh",
+    "district_id": "020"
+  },
+  {
+    "id": "00667",
+    "name": "Ngũ Hiệp",
+    "enName": "Ngu Hiep",
+    "fullName": "Xã Ngũ Hiệp",
+    "enFullName": "Ngu Hiep Commune",
+    "codeName": "ngu_hiep",
+    "district_id": "020"
+  },
+  {
+    "id": "00670",
+    "name": "Duyên Hà",
+    "enName": "Duyen Ha",
+    "fullName": "Xã Duyên Hà",
+    "enFullName": "Duyen Ha Commune",
+    "codeName": "duyen_ha",
+    "district_id": "020"
+  },
+  {
+    "id": "00673",
+    "name": "Ngọc Hồi",
+    "enName": "Ngoc Hoi",
+    "fullName": "Xã Ngọc Hồi",
+    "enFullName": "Ngoc Hoi Commune",
+    "codeName": "ngoc_hoi",
+    "district_id": "020"
+  },
+  {
+    "id": "00676",
+    "name": "Vạn Phúc",
+    "enName": "Van Phuc",
+    "fullName": "Xã Vạn Phúc",
+    "enFullName": "Van Phuc Commune",
+    "codeName": "van_phuc",
+    "district_id": "020"
+  },
+  {
+    "id": "00679",
+    "name": "Đại áng",
+    "enName": "Dai ang",
+    "fullName": "Xã Đại áng",
+    "enFullName": "Dai ang Commune",
+    "codeName": "dai_ang",
+    "district_id": "020"
+  },
+  {
+    "id": "00682",
+    "name": "Liên Ninh",
+    "enName": "Lien Ninh",
+    "fullName": "Xã Liên Ninh",
+    "enFullName": "Lien Ninh Commune",
+    "codeName": "lien_ninh",
+    "district_id": "020"
+  },
+  {
+    "id": "00685",
+    "name": "Đông Mỹ",
+    "enName": "Dong My",
+    "fullName": "Xã Đông Mỹ",
+    "enFullName": "Dong My Commune",
+    "codeName": "dong_my",
+    "district_id": "020"
+  },
+  {
+    "id": "00595",
+    "name": "Thượng Cát",
+    "enName": "Thuong Cat",
+    "fullName": "Phường Thượng Cát",
+    "enFullName": "Thuong Cat Ward",
+    "codeName": "thuong_cat",
+    "district_id": "021"
+  },
+  {
+    "id": "00598",
+    "name": "Liên Mạc",
+    "enName": "Lien Mac",
+    "fullName": "Phường Liên Mạc",
+    "enFullName": "Lien Mac Ward",
+    "codeName": "lien_mac",
+    "district_id": "021"
+  },
+  {
+    "id": "00601",
+    "name": "Đông Ngạc",
+    "enName": "Dong Ngac",
+    "fullName": "Phường Đông Ngạc",
+    "enFullName": "Dong Ngac Ward",
+    "codeName": "dong_ngac",
+    "district_id": "021"
+  },
+  {
+    "id": "00602",
+    "name": "Đức Thắng",
+    "enName": "Duc Thang",
+    "fullName": "Phường Đức Thắng",
+    "enFullName": "Duc Thang Ward",
+    "codeName": "duc_thang",
+    "district_id": "021"
+  },
+  {
+    "id": "00604",
+    "name": "Thụy Phương",
+    "enName": "Thuy Phuong",
+    "fullName": "Phường Thụy Phương",
+    "enFullName": "Thuy Phuong Ward",
+    "codeName": "thuy_phuong",
+    "district_id": "021"
+  },
+  {
+    "id": "00607",
+    "name": "Tây Tựu",
+    "enName": "Tay Tuu",
+    "fullName": "Phường Tây Tựu",
+    "enFullName": "Tay Tuu Ward",
+    "codeName": "tay_tuu",
+    "district_id": "021"
+  },
+  {
+    "id": "00610",
+    "name": "Xuân Đỉnh",
+    "enName": "Xuan Dinh",
+    "fullName": "Phường Xuân Đỉnh",
+    "enFullName": "Xuan Dinh Ward",
+    "codeName": "xuan_dinh",
+    "district_id": "021"
+  },
+  {
+    "id": "00611",
+    "name": "Xuân Tảo",
+    "enName": "Xuan Tao",
+    "fullName": "Phường Xuân Tảo",
+    "enFullName": "Xuan Tao Ward",
+    "codeName": "xuan_tao",
+    "district_id": "021"
+  },
+  {
+    "id": "00613",
+    "name": "Minh Khai",
+    "enName": "Minh Khai",
+    "fullName": "Phường Minh Khai",
+    "enFullName": "Minh Khai Ward",
+    "codeName": "minh_khai",
+    "district_id": "021"
+  },
+  {
+    "id": "00616",
+    "name": "Cổ Nhuế 1",
+    "enName": "Co Nhue 1",
+    "fullName": "Phường Cổ Nhuế 1",
+    "enFullName": "Ward Co Nhue 1",
+    "codeName": "co_nhue_1",
+    "district_id": "021"
+  },
+  {
+    "id": "00617",
+    "name": "Cổ Nhuế 2",
+    "enName": "Co Nhue 2",
+    "fullName": "Phường Cổ Nhuế 2",
+    "enFullName": "Ward Co Nhue 2",
+    "codeName": "co_nhue_2",
+    "district_id": "021"
+  },
+  {
+    "id": "00619",
+    "name": "Phú Diễn",
+    "enName": "Phu Dien",
+    "fullName": "Phường Phú Diễn",
+    "enFullName": "Phu Dien Ward",
+    "codeName": "phu_dien",
+    "district_id": "021"
+  },
+  {
+    "id": "00620",
+    "name": "Phúc Diễn",
+    "enName": "Phuc Dien",
+    "fullName": "Phường Phúc Diễn",
+    "enFullName": "Phuc Dien Ward",
+    "codeName": "phuc_dien",
+    "district_id": "021"
+  },
+  {
+    "id": "08973",
+    "name": "Chi Đông",
+    "enName": "Chi Dong",
+    "fullName": "Thị trấn Chi Đông",
+    "enFullName": "Chi Dong Township",
+    "codeName": "chi_dong",
+    "district_id": "250"
+  },
+  {
+    "id": "08974",
+    "name": "Đại Thịnh",
+    "enName": "Dai Thinh",
+    "fullName": "Xã Đại Thịnh",
+    "enFullName": "Dai Thinh Commune",
+    "codeName": "dai_thinh",
+    "district_id": "250"
+  },
+  {
+    "id": "08977",
+    "name": "Kim Hoa",
+    "enName": "Kim Hoa",
+    "fullName": "Xã Kim Hoa",
+    "enFullName": "Kim Hoa Commune",
+    "codeName": "kim_hoa",
+    "district_id": "250"
+  },
+  {
+    "id": "08980",
+    "name": "Thạch Đà",
+    "enName": "Thach Da",
+    "fullName": "Xã Thạch Đà",
+    "enFullName": "Thach Da Commune",
+    "codeName": "thach_da",
+    "district_id": "250"
+  },
+  {
+    "id": "08983",
+    "name": "Tiến Thắng",
+    "enName": "Tien Thang",
+    "fullName": "Xã Tiến Thắng",
+    "enFullName": "Tien Thang Commune",
+    "codeName": "tien_thang",
+    "district_id": "250"
+  },
+  {
+    "id": "08986",
+    "name": "Tự Lập",
+    "enName": "Tu Lap",
+    "fullName": "Xã Tự Lập",
+    "enFullName": "Tu Lap Commune",
+    "codeName": "tu_lap",
+    "district_id": "250"
+  },
+  {
+    "id": "08989",
+    "name": "Quang Minh",
+    "enName": "Quang Minh",
+    "fullName": "Thị trấn Quang Minh",
+    "enFullName": "Quang Minh Township",
+    "codeName": "quang_minh",
+    "district_id": "250"
+  },
+  {
+    "id": "08992",
+    "name": "Thanh Lâm",
+    "enName": "Thanh Lam",
+    "fullName": "Xã Thanh Lâm",
+    "enFullName": "Thanh Lam Commune",
+    "codeName": "thanh_lam",
+    "district_id": "250"
+  },
+  {
+    "id": "08995",
+    "name": "Tam Đồng",
+    "enName": "Tam Dong",
+    "fullName": "Xã Tam Đồng",
+    "enFullName": "Tam Dong Commune",
+    "codeName": "tam_dong",
+    "district_id": "250"
+  },
+  {
+    "id": "08998",
+    "name": "Liên Mạc",
+    "enName": "Lien Mac",
+    "fullName": "Xã Liên Mạc",
+    "enFullName": "Lien Mac Commune",
+    "codeName": "lien_mac",
+    "district_id": "250"
+  },
+  {
+    "id": "09001",
+    "name": "Vạn Yên",
+    "enName": "Van Yen",
+    "fullName": "Xã Vạn Yên",
+    "enFullName": "Van Yen Commune",
+    "codeName": "van_yen",
+    "district_id": "250"
+  },
+  {
+    "id": "09004",
+    "name": "Chu Phan",
+    "enName": "Chu Phan",
+    "fullName": "Xã Chu Phan",
+    "enFullName": "Chu Phan Commune",
+    "codeName": "chu_phan",
+    "district_id": "250"
+  },
+  {
+    "id": "09007",
+    "name": "Tiến Thịnh",
+    "enName": "Tien Thinh",
+    "fullName": "Xã Tiến Thịnh",
+    "enFullName": "Tien Thinh Commune",
+    "codeName": "tien_thinh",
+    "district_id": "250"
+  },
+  {
+    "id": "09010",
+    "name": "Mê Linh",
+    "enName": "Me Linh",
+    "fullName": "Xã Mê Linh",
+    "enFullName": "Me Linh Commune",
+    "codeName": "me_linh",
+    "district_id": "250"
+  },
+  {
+    "id": "09013",
+    "name": "Văn Khê",
+    "enName": "Van Khe",
+    "fullName": "Xã Văn Khê",
+    "enFullName": "Van Khe Commune",
+    "codeName": "van_khe",
+    "district_id": "250"
+  },
+  {
+    "id": "09016",
+    "name": "Hoàng Kim",
+    "enName": "Hoang Kim",
+    "fullName": "Xã Hoàng Kim",
+    "enFullName": "Hoang Kim Commune",
+    "codeName": "hoang_kim",
+    "district_id": "250"
+  },
+  {
+    "id": "09019",
+    "name": "Tiền Phong",
+    "enName": "Tien Phong",
+    "fullName": "Xã Tiền Phong",
+    "enFullName": "Tien Phong Commune",
+    "codeName": "tien_phong",
+    "district_id": "250"
+  },
+  {
+    "id": "09022",
+    "name": "Tráng Việt",
+    "enName": "Trang Viet",
+    "fullName": "Xã Tráng Việt",
+    "enFullName": "Trang Viet Commune",
+    "codeName": "trang_viet",
+    "district_id": "250"
+  },
+  {
+    "id": "09538",
+    "name": "Nguyễn Trãi",
+    "enName": "Nguyen Trai",
+    "fullName": "Phường Nguyễn Trãi",
+    "enFullName": "Nguyen Trai Ward",
+    "codeName": "nguyen_trai",
+    "district_id": "268"
+  },
+  {
+    "id": "09541",
+    "name": "Mộ Lao",
+    "enName": "Mo Lao",
+    "fullName": "Phường Mộ Lao",
+    "enFullName": "Mo Lao Ward",
+    "codeName": "mo_lao",
+    "district_id": "268"
+  },
+  {
+    "id": "09542",
+    "name": "Văn Quán",
+    "enName": "Van Quan",
+    "fullName": "Phường Văn Quán",
+    "enFullName": "Van Quan Ward",
+    "codeName": "van_quan",
+    "district_id": "268"
+  },
+  {
+    "id": "09544",
+    "name": "Vạn Phúc",
+    "enName": "Van Phuc",
+    "fullName": "Phường Vạn Phúc",
+    "enFullName": "Van Phuc Ward",
+    "codeName": "van_phuc",
+    "district_id": "268"
+  },
+  {
+    "id": "09547",
+    "name": "Yết Kiêu",
+    "enName": "Yet Kieu",
+    "fullName": "Phường Yết Kiêu",
+    "enFullName": "Yet Kieu Ward",
+    "codeName": "yet_kieu",
+    "district_id": "268"
+  },
+  {
+    "id": "09550",
+    "name": "Quang Trung",
+    "enName": "Quang Trung",
+    "fullName": "Phường Quang Trung",
+    "enFullName": "Quang Trung Ward",
+    "codeName": "quang_trung",
+    "district_id": "268"
+  },
+  {
+    "id": "09551",
+    "name": "La Khê",
+    "enName": "La Khe",
+    "fullName": "Phường La Khê",
+    "enFullName": "La Khe Ward",
+    "codeName": "la_khe",
+    "district_id": "268"
+  },
+  {
+    "id": "09552",
+    "name": "Phú La",
+    "enName": "Phu La",
+    "fullName": "Phường Phú La",
+    "enFullName": "Phu La Ward",
+    "codeName": "phu_la",
+    "district_id": "268"
+  },
+  {
+    "id": "09553",
+    "name": "Phúc La",
+    "enName": "Phuc La",
+    "fullName": "Phường Phúc La",
+    "enFullName": "Phuc La Ward",
+    "codeName": "phuc_la",
+    "district_id": "268"
+  },
+  {
+    "id": "09556",
+    "name": "Hà Cầu",
+    "enName": "Ha Cau",
+    "fullName": "Phường Hà Cầu",
+    "enFullName": "Ha Cau Ward",
+    "codeName": "ha_cau",
+    "district_id": "268"
+  },
+  {
+    "id": "09562",
+    "name": "Yên Nghĩa",
+    "enName": "Yen Nghia",
+    "fullName": "Phường Yên Nghĩa",
+    "enFullName": "Yen Nghia Ward",
+    "codeName": "yen_nghia",
+    "district_id": "268"
+  },
+  {
+    "id": "09565",
+    "name": "Kiến Hưng",
+    "enName": "Kien Hung",
+    "fullName": "Phường Kiến Hưng",
+    "enFullName": "Kien Hung Ward",
+    "codeName": "kien_hung",
+    "district_id": "268"
+  },
+  {
+    "id": "09568",
+    "name": "Phú Lãm",
+    "enName": "Phu Lam",
+    "fullName": "Phường Phú Lãm",
+    "enFullName": "Phu Lam Ward",
+    "codeName": "phu_lam",
+    "district_id": "268"
+  },
+  {
+    "id": "09571",
+    "name": "Phú Lương",
+    "enName": "Phu Luong",
+    "fullName": "Phường Phú Lương",
+    "enFullName": "Phu Luong Ward",
+    "codeName": "phu_luong",
+    "district_id": "268"
+  },
+  {
+    "id": "09886",
+    "name": "Dương Nội",
+    "enName": "Duong Noi",
+    "fullName": "Phường Dương Nội",
+    "enFullName": "Duong Noi Ward",
+    "codeName": "duong_noi",
+    "district_id": "268"
+  },
+  {
+    "id": "10117",
+    "name": "Đồng Mai",
+    "enName": "Dong Mai",
+    "fullName": "Phường Đồng Mai",
+    "enFullName": "Dong Mai Ward",
+    "codeName": "dong_mai",
+    "district_id": "268"
+  },
+  {
+    "id": "10123",
+    "name": "Biên Giang",
+    "enName": "Bien Giang",
+    "fullName": "Phường Biên Giang",
+    "enFullName": "Bien Giang Ward",
+    "codeName": "bien_giang",
+    "district_id": "268"
+  },
+  {
+    "id": "09574",
+    "name": "Lê Lợi",
+    "enName": "Le Loi",
+    "fullName": "Phường Lê Lợi",
+    "enFullName": "Le Loi Ward",
+    "codeName": "le_loi",
+    "district_id": "269"
+  },
+  {
+    "id": "09577",
+    "name": "Phú Thịnh",
+    "enName": "Phu Thinh",
+    "fullName": "Phường Phú Thịnh",
+    "enFullName": "Phu Thinh Ward",
+    "codeName": "phu_thinh",
+    "district_id": "269"
+  },
+  {
+    "id": "09580",
+    "name": "Ngô Quyền",
+    "enName": "Ngo Quyen",
+    "fullName": "Phường Ngô Quyền",
+    "enFullName": "Ngo Quyen Ward",
+    "codeName": "ngo_quyen",
+    "district_id": "269"
+  },
+  {
+    "id": "09583",
+    "name": "Quang Trung",
+    "enName": "Quang Trung",
+    "fullName": "Phường Quang Trung",
+    "enFullName": "Quang Trung Ward",
+    "codeName": "quang_trung",
+    "district_id": "269"
+  },
+  {
+    "id": "09586",
+    "name": "Sơn Lộc",
+    "enName": "Son Loc",
+    "fullName": "Phường Sơn Lộc",
+    "enFullName": "Son Loc Ward",
+    "codeName": "son_loc",
+    "district_id": "269"
+  },
+  {
+    "id": "09589",
+    "name": "Xuân Khanh",
+    "enName": "Xuan Khanh",
+    "fullName": "Phường Xuân Khanh",
+    "enFullName": "Xuan Khanh Ward",
+    "codeName": "xuan_khanh",
+    "district_id": "269"
+  },
+  {
+    "id": "09592",
+    "name": "Đường Lâm",
+    "enName": "Duong Lam",
+    "fullName": "Xã Đường Lâm",
+    "enFullName": "Duong Lam Commune",
+    "codeName": "duong_lam",
+    "district_id": "269"
+  },
+  {
+    "id": "09595",
+    "name": "Viên Sơn",
+    "enName": "Vien Son",
+    "fullName": "Phường Viên Sơn",
+    "enFullName": "Vien Son Ward",
+    "codeName": "vien_son",
+    "district_id": "269"
+  },
+  {
+    "id": "09598",
+    "name": "Xuân Sơn",
+    "enName": "Xuan Son",
+    "fullName": "Xã Xuân Sơn",
+    "enFullName": "Xuan Son Commune",
+    "codeName": "xuan_son",
+    "district_id": "269"
+  },
+  {
+    "id": "09601",
+    "name": "Trung Hưng",
+    "enName": "Trung Hung",
+    "fullName": "Phường Trung Hưng",
+    "enFullName": "Trung Hung Ward",
+    "codeName": "trung_hung",
+    "district_id": "269"
+  },
+  {
+    "id": "09604",
+    "name": "Thanh Mỹ",
+    "enName": "Thanh My",
+    "fullName": "Xã Thanh Mỹ",
+    "enFullName": "Thanh My Commune",
+    "codeName": "thanh_my",
+    "district_id": "269"
+  },
+  {
+    "id": "09607",
+    "name": "Trung Sơn Trầm",
+    "enName": "Trung Son Tram",
+    "fullName": "Phường Trung Sơn Trầm",
+    "enFullName": "Trung Son Tram Ward",
+    "codeName": "trung_son_tram",
+    "district_id": "269"
+  },
+  {
+    "id": "09610",
+    "name": "Kim Sơn",
+    "enName": "Kim Son",
+    "fullName": "Xã Kim Sơn",
+    "enFullName": "Kim Son Commune",
+    "codeName": "kim_son",
+    "district_id": "269"
+  },
+  {
+    "id": "09613",
+    "name": "Sơn Đông",
+    "enName": "Son Dong",
+    "fullName": "Xã Sơn Đông",
+    "enFullName": "Son Dong Commune",
+    "codeName": "son_dong",
+    "district_id": "269"
+  },
+  {
+    "id": "09616",
+    "name": "Cổ Đông",
+    "enName": "Co Dong",
+    "fullName": "Xã Cổ Đông",
+    "enFullName": "Co Dong Commune",
+    "codeName": "co_dong",
+    "district_id": "269"
+  },
+  {
+    "id": "09619",
+    "name": "Tây Đằng",
+    "enName": "Tay Dang",
+    "fullName": "Thị trấn Tây Đằng",
+    "enFullName": "Tay Dang Township",
+    "codeName": "tay_dang",
+    "district_id": "271"
+  },
+  {
+    "id": "09625",
+    "name": "Phú Cường",
+    "enName": "Phu Cuong",
+    "fullName": "Xã Phú Cường",
+    "enFullName": "Phu Cuong Commune",
+    "codeName": "phu_cuong",
+    "district_id": "271"
+  },
+  {
+    "id": "09628",
+    "name": "Cổ Đô",
+    "enName": "Co Do",
+    "fullName": "Xã Cổ Đô",
+    "enFullName": "Co Do Commune",
+    "codeName": "co_do",
+    "district_id": "271"
+  },
+  {
+    "id": "09631",
+    "name": "Tản Hồng",
+    "enName": "Tan Hong",
+    "fullName": "Xã Tản Hồng",
+    "enFullName": "Tan Hong Commune",
+    "codeName": "tan_hong",
+    "district_id": "271"
+  },
+  {
+    "id": "09634",
+    "name": "Vạn Thắng",
+    "enName": "Van Thang",
+    "fullName": "Xã Vạn Thắng",
+    "enFullName": "Van Thang Commune",
+    "codeName": "van_thang",
+    "district_id": "271"
+  },
+  {
+    "id": "09637",
+    "name": "Châu Sơn",
+    "enName": "Chau Son",
+    "fullName": "Xã Châu Sơn",
+    "enFullName": "Chau Son Commune",
+    "codeName": "chau_son",
+    "district_id": "271"
+  },
+  {
+    "id": "09640",
+    "name": "Phong Vân",
+    "enName": "Phong Van",
+    "fullName": "Xã Phong Vân",
+    "enFullName": "Phong Van Commune",
+    "codeName": "phong_van",
+    "district_id": "271"
+  },
+  {
+    "id": "09643",
+    "name": "Phú Đông",
+    "enName": "Phu Dong",
+    "fullName": "Xã Phú Đông",
+    "enFullName": "Phu Dong Commune",
+    "codeName": "phu_dong",
+    "district_id": "271"
+  },
+  {
+    "id": "09646",
+    "name": "Phú Phương",
+    "enName": "Phu Phuong",
+    "fullName": "Xã Phú Phương",
+    "enFullName": "Phu Phuong Commune",
+    "codeName": "phu_phuong",
+    "district_id": "271"
+  },
+  {
+    "id": "09649",
+    "name": "Phú Châu",
+    "enName": "Phu Chau",
+    "fullName": "Xã Phú Châu",
+    "enFullName": "Phu Chau Commune",
+    "codeName": "phu_chau",
+    "district_id": "271"
+  },
+  {
+    "id": "09652",
+    "name": "Thái Hòa",
+    "enName": "Thai Hoa",
+    "fullName": "Xã Thái Hòa",
+    "enFullName": "Thai Hoa Commune",
+    "codeName": "thai_hoa",
+    "district_id": "271"
+  },
+  {
+    "id": "09655",
+    "name": "Đồng Thái",
+    "enName": "Dong Thai",
+    "fullName": "Xã Đồng Thái",
+    "enFullName": "Dong Thai Commune",
+    "codeName": "dong_thai",
+    "district_id": "271"
+  },
+  {
+    "id": "09658",
+    "name": "Phú Sơn",
+    "enName": "Phu Son",
+    "fullName": "Xã Phú Sơn",
+    "enFullName": "Phu Son Commune",
+    "codeName": "phu_son",
+    "district_id": "271"
+  },
+  {
+    "id": "09661",
+    "name": "Minh Châu",
+    "enName": "Minh Chau",
+    "fullName": "Xã Minh Châu",
+    "enFullName": "Minh Chau Commune",
+    "codeName": "minh_chau",
+    "district_id": "271"
+  },
+  {
+    "id": "09664",
+    "name": "Vật Lại",
+    "enName": "Vat Lai",
+    "fullName": "Xã Vật Lại",
+    "enFullName": "Vat Lai Commune",
+    "codeName": "vat_lai",
+    "district_id": "271"
+  },
+  {
+    "id": "09667",
+    "name": "Chu Minh",
+    "enName": "Chu Minh",
+    "fullName": "Xã Chu Minh",
+    "enFullName": "Chu Minh Commune",
+    "codeName": "chu_minh",
+    "district_id": "271"
+  },
+  {
+    "id": "09670",
+    "name": "Tòng Bạt",
+    "enName": "Tong Bat",
+    "fullName": "Xã Tòng Bạt",
+    "enFullName": "Tong Bat Commune",
+    "codeName": "tong_bat",
+    "district_id": "271"
+  },
+  {
+    "id": "09673",
+    "name": "Cẩm Lĩnh",
+    "enName": "Cam Linh",
+    "fullName": "Xã Cẩm Lĩnh",
+    "enFullName": "Cam Linh Commune",
+    "codeName": "cam_linh",
+    "district_id": "271"
+  },
+  {
+    "id": "09676",
+    "name": "Sơn Đà",
+    "enName": "Son Da",
+    "fullName": "Xã Sơn Đà",
+    "enFullName": "Son Da Commune",
+    "codeName": "son_da",
+    "district_id": "271"
+  },
+  {
+    "id": "09679",
+    "name": "Đông Quang",
+    "enName": "Dong Quang",
+    "fullName": "Xã Đông Quang",
+    "enFullName": "Dong Quang Commune",
+    "codeName": "dong_quang",
+    "district_id": "271"
+  },
+  {
+    "id": "09682",
+    "name": "Tiên Phong",
+    "enName": "Tien Phong",
+    "fullName": "Xã Tiên Phong",
+    "enFullName": "Tien Phong Commune",
+    "codeName": "tien_phong",
+    "district_id": "271"
+  },
+  {
+    "id": "09685",
+    "name": "Thụy An",
+    "enName": "Thuy An",
+    "fullName": "Xã Thụy An",
+    "enFullName": "Thuy An Commune",
+    "codeName": "thuy_an",
+    "district_id": "271"
+  },
+  {
+    "id": "09688",
+    "name": "Cam Thượng",
+    "enName": "Cam Thuong",
+    "fullName": "Xã Cam Thượng",
+    "enFullName": "Cam Thuong Commune",
+    "codeName": "cam_thuong",
+    "district_id": "271"
+  },
+  {
+    "id": "09691",
+    "name": "Thuần Mỹ",
+    "enName": "Thuan My",
+    "fullName": "Xã Thuần Mỹ",
+    "enFullName": "Thuan My Commune",
+    "codeName": "thuan_my",
+    "district_id": "271"
+  },
+  {
+    "id": "09694",
+    "name": "Tản Lĩnh",
+    "enName": "Tan Linh",
+    "fullName": "Xã Tản Lĩnh",
+    "enFullName": "Tan Linh Commune",
+    "codeName": "tan_linh",
+    "district_id": "271"
+  },
+  {
+    "id": "09697",
+    "name": "Ba Trại",
+    "enName": "Ba Trai",
+    "fullName": "Xã Ba Trại",
+    "enFullName": "Ba Trai Commune",
+    "codeName": "ba_trai",
+    "district_id": "271"
+  },
+  {
+    "id": "09700",
+    "name": "Minh Quang",
+    "enName": "Minh Quang",
+    "fullName": "Xã Minh Quang",
+    "enFullName": "Minh Quang Commune",
+    "codeName": "minh_quang",
+    "district_id": "271"
+  },
+  {
+    "id": "09703",
+    "name": "Ba Vì",
+    "enName": "Ba Vi",
+    "fullName": "Xã Ba Vì",
+    "enFullName": "Ba Vi Commune",
+    "codeName": "ba_vi",
+    "district_id": "271"
+  },
+  {
+    "id": "09706",
+    "name": "Vân Hòa",
+    "enName": "Van Hoa",
+    "fullName": "Xã Vân Hòa",
+    "enFullName": "Van Hoa Commune",
+    "codeName": "van_hoa",
+    "district_id": "271"
+  },
+  {
+    "id": "09709",
+    "name": "Yên Bài",
+    "enName": "Yen Bai",
+    "fullName": "Xã Yên Bài",
+    "enFullName": "Yen Bai Commune",
+    "codeName": "yen_bai",
+    "district_id": "271"
+  },
+  {
+    "id": "09712",
+    "name": "Khánh Thượng",
+    "enName": "Khanh Thuong",
+    "fullName": "Xã Khánh Thượng",
+    "enFullName": "Khanh Thuong Commune",
+    "codeName": "khanh_thuong",
+    "district_id": "271"
+  },
+  {
+    "id": "09715",
+    "name": "Phúc Thọ",
+    "enName": "Phuc Tho",
+    "fullName": "Thị trấn Phúc Thọ",
+    "enFullName": "Phuc Tho Township",
+    "codeName": "phuc_tho",
+    "district_id": "272"
+  },
+  {
+    "id": "09718",
+    "name": "Vân Hà",
+    "enName": "Van Ha",
+    "fullName": "Xã Vân Hà",
+    "enFullName": "Van Ha Commune",
+    "codeName": "van_ha",
+    "district_id": "272"
+  },
+  {
+    "id": "09721",
+    "name": "Vân Phúc",
+    "enName": "Van Phuc",
+    "fullName": "Xã Vân Phúc",
+    "enFullName": "Van Phuc Commune",
+    "codeName": "van_phuc",
+    "district_id": "272"
+  },
+  {
+    "id": "09724",
+    "name": "Vân Nam",
+    "enName": "Van Nam",
+    "fullName": "Xã Vân Nam",
+    "enFullName": "Van Nam Commune",
+    "codeName": "van_nam",
+    "district_id": "272"
+  },
+  {
+    "id": "09727",
+    "name": "Xuân Đình",
+    "enName": "Xuan Dinh",
+    "fullName": "Xã Xuân Đình",
+    "enFullName": "Xuan Dinh Commune",
+    "codeName": "xuan_dinh",
+    "district_id": "272"
+  },
+  {
+    "id": "09733",
+    "name": "Sen Phương",
+    "enName": "Sen Phuong",
+    "fullName": "Xã Sen Phương",
+    "enFullName": "Sen Phuong Commune",
+    "codeName": "sen_phuong",
+    "district_id": "272"
+  },
+  {
+    "id": "09739",
+    "name": "Võng Xuyên",
+    "enName": "Vong Xuyen",
+    "fullName": "Xã Võng Xuyên",
+    "enFullName": "Vong Xuyen Commune",
+    "codeName": "vong_xuyen",
+    "district_id": "272"
+  },
+  {
+    "id": "09742",
+    "name": "Thọ Lộc",
+    "enName": "Tho Loc",
+    "fullName": "Xã Thọ Lộc",
+    "enFullName": "Tho Loc Commune",
+    "codeName": "tho_loc",
+    "district_id": "272"
+  },
+  {
+    "id": "09745",
+    "name": "Long Xuyên",
+    "enName": "Long Xuyen",
+    "fullName": "Xã Long Xuyên",
+    "enFullName": "Long Xuyen Commune",
+    "codeName": "long_xuyen",
+    "district_id": "272"
+  },
+  {
+    "id": "09748",
+    "name": "Thượng Cốc",
+    "enName": "Thuong Coc",
+    "fullName": "Xã Thượng Cốc",
+    "enFullName": "Thuong Coc Commune",
+    "codeName": "thuong_coc",
+    "district_id": "272"
+  },
+  {
+    "id": "09751",
+    "name": "Hát Môn",
+    "enName": "Hat Mon",
+    "fullName": "Xã Hát Môn",
+    "enFullName": "Hat Mon Commune",
+    "codeName": "hat_mon",
+    "district_id": "272"
+  },
+  {
+    "id": "09754",
+    "name": "Tích Giang",
+    "enName": "Tich Giang",
+    "fullName": "Xã Tích Giang",
+    "enFullName": "Tich Giang Commune",
+    "codeName": "tich_giang",
+    "district_id": "272"
+  },
+  {
+    "id": "09757",
+    "name": "Thanh Đa",
+    "enName": "Thanh Da",
+    "fullName": "Xã Thanh Đa",
+    "enFullName": "Thanh Da Commune",
+    "codeName": "thanh_da",
+    "district_id": "272"
+  },
+  {
+    "id": "09760",
+    "name": "Trạch Mỹ Lộc",
+    "enName": "Trach My Loc",
+    "fullName": "Xã Trạch Mỹ Lộc",
+    "enFullName": "Trach My Loc Commune",
+    "codeName": "trach_my_loc",
+    "district_id": "272"
+  },
+  {
+    "id": "09763",
+    "name": "Phúc Hòa",
+    "enName": "Phuc Hoa",
+    "fullName": "Xã Phúc Hòa",
+    "enFullName": "Phuc Hoa Commune",
+    "codeName": "phuc_hoa",
+    "district_id": "272"
+  },
+  {
+    "id": "09766",
+    "name": "Ngọc Tảo",
+    "enName": "Ngoc Tao",
+    "fullName": "Xã Ngọc Tảo",
+    "enFullName": "Ngoc Tao Commune",
+    "codeName": "ngoc_tao",
+    "district_id": "272"
+  },
+  {
+    "id": "09769",
+    "name": "Phụng Thượng",
+    "enName": "Phung Thuong",
+    "fullName": "Xã Phụng Thượng",
+    "enFullName": "Phung Thuong Commune",
+    "codeName": "phung_thuong",
+    "district_id": "272"
+  },
+  {
+    "id": "09772",
+    "name": "Tam Thuấn",
+    "enName": "Tam Thuan",
+    "fullName": "Xã Tam Thuấn",
+    "enFullName": "Tam Thuan Commune",
+    "codeName": "tam_thuan",
+    "district_id": "272"
+  },
+  {
+    "id": "09775",
+    "name": "Tam Hiệp",
+    "enName": "Tam Hiep",
+    "fullName": "Xã Tam Hiệp",
+    "enFullName": "Tam Hiep Commune",
+    "codeName": "tam_hiep",
+    "district_id": "272"
+  },
+  {
+    "id": "09778",
+    "name": "Hiệp Thuận",
+    "enName": "Hiep Thuan",
+    "fullName": "Xã Hiệp Thuận",
+    "enFullName": "Hiep Thuan Commune",
+    "codeName": "hiep_thuan",
+    "district_id": "272"
+  },
+  {
+    "id": "09781",
+    "name": "Liên Hiệp",
+    "enName": "Lien Hiep",
+    "fullName": "Xã Liên Hiệp",
+    "enFullName": "Lien Hiep Commune",
+    "codeName": "lien_hiep",
+    "district_id": "272"
+  },
+  {
+    "id": "09784",
+    "name": "Phùng",
+    "enName": "Phung",
+    "fullName": "Thị trấn Phùng",
+    "enFullName": "Phung Township",
+    "codeName": "phung",
+    "district_id": "273"
+  },
+  {
+    "id": "09787",
+    "name": "Trung Châu",
+    "enName": "Trung Chau",
+    "fullName": "Xã Trung Châu",
+    "enFullName": "Trung Chau Commune",
+    "codeName": "trung_chau",
+    "district_id": "273"
+  },
+  {
+    "id": "09790",
+    "name": "Thọ An",
+    "enName": "Tho An",
+    "fullName": "Xã Thọ An",
+    "enFullName": "Tho An Commune",
+    "codeName": "tho_an",
+    "district_id": "273"
+  },
+  {
+    "id": "09793",
+    "name": "Thọ Xuân",
+    "enName": "Tho Xuan",
+    "fullName": "Xã Thọ Xuân",
+    "enFullName": "Tho Xuan Commune",
+    "codeName": "tho_xuan",
+    "district_id": "273"
+  },
+  {
+    "id": "09796",
+    "name": "Hồng Hà",
+    "enName": "Hong Ha",
+    "fullName": "Xã Hồng Hà",
+    "enFullName": "Hong Ha Commune",
+    "codeName": "hong_ha",
+    "district_id": "273"
+  },
+  {
+    "id": "09799",
+    "name": "Liên Hồng",
+    "enName": "Lien Hong",
+    "fullName": "Xã Liên Hồng",
+    "enFullName": "Lien Hong Commune",
+    "codeName": "lien_hong",
+    "district_id": "273"
+  },
+  {
+    "id": "09802",
+    "name": "Liên Hà",
+    "enName": "Lien Ha",
+    "fullName": "Xã Liên Hà",
+    "enFullName": "Lien Ha Commune",
+    "codeName": "lien_ha",
+    "district_id": "273"
+  },
+  {
+    "id": "09805",
+    "name": "Hạ Mỗ",
+    "enName": "Ha Mo",
+    "fullName": "Xã Hạ Mỗ",
+    "enFullName": "Ha Mo Commune",
+    "codeName": "ha_mo",
+    "district_id": "273"
+  },
+  {
+    "id": "09808",
+    "name": "Liên Trung",
+    "enName": "Lien Trung",
+    "fullName": "Xã Liên Trung",
+    "enFullName": "Lien Trung Commune",
+    "codeName": "lien_trung",
+    "district_id": "273"
+  },
+  {
+    "id": "09811",
+    "name": "Phương Đình",
+    "enName": "Phuong Dinh",
+    "fullName": "Xã Phương Đình",
+    "enFullName": "Phuong Dinh Commune",
+    "codeName": "phuong_dinh",
+    "district_id": "273"
+  },
+  {
+    "id": "09814",
+    "name": "Thượng Mỗ",
+    "enName": "Thuong Mo",
+    "fullName": "Xã Thượng Mỗ",
+    "enFullName": "Thuong Mo Commune",
+    "codeName": "thuong_mo",
+    "district_id": "273"
+  },
+  {
+    "id": "09817",
+    "name": "Tân Hội",
+    "enName": "Tan Hoi",
+    "fullName": "Xã Tân Hội",
+    "enFullName": "Tan Hoi Commune",
+    "codeName": "tan_hoi",
+    "district_id": "273"
+  },
+  {
+    "id": "09820",
+    "name": "Tân Lập",
+    "enName": "Tan Lap",
+    "fullName": "Xã Tân Lập",
+    "enFullName": "Tan Lap Commune",
+    "codeName": "tan_lap",
+    "district_id": "273"
+  },
+  {
+    "id": "09823",
+    "name": "Đan Phượng",
+    "enName": "Dan Phuong",
+    "fullName": "Xã Đan Phượng",
+    "enFullName": "Dan Phuong Commune",
+    "codeName": "dan_phuong",
+    "district_id": "273"
+  },
+  {
+    "id": "09826",
+    "name": "Đồng Tháp",
+    "enName": "Dong Thap",
+    "fullName": "Xã Đồng Tháp",
+    "enFullName": "Dong Thap Commune",
+    "codeName": "dong_thap",
+    "district_id": "273"
+  },
+  {
+    "id": "09829",
+    "name": "Song Phượng",
+    "enName": "Song Phuong",
+    "fullName": "Xã Song Phượng",
+    "enFullName": "Song Phuong Commune",
+    "codeName": "song_phuong",
+    "district_id": "273"
+  },
+  {
+    "id": "09832",
+    "name": "Trạm Trôi",
+    "enName": "Tram Troi",
+    "fullName": "Thị trấn Trạm Trôi",
+    "enFullName": "Tram Troi Township",
+    "codeName": "tram_troi",
+    "district_id": "274"
+  },
+  {
+    "id": "09835",
+    "name": "Đức Thượng",
+    "enName": "Duc Thuong",
+    "fullName": "Xã Đức Thượng",
+    "enFullName": "Duc Thuong Commune",
+    "codeName": "duc_thuong",
+    "district_id": "274"
+  },
+  {
+    "id": "09838",
+    "name": "Minh Khai",
+    "enName": "Minh Khai",
+    "fullName": "Xã Minh Khai",
+    "enFullName": "Minh Khai Commune",
+    "codeName": "minh_khai",
+    "district_id": "274"
+  },
+  {
+    "id": "09841",
+    "name": "Dương Liễu",
+    "enName": "Duong Lieu",
+    "fullName": "Xã Dương Liễu",
+    "enFullName": "Duong Lieu Commune",
+    "codeName": "duong_lieu",
+    "district_id": "274"
+  },
+  {
+    "id": "09844",
+    "name": "Di Trạch",
+    "enName": "Di Trach",
+    "fullName": "Xã Di Trạch",
+    "enFullName": "Di Trach Commune",
+    "codeName": "di_trach",
+    "district_id": "274"
+  },
+  {
+    "id": "09847",
+    "name": "Đức Giang",
+    "enName": "Duc Giang",
+    "fullName": "Xã Đức Giang",
+    "enFullName": "Duc Giang Commune",
+    "codeName": "duc_giang",
+    "district_id": "274"
+  },
+  {
+    "id": "09850",
+    "name": "Cát Quế",
+    "enName": "Cat Que",
+    "fullName": "Xã Cát Quế",
+    "enFullName": "Cat Que Commune",
+    "codeName": "cat_que",
+    "district_id": "274"
+  },
+  {
+    "id": "09853",
+    "name": "Kim Chung",
+    "enName": "Kim Chung",
+    "fullName": "Xã Kim Chung",
+    "enFullName": "Kim Chung Commune",
+    "codeName": "kim_chung",
+    "district_id": "274"
+  },
+  {
+    "id": "09856",
+    "name": "Yên Sở",
+    "enName": "Yen So",
+    "fullName": "Xã Yên Sở",
+    "enFullName": "Yen So Commune",
+    "codeName": "yen_so",
+    "district_id": "274"
+  },
+  {
+    "id": "09859",
+    "name": "Sơn Đồng",
+    "enName": "Son Dong",
+    "fullName": "Xã Sơn Đồng",
+    "enFullName": "Son Dong Commune",
+    "codeName": "son_dong",
+    "district_id": "274"
+  },
+  {
+    "id": "09862",
+    "name": "Vân Canh",
+    "enName": "Van Canh",
+    "fullName": "Xã Vân Canh",
+    "enFullName": "Van Canh Commune",
+    "codeName": "van_canh",
+    "district_id": "274"
+  },
+  {
+    "id": "09865",
+    "name": "Đắc Sở",
+    "enName": "Dac So",
+    "fullName": "Xã Đắc Sở",
+    "enFullName": "Dac So Commune",
+    "codeName": "dac_so",
+    "district_id": "274"
+  },
+  {
+    "id": "09868",
+    "name": "Lại Yên",
+    "enName": "Lai Yen",
+    "fullName": "Xã Lại Yên",
+    "enFullName": "Lai Yen Commune",
+    "codeName": "lai_yen",
+    "district_id": "274"
+  },
+  {
+    "id": "09871",
+    "name": "Tiền Yên",
+    "enName": "Tien Yen",
+    "fullName": "Xã Tiền Yên",
+    "enFullName": "Tien Yen Commune",
+    "codeName": "tien_yen",
+    "district_id": "274"
+  },
+  {
+    "id": "09874",
+    "name": "Song Phương",
+    "enName": "Song Phuong",
+    "fullName": "Xã Song Phương",
+    "enFullName": "Song Phuong Commune",
+    "codeName": "song_phuong",
+    "district_id": "274"
+  },
+  {
+    "id": "09877",
+    "name": "An Khánh",
+    "enName": "An Khanh",
+    "fullName": "Xã An Khánh",
+    "enFullName": "An Khanh Commune",
+    "codeName": "an_khanh",
+    "district_id": "274"
+  },
+  {
+    "id": "09880",
+    "name": "An Thượng",
+    "enName": "An Thuong",
+    "fullName": "Xã An Thượng",
+    "enFullName": "An Thuong Commune",
+    "codeName": "an_thuong",
+    "district_id": "274"
+  },
+  {
+    "id": "09883",
+    "name": "Vân Côn",
+    "enName": "Van Con",
+    "fullName": "Xã Vân Côn",
+    "enFullName": "Van Con Commune",
+    "codeName": "van_con",
+    "district_id": "274"
+  },
+  {
+    "id": "09889",
+    "name": "La Phù",
+    "enName": "La Phu",
+    "fullName": "Xã La Phù",
+    "enFullName": "La Phu Commune",
+    "codeName": "la_phu",
+    "district_id": "274"
+  },
+  {
+    "id": "09892",
+    "name": "Đông La",
+    "enName": "Dong La",
+    "fullName": "Xã Đông La",
+    "enFullName": "Dong La Commune",
+    "codeName": "dong_la",
+    "district_id": "274"
+  },
+  {
+    "id": "04939",
+    "name": "Đông Xuân",
+    "enName": "Dong Xuan",
+    "fullName": "Xã Đông Xuân",
+    "enFullName": "Dong Xuan Commune",
+    "codeName": "dong_xuan",
+    "district_id": "275"
+  },
+  {
+    "id": "09895",
+    "name": "Quốc Oai",
+    "enName": "Quoc Oai",
+    "fullName": "Thị trấn Quốc Oai",
+    "enFullName": "Quoc Oai Township",
+    "codeName": "quoc_oai",
+    "district_id": "275"
+  },
+  {
+    "id": "09898",
+    "name": "Sài Sơn",
+    "enName": "Sai Son",
+    "fullName": "Xã Sài Sơn",
+    "enFullName": "Sai Son Commune",
+    "codeName": "sai_son",
+    "district_id": "275"
+  },
+  {
+    "id": "09901",
+    "name": "Phượng Cách",
+    "enName": "Phuong Cach",
+    "fullName": "Xã Phượng Cách",
+    "enFullName": "Phuong Cach Commune",
+    "codeName": "phuong_cach",
+    "district_id": "275"
+  },
+  {
+    "id": "09904",
+    "name": "Yên Sơn",
+    "enName": "Yen Son",
+    "fullName": "Xã Yên Sơn",
+    "enFullName": "Yen Son Commune",
+    "codeName": "yen_son",
+    "district_id": "275"
+  },
+  {
+    "id": "09907",
+    "name": "Ngọc Liệp",
+    "enName": "Ngoc Liep",
+    "fullName": "Xã Ngọc Liệp",
+    "enFullName": "Ngoc Liep Commune",
+    "codeName": "ngoc_liep",
+    "district_id": "275"
+  },
+  {
+    "id": "09910",
+    "name": "Ngọc Mỹ",
+    "enName": "Ngoc My",
+    "fullName": "Xã Ngọc Mỹ",
+    "enFullName": "Ngoc My Commune",
+    "codeName": "ngoc_my",
+    "district_id": "275"
+  },
+  {
+    "id": "09913",
+    "name": "Liệp Tuyết",
+    "enName": "Liep Tuyet",
+    "fullName": "Xã Liệp Tuyết",
+    "enFullName": "Liep Tuyet Commune",
+    "codeName": "liep_tuyet",
+    "district_id": "275"
+  },
+  {
+    "id": "09916",
+    "name": "Thạch Thán",
+    "enName": "Thach Than",
+    "fullName": "Xã Thạch Thán",
+    "enFullName": "Thach Than Commune",
+    "codeName": "thach_than",
+    "district_id": "275"
+  },
+  {
+    "id": "09919",
+    "name": "Đồng Quang",
+    "enName": "Dong Quang",
+    "fullName": "Xã Đồng Quang",
+    "enFullName": "Dong Quang Commune",
+    "codeName": "dong_quang",
+    "district_id": "275"
+  },
+  {
+    "id": "09922",
+    "name": "Phú Cát",
+    "enName": "Phu Cat",
+    "fullName": "Xã Phú Cát",
+    "enFullName": "Phu Cat Commune",
+    "codeName": "phu_cat",
+    "district_id": "275"
+  },
+  {
+    "id": "09925",
+    "name": "Tuyết Nghĩa",
+    "enName": "Tuyet Nghia",
+    "fullName": "Xã Tuyết Nghĩa",
+    "enFullName": "Tuyet Nghia Commune",
+    "codeName": "tuyet_nghia",
+    "district_id": "275"
+  },
+  {
+    "id": "09928",
+    "name": "Nghĩa Hương",
+    "enName": "Nghia Huong",
+    "fullName": "Xã Nghĩa Hương",
+    "enFullName": "Nghia Huong Commune",
+    "codeName": "nghia_huong",
+    "district_id": "275"
+  },
+  {
+    "id": "09931",
+    "name": "Cộng Hòa",
+    "enName": "Cong Hoa",
+    "fullName": "Xã Cộng Hòa",
+    "enFullName": "Cong Hoa Commune",
+    "codeName": "cong_hoa",
+    "district_id": "275"
+  },
+  {
+    "id": "09934",
+    "name": "Tân Phú",
+    "enName": "Tan Phu",
+    "fullName": "Xã Tân Phú",
+    "enFullName": "Tan Phu Commune",
+    "codeName": "tan_phu",
+    "district_id": "275"
+  },
+  {
+    "id": "09937",
+    "name": "Đại Thành",
+    "enName": "Dai Thanh",
+    "fullName": "Xã Đại Thành",
+    "enFullName": "Dai Thanh Commune",
+    "codeName": "dai_thanh",
+    "district_id": "275"
+  },
+  {
+    "id": "09940",
+    "name": "Phú Mãn",
+    "enName": "Phu Man",
+    "fullName": "Xã Phú Mãn",
+    "enFullName": "Phu Man Commune",
+    "codeName": "phu_man",
+    "district_id": "275"
+  },
+  {
+    "id": "09943",
+    "name": "Cấn Hữu",
+    "enName": "Can Huu",
+    "fullName": "Xã Cấn Hữu",
+    "enFullName": "Can Huu Commune",
+    "codeName": "can_huu",
+    "district_id": "275"
+  },
+  {
+    "id": "09946",
+    "name": "Tân Hòa",
+    "enName": "Tan Hoa",
+    "fullName": "Xã Tân Hòa",
+    "enFullName": "Tan Hoa Commune",
+    "codeName": "tan_hoa",
+    "district_id": "275"
+  },
+  {
+    "id": "09949",
+    "name": "Hòa Thạch",
+    "enName": "Hoa Thach",
+    "fullName": "Xã Hòa Thạch",
+    "enFullName": "Hoa Thach Commune",
+    "codeName": "hoa_thach",
+    "district_id": "275"
+  },
+  {
+    "id": "09952",
+    "name": "Đông Yên",
+    "enName": "Dong Yen",
+    "fullName": "Xã Đông Yên",
+    "enFullName": "Dong Yen Commune",
+    "codeName": "dong_yen",
+    "district_id": "275"
+  },
+  {
+    "id": "04927",
+    "name": "Yên Trung",
+    "enName": "Yen Trung",
+    "fullName": "Xã Yên Trung",
+    "enFullName": "Yen Trung Commune",
+    "codeName": "yen_trung",
+    "district_id": "276"
+  },
+  {
+    "id": "04930",
+    "name": "Yên Bình",
+    "enName": "Yen Binh",
+    "fullName": "Xã Yên Bình",
+    "enFullName": "Yen Binh Commune",
+    "codeName": "yen_binh",
+    "district_id": "276"
+  },
+  {
+    "id": "04936",
+    "name": "Tiến Xuân",
+    "enName": "Tien Xuan",
+    "fullName": "Xã Tiến Xuân",
+    "enFullName": "Tien Xuan Commune",
+    "codeName": "tien_xuan",
+    "district_id": "276"
+  },
+  {
+    "id": "09955",
+    "name": "Liên Quan",
+    "enName": "Lien Quan",
+    "fullName": "Thị trấn Liên Quan",
+    "enFullName": "Lien Quan Township",
+    "codeName": "lien_quan",
+    "district_id": "276"
+  },
+  {
+    "id": "09958",
+    "name": "Đại Đồng",
+    "enName": "Dai Dong",
+    "fullName": "Xã Đại Đồng",
+    "enFullName": "Dai Dong Commune",
+    "codeName": "dai_dong",
+    "district_id": "276"
+  },
+  {
+    "id": "09961",
+    "name": "Cẩm Yên",
+    "enName": "Cam Yen",
+    "fullName": "Xã Cẩm Yên",
+    "enFullName": "Cam Yen Commune",
+    "codeName": "cam_yen",
+    "district_id": "276"
+  },
+  {
+    "id": "09964",
+    "name": "Lại Thượng",
+    "enName": "Lai Thuong",
+    "fullName": "Xã Lại Thượng",
+    "enFullName": "Lai Thuong Commune",
+    "codeName": "lai_thuong",
+    "district_id": "276"
+  },
+  {
+    "id": "09967",
+    "name": "Phú Kim",
+    "enName": "Phu Kim",
+    "fullName": "Xã Phú Kim",
+    "enFullName": "Phu Kim Commune",
+    "codeName": "phu_kim",
+    "district_id": "276"
+  },
+  {
+    "id": "09970",
+    "name": "Hương Ngải",
+    "enName": "Huong Ngai",
+    "fullName": "Xã Hương Ngải",
+    "enFullName": "Huong Ngai Commune",
+    "codeName": "huong_ngai",
+    "district_id": "276"
+  },
+  {
+    "id": "09973",
+    "name": "Canh Nậu",
+    "enName": "Canh Nau",
+    "fullName": "Xã Canh Nậu",
+    "enFullName": "Canh Nau Commune",
+    "codeName": "canh_nau",
+    "district_id": "276"
+  },
+  {
+    "id": "09976",
+    "name": "Kim Quan",
+    "enName": "Kim Quan",
+    "fullName": "Xã Kim Quan",
+    "enFullName": "Kim Quan Commune",
+    "codeName": "kim_quan",
+    "district_id": "276"
+  },
+  {
+    "id": "09979",
+    "name": "Dị Nậu",
+    "enName": "Di Nau",
+    "fullName": "Xã Dị Nậu",
+    "enFullName": "Di Nau Commune",
+    "codeName": "di_nau",
+    "district_id": "276"
+  },
+  {
+    "id": "09982",
+    "name": "Bình Yên",
+    "enName": "Binh Yen",
+    "fullName": "Xã Bình Yên",
+    "enFullName": "Binh Yen Commune",
+    "codeName": "binh_yen",
+    "district_id": "276"
+  },
+  {
+    "id": "09985",
+    "name": "Chàng Sơn",
+    "enName": "Chang Son",
+    "fullName": "Xã Chàng Sơn",
+    "enFullName": "Chang Son Commune",
+    "codeName": "chang_son",
+    "district_id": "276"
+  },
+  {
+    "id": "09988",
+    "name": "Thạch Hoà",
+    "enName": "Thach Hoa",
+    "fullName": "Xã Thạch Hoà",
+    "enFullName": "Thach Hoa Commune",
+    "codeName": "thach_hoa",
+    "district_id": "276"
+  },
+  {
+    "id": "09991",
+    "name": "Cần Kiệm",
+    "enName": "Can Kiem",
+    "fullName": "Xã Cần Kiệm",
+    "enFullName": "Can Kiem Commune",
+    "codeName": "can_kiem",
+    "district_id": "276"
+  },
+  {
+    "id": "09994",
+    "name": "Hữu Bằng",
+    "enName": "Huu Bang",
+    "fullName": "Xã Hữu Bằng",
+    "enFullName": "Huu Bang Commune",
+    "codeName": "huu_bang",
+    "district_id": "276"
+  },
+  {
+    "id": "09997",
+    "name": "Phùng Xá",
+    "enName": "Phung Xa",
+    "fullName": "Xã Phùng Xá",
+    "enFullName": "Phung Xa Commune",
+    "codeName": "phung_xa",
+    "district_id": "276"
+  },
+  {
+    "id": "10000",
+    "name": "Tân Xã",
+    "enName": "Tan Xa",
+    "fullName": "Xã Tân Xã",
+    "enFullName": "Tan Xa Commune",
+    "codeName": "tan_xa",
+    "district_id": "276"
+  },
+  {
+    "id": "10003",
+    "name": "Thạch Xá",
+    "enName": "Thach Xa",
+    "fullName": "Xã Thạch Xá",
+    "enFullName": "Thach Xa Commune",
+    "codeName": "thach_xa",
+    "district_id": "276"
+  },
+  {
+    "id": "10006",
+    "name": "Bình Phú",
+    "enName": "Binh Phu",
+    "fullName": "Xã Bình Phú",
+    "enFullName": "Binh Phu Commune",
+    "codeName": "binh_phu",
+    "district_id": "276"
+  },
+  {
+    "id": "10009",
+    "name": "Hạ Bằng",
+    "enName": "Ha Bang",
+    "fullName": "Xã Hạ Bằng",
+    "enFullName": "Ha Bang Commune",
+    "codeName": "ha_bang",
+    "district_id": "276"
+  },
+  {
+    "id": "10012",
+    "name": "Đồng Trúc",
+    "enName": "Dong Truc",
+    "fullName": "Xã Đồng Trúc",
+    "enFullName": "Dong Truc Commune",
+    "codeName": "dong_truc",
+    "district_id": "276"
+  },
+  {
+    "id": "10015",
+    "name": "Chúc Sơn",
+    "enName": "Chuc Son",
+    "fullName": "Thị trấn Chúc Sơn",
+    "enFullName": "Chuc Son Township",
+    "codeName": "chuc_son",
+    "district_id": "277"
+  },
+  {
+    "id": "10018",
+    "name": "Xuân Mai",
+    "enName": "Xuan Mai",
+    "fullName": "Thị trấn Xuân Mai",
+    "enFullName": "Xuan Mai Township",
+    "codeName": "xuan_mai",
+    "district_id": "277"
+  },
+  {
+    "id": "10021",
+    "name": "Phụng Châu",
+    "enName": "Phung Chau",
+    "fullName": "Xã Phụng Châu",
+    "enFullName": "Phung Chau Commune",
+    "codeName": "phung_chau",
+    "district_id": "277"
+  },
+  {
+    "id": "10024",
+    "name": "Tiên Phương",
+    "enName": "Tien Phuong",
+    "fullName": "Xã Tiên Phương",
+    "enFullName": "Tien Phuong Commune",
+    "codeName": "tien_phuong",
+    "district_id": "277"
+  },
+  {
+    "id": "10027",
+    "name": "Đông Sơn",
+    "enName": "Dong Son",
+    "fullName": "Xã Đông Sơn",
+    "enFullName": "Dong Son Commune",
+    "codeName": "dong_son",
+    "district_id": "277"
+  },
+  {
+    "id": "10030",
+    "name": "Đông Phương Yên",
+    "enName": "Dong Phuong Yen",
+    "fullName": "Xã Đông Phương Yên",
+    "enFullName": "Dong Phuong Yen Commune",
+    "codeName": "dong_phuong_yen",
+    "district_id": "277"
+  },
+  {
+    "id": "10033",
+    "name": "Phú Nghĩa",
+    "enName": "Phu Nghia",
+    "fullName": "Xã Phú Nghĩa",
+    "enFullName": "Phu Nghia Commune",
+    "codeName": "phu_nghia",
+    "district_id": "277"
+  },
+  {
+    "id": "10039",
+    "name": "Trường Yên",
+    "enName": "Truong Yen",
+    "fullName": "Xã Trường Yên",
+    "enFullName": "Truong Yen Commune",
+    "codeName": "truong_yen",
+    "district_id": "277"
+  },
+  {
+    "id": "10042",
+    "name": "Ngọc Hòa",
+    "enName": "Ngoc Hoa",
+    "fullName": "Xã Ngọc Hòa",
+    "enFullName": "Ngoc Hoa Commune",
+    "codeName": "ngoc_hoa",
+    "district_id": "277"
+  },
+  {
+    "id": "10045",
+    "name": "Thủy Xuân Tiên",
+    "enName": "Thuy Xuan Tien",
+    "fullName": "Xã Thủy Xuân Tiên",
+    "enFullName": "Thuy Xuan Tien Commune",
+    "codeName": "thuy_xuan_tien",
+    "district_id": "277"
+  },
+  {
+    "id": "10048",
+    "name": "Thanh Bình",
+    "enName": "Thanh Binh",
+    "fullName": "Xã Thanh Bình",
+    "enFullName": "Thanh Binh Commune",
+    "codeName": "thanh_binh",
+    "district_id": "277"
+  },
+  {
+    "id": "10051",
+    "name": "Trung Hòa",
+    "enName": "Trung Hoa",
+    "fullName": "Xã Trung Hòa",
+    "enFullName": "Trung Hoa Commune",
+    "codeName": "trung_hoa",
+    "district_id": "277"
+  },
+  {
+    "id": "10054",
+    "name": "Đại Yên",
+    "enName": "Dai Yen",
+    "fullName": "Xã Đại Yên",
+    "enFullName": "Dai Yen Commune",
+    "codeName": "dai_yen",
+    "district_id": "277"
+  },
+  {
+    "id": "10057",
+    "name": "Thụy Hương",
+    "enName": "Thuy Huong",
+    "fullName": "Xã Thụy Hương",
+    "enFullName": "Thuy Huong Commune",
+    "codeName": "thuy_huong",
+    "district_id": "277"
+  },
+  {
+    "id": "10060",
+    "name": "Tốt Động",
+    "enName": "Tot Dong",
+    "fullName": "Xã Tốt Động",
+    "enFullName": "Tot Dong Commune",
+    "codeName": "tot_dong",
+    "district_id": "277"
+  },
+  {
+    "id": "10063",
+    "name": "Lam Điền",
+    "enName": "Lam Dien",
+    "fullName": "Xã Lam Điền",
+    "enFullName": "Lam Dien Commune",
+    "codeName": "lam_dien",
+    "district_id": "277"
+  },
+  {
+    "id": "10066",
+    "name": "Tân Tiến",
+    "enName": "Tan Tien",
+    "fullName": "Xã Tân Tiến",
+    "enFullName": "Tan Tien Commune",
+    "codeName": "tan_tien",
+    "district_id": "277"
+  },
+  {
+    "id": "10069",
+    "name": "Nam Phương Tiến",
+    "enName": "Nam Phuong Tien",
+    "fullName": "Xã Nam Phương Tiến",
+    "enFullName": "Nam Phuong Tien Commune",
+    "codeName": "nam_phuong_tien",
+    "district_id": "277"
+  },
+  {
+    "id": "10072",
+    "name": "Hợp Đồng",
+    "enName": "Hop Dong",
+    "fullName": "Xã Hợp Đồng",
+    "enFullName": "Hop Dong Commune",
+    "codeName": "hop_dong",
+    "district_id": "277"
+  },
+  {
+    "id": "10075",
+    "name": "Hoàng Văn Thụ",
+    "enName": "Hoang Van Thu",
+    "fullName": "Xã Hoàng Văn Thụ",
+    "enFullName": "Hoang Van Thu Commune",
+    "codeName": "hoang_van_thu",
+    "district_id": "277"
+  },
+  {
+    "id": "10078",
+    "name": "Hoàng Diệu",
+    "enName": "Hoang Dieu",
+    "fullName": "Xã Hoàng Diệu",
+    "enFullName": "Hoang Dieu Commune",
+    "codeName": "hoang_dieu",
+    "district_id": "277"
+  },
+  {
+    "id": "10081",
+    "name": "Hữu Văn",
+    "enName": "Huu Van",
+    "fullName": "Xã Hữu Văn",
+    "enFullName": "Huu Van Commune",
+    "codeName": "huu_van",
+    "district_id": "277"
+  },
+  {
+    "id": "10084",
+    "name": "Quảng Bị",
+    "enName": "Quang Bi",
+    "fullName": "Xã Quảng Bị",
+    "enFullName": "Quang Bi Commune",
+    "codeName": "quang_bi",
+    "district_id": "277"
+  },
+  {
+    "id": "10087",
+    "name": "Mỹ Lương",
+    "enName": "My Luong",
+    "fullName": "Xã Mỹ Lương",
+    "enFullName": "My Luong Commune",
+    "codeName": "my_luong",
+    "district_id": "277"
+  },
+  {
+    "id": "10090",
+    "name": "Thượng Vực",
+    "enName": "Thuong Vuc",
+    "fullName": "Xã Thượng Vực",
+    "enFullName": "Thuong Vuc Commune",
+    "codeName": "thuong_vuc",
+    "district_id": "277"
+  },
+  {
+    "id": "10093",
+    "name": "Hồng Phong",
+    "enName": "Hong Phong",
+    "fullName": "Xã Hồng Phong",
+    "enFullName": "Hong Phong Commune",
+    "codeName": "hong_phong",
+    "district_id": "277"
+  },
+  {
+    "id": "10096",
+    "name": "Đồng Phú",
+    "enName": "Dong Phu",
+    "fullName": "Xã Đồng Phú",
+    "enFullName": "Dong Phu Commune",
+    "codeName": "dong_phu",
+    "district_id": "277"
+  },
+  {
+    "id": "10099",
+    "name": "Trần Phú",
+    "enName": "Tran Phu",
+    "fullName": "Xã Trần Phú",
+    "enFullName": "Tran Phu Commune",
+    "codeName": "tran_phu",
+    "district_id": "277"
+  },
+  {
+    "id": "10102",
+    "name": "Văn Võ",
+    "enName": "Van Vo",
+    "fullName": "Xã Văn Võ",
+    "enFullName": "Van Vo Commune",
+    "codeName": "van_vo",
+    "district_id": "277"
+  },
+  {
+    "id": "10105",
+    "name": "Đồng Lạc",
+    "enName": "Dong Lac",
+    "fullName": "Xã Đồng Lạc",
+    "enFullName": "Dong Lac Commune",
+    "codeName": "dong_lac",
+    "district_id": "277"
+  },
+  {
+    "id": "10108",
+    "name": "Hòa Chính",
+    "enName": "Hoa Chinh",
+    "fullName": "Xã Hòa Chính",
+    "enFullName": "Hoa Chinh Commune",
+    "codeName": "hoa_chinh",
+    "district_id": "277"
+  },
+  {
+    "id": "10111",
+    "name": "Phú Nam An",
+    "enName": "Phu Nam An",
+    "fullName": "Xã Phú Nam An",
+    "enFullName": "Phu Nam An Commune",
+    "codeName": "phu_nam_an",
+    "district_id": "277"
+  },
+  {
+    "id": "10114",
+    "name": "Kim Bài",
+    "enName": "Kim Bai",
+    "fullName": "Thị trấn Kim Bài",
+    "enFullName": "Kim Bai Township",
+    "codeName": "kim_bai",
+    "district_id": "278"
+  },
+  {
+    "id": "10120",
+    "name": "Cự Khê",
+    "enName": "Cu Khe",
+    "fullName": "Xã Cự Khê",
+    "enFullName": "Cu Khe Commune",
+    "codeName": "cu_khe",
+    "district_id": "278"
+  },
+  {
+    "id": "10126",
+    "name": "Bích Hòa",
+    "enName": "Bich Hoa",
+    "fullName": "Xã Bích Hòa",
+    "enFullName": "Bich Hoa Commune",
+    "codeName": "bich_hoa",
+    "district_id": "278"
+  },
+  {
+    "id": "10129",
+    "name": "Mỹ Hưng",
+    "enName": "My Hung",
+    "fullName": "Xã Mỹ Hưng",
+    "enFullName": "My Hung Commune",
+    "codeName": "my_hung",
+    "district_id": "278"
+  },
+  {
+    "id": "10132",
+    "name": "Cao Viên",
+    "enName": "Cao Vien",
+    "fullName": "Xã Cao Viên",
+    "enFullName": "Cao Vien Commune",
+    "codeName": "cao_vien",
+    "district_id": "278"
+  },
+  {
+    "id": "10135",
+    "name": "Bình Minh",
+    "enName": "Binh Minh",
+    "fullName": "Xã Bình Minh",
+    "enFullName": "Binh Minh Commune",
+    "codeName": "binh_minh",
+    "district_id": "278"
+  },
+  {
+    "id": "10138",
+    "name": "Tam Hưng",
+    "enName": "Tam Hung",
+    "fullName": "Xã Tam Hưng",
+    "enFullName": "Tam Hung Commune",
+    "codeName": "tam_hung",
+    "district_id": "278"
+  },
+  {
+    "id": "10141",
+    "name": "Thanh Cao",
+    "enName": "Thanh Cao",
+    "fullName": "Xã Thanh Cao",
+    "enFullName": "Thanh Cao Commune",
+    "codeName": "thanh_cao",
+    "district_id": "278"
+  },
+  {
+    "id": "10144",
+    "name": "Thanh Thùy",
+    "enName": "Thanh Thuy",
+    "fullName": "Xã Thanh Thùy",
+    "enFullName": "Thanh Thuy Commune",
+    "codeName": "thanh_thuy",
+    "district_id": "278"
+  },
+  {
+    "id": "10147",
+    "name": "Thanh Mai",
+    "enName": "Thanh Mai",
+    "fullName": "Xã Thanh Mai",
+    "enFullName": "Thanh Mai Commune",
+    "codeName": "thanh_mai",
+    "district_id": "278"
+  },
+  {
+    "id": "10150",
+    "name": "Thanh Văn",
+    "enName": "Thanh Van",
+    "fullName": "Xã Thanh Văn",
+    "enFullName": "Thanh Van Commune",
+    "codeName": "thanh_van",
+    "district_id": "278"
+  },
+  {
+    "id": "10153",
+    "name": "Đỗ Động",
+    "enName": "Do Dong",
+    "fullName": "Xã Đỗ Động",
+    "enFullName": "Do Dong Commune",
+    "codeName": "do_dong",
+    "district_id": "278"
+  },
+  {
+    "id": "10156",
+    "name": "Kim An",
+    "enName": "Kim An",
+    "fullName": "Xã Kim An",
+    "enFullName": "Kim An Commune",
+    "codeName": "kim_an",
+    "district_id": "278"
+  },
+  {
+    "id": "10159",
+    "name": "Kim Thư",
+    "enName": "Kim Thu",
+    "fullName": "Xã Kim Thư",
+    "enFullName": "Kim Thu Commune",
+    "codeName": "kim_thu",
+    "district_id": "278"
+  },
+  {
+    "id": "10162",
+    "name": "Phương Trung",
+    "enName": "Phuong Trung",
+    "fullName": "Xã Phương Trung",
+    "enFullName": "Phuong Trung Commune",
+    "codeName": "phuong_trung",
+    "district_id": "278"
+  },
+  {
+    "id": "10165",
+    "name": "Tân Ước",
+    "enName": "Tan Uoc",
+    "fullName": "Xã Tân Ước",
+    "enFullName": "Tan Uoc Commune",
+    "codeName": "tan_uoc",
+    "district_id": "278"
+  },
+  {
+    "id": "10168",
+    "name": "Dân Hòa",
+    "enName": "Dan Hoa",
+    "fullName": "Xã Dân Hòa",
+    "enFullName": "Dan Hoa Commune",
+    "codeName": "dan_hoa",
+    "district_id": "278"
+  },
+  {
+    "id": "10171",
+    "name": "Liên Châu",
+    "enName": "Lien Chau",
+    "fullName": "Xã Liên Châu",
+    "enFullName": "Lien Chau Commune",
+    "codeName": "lien_chau",
+    "district_id": "278"
+  },
+  {
+    "id": "10174",
+    "name": "Cao Dương",
+    "enName": "Cao Duong",
+    "fullName": "Xã Cao Dương",
+    "enFullName": "Cao Duong Commune",
+    "codeName": "cao_duong",
+    "district_id": "278"
+  },
+  {
+    "id": "10177",
+    "name": "Xuân Dương",
+    "enName": "Xuan Duong",
+    "fullName": "Xã Xuân Dương",
+    "enFullName": "Xuan Duong Commune",
+    "codeName": "xuan_duong",
+    "district_id": "278"
+  },
+  {
+    "id": "10180",
+    "name": "Hồng Dương",
+    "enName": "Hong Duong",
+    "fullName": "Xã Hồng Dương",
+    "enFullName": "Hong Duong Commune",
+    "codeName": "hong_duong",
+    "district_id": "278"
+  },
+  {
+    "id": "10183",
+    "name": "Thường Tín",
+    "enName": "Thuong Tin",
+    "fullName": "Thị trấn Thường Tín",
+    "enFullName": "Thuong Tin Township",
+    "codeName": "thuong_tin",
+    "district_id": "279"
+  },
+  {
+    "id": "10186",
+    "name": "Ninh Sở",
+    "enName": "Ninh So",
+    "fullName": "Xã Ninh Sở",
+    "enFullName": "Ninh So Commune",
+    "codeName": "ninh_so",
+    "district_id": "279"
+  },
+  {
+    "id": "10189",
+    "name": "Nhị Khê",
+    "enName": "Nhi Khe",
+    "fullName": "Xã Nhị Khê",
+    "enFullName": "Nhi Khe Commune",
+    "codeName": "nhi_khe",
+    "district_id": "279"
+  },
+  {
+    "id": "10192",
+    "name": "Duyên Thái",
+    "enName": "Duyen Thai",
+    "fullName": "Xã Duyên Thái",
+    "enFullName": "Duyen Thai Commune",
+    "codeName": "duyen_thai",
+    "district_id": "279"
+  },
+  {
+    "id": "10195",
+    "name": "Khánh Hà",
+    "enName": "Khanh Ha",
+    "fullName": "Xã Khánh Hà",
+    "enFullName": "Khanh Ha Commune",
+    "codeName": "khanh_ha",
+    "district_id": "279"
+  },
+  {
+    "id": "10198",
+    "name": "Hòa Bình",
+    "enName": "Hoa Binh",
+    "fullName": "Xã Hòa Bình",
+    "enFullName": "Hoa Binh Commune",
+    "codeName": "hoa_binh",
+    "district_id": "279"
+  },
+  {
+    "id": "10201",
+    "name": "Văn Bình",
+    "enName": "Van Binh",
+    "fullName": "Xã Văn Bình",
+    "enFullName": "Van Binh Commune",
+    "codeName": "van_binh",
+    "district_id": "279"
+  },
+  {
+    "id": "10204",
+    "name": "Hiền Giang",
+    "enName": "Hien Giang",
+    "fullName": "Xã Hiền Giang",
+    "enFullName": "Hien Giang Commune",
+    "codeName": "hien_giang",
+    "district_id": "279"
+  },
+  {
+    "id": "10207",
+    "name": "Hồng Vân",
+    "enName": "Hong Van",
+    "fullName": "Xã Hồng Vân",
+    "enFullName": "Hong Van Commune",
+    "codeName": "hong_van",
+    "district_id": "279"
+  },
+  {
+    "id": "10210",
+    "name": "Vân Tảo",
+    "enName": "Van Tao",
+    "fullName": "Xã Vân Tảo",
+    "enFullName": "Van Tao Commune",
+    "codeName": "van_tao",
+    "district_id": "279"
+  },
+  {
+    "id": "10213",
+    "name": "Liên Phương",
+    "enName": "Lien Phuong",
+    "fullName": "Xã Liên Phương",
+    "enFullName": "Lien Phuong Commune",
+    "codeName": "lien_phuong",
+    "district_id": "279"
+  },
+  {
+    "id": "10216",
+    "name": "Văn Phú",
+    "enName": "Van Phu",
+    "fullName": "Xã Văn Phú",
+    "enFullName": "Van Phu Commune",
+    "codeName": "van_phu",
+    "district_id": "279"
+  },
+  {
+    "id": "10219",
+    "name": "Tự Nhiên",
+    "enName": "Tu Nhien",
+    "fullName": "Xã Tự Nhiên",
+    "enFullName": "Tu Nhien Commune",
+    "codeName": "tu_nhien",
+    "district_id": "279"
+  },
+  {
+    "id": "10222",
+    "name": "Tiền Phong",
+    "enName": "Tien Phong",
+    "fullName": "Xã Tiền Phong",
+    "enFullName": "Tien Phong Commune",
+    "codeName": "tien_phong",
+    "district_id": "279"
+  },
+  {
+    "id": "10225",
+    "name": "Hà Hồi",
+    "enName": "Ha Hoi",
+    "fullName": "Xã Hà Hồi",
+    "enFullName": "Ha Hoi Commune",
+    "codeName": "ha_hoi",
+    "district_id": "279"
+  },
+  {
+    "id": "10228",
+    "name": "Thư Phú",
+    "enName": "Thu Phu",
+    "fullName": "Xã Thư Phú",
+    "enFullName": "Thu Phu Commune",
+    "codeName": "thu_phu",
+    "district_id": "279"
+  },
+  {
+    "id": "10231",
+    "name": "Nguyễn Trãi",
+    "enName": "Nguyen Trai",
+    "fullName": "Xã Nguyễn Trãi",
+    "enFullName": "Nguyen Trai Commune",
+    "codeName": "nguyen_trai",
+    "district_id": "279"
+  },
+  {
+    "id": "10234",
+    "name": "Quất Động",
+    "enName": "Quat Dong",
+    "fullName": "Xã Quất Động",
+    "enFullName": "Quat Dong Commune",
+    "codeName": "quat_dong",
+    "district_id": "279"
+  },
+  {
+    "id": "10237",
+    "name": "Chương Dương",
+    "enName": "Chuong Duong",
+    "fullName": "Xã Chương Dương",
+    "enFullName": "Chuong Duong Commune",
+    "codeName": "chuong_duong",
+    "district_id": "279"
+  },
+  {
+    "id": "10240",
+    "name": "Tân Minh",
+    "enName": "Tan Minh",
+    "fullName": "Xã Tân Minh",
+    "enFullName": "Tan Minh Commune",
+    "codeName": "tan_minh",
+    "district_id": "279"
+  },
+  {
+    "id": "10243",
+    "name": "Lê Lợi",
+    "enName": "Le Loi",
+    "fullName": "Xã Lê Lợi",
+    "enFullName": "Le Loi Commune",
+    "codeName": "le_loi",
+    "district_id": "279"
+  },
+  {
+    "id": "10246",
+    "name": "Thắng Lợi",
+    "enName": "Thang Loi",
+    "fullName": "Xã Thắng Lợi",
+    "enFullName": "Thang Loi Commune",
+    "codeName": "thang_loi",
+    "district_id": "279"
+  },
+  {
+    "id": "10249",
+    "name": "Dũng Tiến",
+    "enName": "Dung Tien",
+    "fullName": "Xã Dũng Tiến",
+    "enFullName": "Dung Tien Commune",
+    "codeName": "dung_tien",
+    "district_id": "279"
+  },
+  {
+    "id": "10252",
+    "name": "Thống Nhất",
+    "enName": "Thong Nhat",
+    "fullName": "Xã Thống Nhất",
+    "enFullName": "Thong Nhat Commune",
+    "codeName": "thong_nhat",
+    "district_id": "279"
+  },
+  {
+    "id": "10255",
+    "name": "Nghiêm Xuyên",
+    "enName": "Nghiem Xuyen",
+    "fullName": "Xã Nghiêm Xuyên",
+    "enFullName": "Nghiem Xuyen Commune",
+    "codeName": "nghiem_xuyen",
+    "district_id": "279"
+  },
+  {
+    "id": "10258",
+    "name": "Tô Hiệu",
+    "enName": "To Hieu",
+    "fullName": "Xã Tô Hiệu",
+    "enFullName": "To Hieu Commune",
+    "codeName": "to_hieu",
+    "district_id": "279"
+  },
+  {
+    "id": "10261",
+    "name": "Văn Tự",
+    "enName": "Van Tu",
+    "fullName": "Xã Văn Tự",
+    "enFullName": "Van Tu Commune",
+    "codeName": "van_tu",
+    "district_id": "279"
+  },
+  {
+    "id": "10264",
+    "name": "Vạn Điểm",
+    "enName": "Van Diem",
+    "fullName": "Xã Vạn Điểm",
+    "enFullName": "Van Diem Commune",
+    "codeName": "van_diem",
+    "district_id": "279"
+  },
+  {
+    "id": "10267",
+    "name": "Minh Cường",
+    "enName": "Minh Cuong",
+    "fullName": "Xã Minh Cường",
+    "enFullName": "Minh Cuong Commune",
+    "codeName": "minh_cuong",
+    "district_id": "279"
+  },
+  {
+    "id": "10270",
+    "name": "Phú Minh",
+    "enName": "Phu Minh",
+    "fullName": "Thị trấn Phú Minh",
+    "enFullName": "Phu Minh Township",
+    "codeName": "phu_minh",
+    "district_id": "280"
+  },
+  {
+    "id": "10273",
+    "name": "Phú Xuyên",
+    "enName": "Phu Xuyen",
+    "fullName": "Thị trấn Phú Xuyên",
+    "enFullName": "Phu Xuyen Township",
+    "codeName": "phu_xuyen",
+    "district_id": "280"
+  },
+  {
+    "id": "10276",
+    "name": "Hồng Minh",
+    "enName": "Hong Minh",
+    "fullName": "Xã Hồng Minh",
+    "enFullName": "Hong Minh Commune",
+    "codeName": "hong_minh",
+    "district_id": "280"
+  },
+  {
+    "id": "10279",
+    "name": "Phượng Dực",
+    "enName": "Phuong Duc",
+    "fullName": "Xã Phượng Dực",
+    "enFullName": "Phuong Duc Commune",
+    "codeName": "phuong_duc",
+    "district_id": "280"
+  },
+  {
+    "id": "10282",
+    "name": "Nam Tiến",
+    "enName": "Nam Tien",
+    "fullName": "Xã Nam Tiến",
+    "enFullName": "Nam Tien Commune",
+    "codeName": "nam_tien",
+    "district_id": "280"
+  },
+  {
+    "id": "10288",
+    "name": "Tri Trung",
+    "enName": "Tri Trung",
+    "fullName": "Xã Tri Trung",
+    "enFullName": "Tri Trung Commune",
+    "codeName": "tri_trung",
+    "district_id": "280"
+  },
+  {
+    "id": "10291",
+    "name": "Đại Thắng",
+    "enName": "Dai Thang",
+    "fullName": "Xã Đại Thắng",
+    "enFullName": "Dai Thang Commune",
+    "codeName": "dai_thang",
+    "district_id": "280"
+  },
+  {
+    "id": "10294",
+    "name": "Phú Túc",
+    "enName": "Phu Tuc",
+    "fullName": "Xã Phú Túc",
+    "enFullName": "Phu Tuc Commune",
+    "codeName": "phu_tuc",
+    "district_id": "280"
+  },
+  {
+    "id": "10297",
+    "name": "Văn Hoàng",
+    "enName": "Van Hoang",
+    "fullName": "Xã Văn Hoàng",
+    "enFullName": "Van Hoang Commune",
+    "codeName": "van_hoang",
+    "district_id": "280"
+  },
+  {
+    "id": "10300",
+    "name": "Hồng Thái",
+    "enName": "Hong Thai",
+    "fullName": "Xã Hồng Thái",
+    "enFullName": "Hong Thai Commune",
+    "codeName": "hong_thai",
+    "district_id": "280"
+  },
+  {
+    "id": "10303",
+    "name": "Hoàng Long",
+    "enName": "Hoang Long",
+    "fullName": "Xã Hoàng Long",
+    "enFullName": "Hoang Long Commune",
+    "codeName": "hoang_long",
+    "district_id": "280"
+  },
+  {
+    "id": "10306",
+    "name": "Quang Trung",
+    "enName": "Quang Trung",
+    "fullName": "Xã Quang Trung",
+    "enFullName": "Quang Trung Commune",
+    "codeName": "quang_trung",
+    "district_id": "280"
+  },
+  {
+    "id": "10309",
+    "name": "Nam Phong",
+    "enName": "Nam Phong",
+    "fullName": "Xã Nam Phong",
+    "enFullName": "Nam Phong Commune",
+    "codeName": "nam_phong",
+    "district_id": "280"
+  },
+  {
+    "id": "10312",
+    "name": "Nam Triều",
+    "enName": "Nam Trieu",
+    "fullName": "Xã Nam Triều",
+    "enFullName": "Nam Trieu Commune",
+    "codeName": "nam_trieu",
+    "district_id": "280"
+  },
+  {
+    "id": "10315",
+    "name": "Tân Dân",
+    "enName": "Tan Dan",
+    "fullName": "Xã Tân Dân",
+    "enFullName": "Tan Dan Commune",
+    "codeName": "tan_dan",
+    "district_id": "280"
+  },
+  {
+    "id": "10318",
+    "name": "Sơn Hà",
+    "enName": "Son Ha",
+    "fullName": "Xã Sơn Hà",
+    "enFullName": "Son Ha Commune",
+    "codeName": "son_ha",
+    "district_id": "280"
+  },
+  {
+    "id": "10321",
+    "name": "Chuyên Mỹ",
+    "enName": "Chuyen My",
+    "fullName": "Xã Chuyên Mỹ",
+    "enFullName": "Chuyen My Commune",
+    "codeName": "chuyen_my",
+    "district_id": "280"
+  },
+  {
+    "id": "10324",
+    "name": "Khai Thái",
+    "enName": "Khai Thai",
+    "fullName": "Xã Khai Thái",
+    "enFullName": "Khai Thai Commune",
+    "codeName": "khai_thai",
+    "district_id": "280"
+  },
+  {
+    "id": "10327",
+    "name": "Phúc Tiến",
+    "enName": "Phuc Tien",
+    "fullName": "Xã Phúc Tiến",
+    "enFullName": "Phuc Tien Commune",
+    "codeName": "phuc_tien",
+    "district_id": "280"
+  },
+  {
+    "id": "10330",
+    "name": "Vân Từ",
+    "enName": "Van Tu",
+    "fullName": "Xã Vân Từ",
+    "enFullName": "Van Tu Commune",
+    "codeName": "van_tu",
+    "district_id": "280"
+  },
+  {
+    "id": "10333",
+    "name": "Tri Thủy",
+    "enName": "Tri Thuy",
+    "fullName": "Xã Tri Thủy",
+    "enFullName": "Tri Thuy Commune",
+    "codeName": "tri_thuy",
+    "district_id": "280"
+  },
+  {
+    "id": "10336",
+    "name": "Đại Xuyên",
+    "enName": "Dai Xuyen",
+    "fullName": "Xã Đại Xuyên",
+    "enFullName": "Dai Xuyen Commune",
+    "codeName": "dai_xuyen",
+    "district_id": "280"
+  },
+  {
+    "id": "10339",
+    "name": "Phú Yên",
+    "enName": "Phu Yen",
+    "fullName": "Xã Phú Yên",
+    "enFullName": "Phu Yen Commune",
+    "codeName": "phu_yen",
+    "district_id": "280"
+  },
+  {
+    "id": "10342",
+    "name": "Bạch Hạ",
+    "enName": "Bach Ha",
+    "fullName": "Xã Bạch Hạ",
+    "enFullName": "Bach Ha Commune",
+    "codeName": "bach_ha",
+    "district_id": "280"
+  },
+  {
+    "id": "10345",
+    "name": "Quang Lãng",
+    "enName": "Quang Lang",
+    "fullName": "Xã Quang Lãng",
+    "enFullName": "Quang Lang Commune",
+    "codeName": "quang_lang",
+    "district_id": "280"
+  },
+  {
+    "id": "10348",
+    "name": "Châu Can",
+    "enName": "Chau Can",
+    "fullName": "Xã Châu Can",
+    "enFullName": "Chau Can Commune",
+    "codeName": "chau_can",
+    "district_id": "280"
+  },
+  {
+    "id": "10351",
+    "name": "Minh Tân",
+    "enName": "Minh Tan",
+    "fullName": "Xã Minh Tân",
+    "enFullName": "Minh Tan Commune",
+    "codeName": "minh_tan",
+    "district_id": "280"
+  },
+  {
+    "id": "10354",
+    "name": "Vân Đình",
+    "enName": "Van Dinh",
+    "fullName": "Thị trấn Vân Đình",
+    "enFullName": "Van Dinh Township",
+    "codeName": "van_dinh",
+    "district_id": "281"
+  },
+  {
+    "id": "10357",
+    "name": "Viên An",
+    "enName": "Vien An",
+    "fullName": "Xã Viên An",
+    "enFullName": "Vien An Commune",
+    "codeName": "vien_an",
+    "district_id": "281"
+  },
+  {
+    "id": "10360",
+    "name": "Viên Nội",
+    "enName": "Vien Noi",
+    "fullName": "Xã Viên Nội",
+    "enFullName": "Vien Noi Commune",
+    "codeName": "vien_noi",
+    "district_id": "281"
+  },
+  {
+    "id": "10363",
+    "name": "Hoa Sơn",
+    "enName": "Hoa Son",
+    "fullName": "Xã Hoa Sơn",
+    "enFullName": "Hoa Son Commune",
+    "codeName": "hoa_son",
+    "district_id": "281"
+  },
+  {
+    "id": "10366",
+    "name": "Quảng Phú Cầu",
+    "enName": "Quang Phu Cau",
+    "fullName": "Xã Quảng Phú Cầu",
+    "enFullName": "Quang Phu Cau Commune",
+    "codeName": "quang_phu_cau",
+    "district_id": "281"
+  },
+  {
+    "id": "10369",
+    "name": "Trường Thịnh",
+    "enName": "Truong Thinh",
+    "fullName": "Xã Trường Thịnh",
+    "enFullName": "Truong Thinh Commune",
+    "codeName": "truong_thinh",
+    "district_id": "281"
+  },
+  {
+    "id": "10372",
+    "name": "Cao Thành",
+    "enName": "Cao Thanh",
+    "fullName": "Xã Cao Thành",
+    "enFullName": "Cao Thanh Commune",
+    "codeName": "cao_thanh",
+    "district_id": "281"
+  },
+  {
+    "id": "10375",
+    "name": "Liên Bạt",
+    "enName": "Lien Bat",
+    "fullName": "Xã Liên Bạt",
+    "enFullName": "Lien Bat Commune",
+    "codeName": "lien_bat",
+    "district_id": "281"
+  },
+  {
+    "id": "10378",
+    "name": "Sơn Công",
+    "enName": "Son Cong",
+    "fullName": "Xã Sơn Công",
+    "enFullName": "Son Cong Commune",
+    "codeName": "son_cong",
+    "district_id": "281"
+  },
+  {
+    "id": "10381",
+    "name": "Đồng Tiến",
+    "enName": "Dong Tien",
+    "fullName": "Xã Đồng Tiến",
+    "enFullName": "Dong Tien Commune",
+    "codeName": "dong_tien",
+    "district_id": "281"
+  },
+  {
+    "id": "10384",
+    "name": "Phương Tú",
+    "enName": "Phuong Tu",
+    "fullName": "Xã Phương Tú",
+    "enFullName": "Phuong Tu Commune",
+    "codeName": "phuong_tu",
+    "district_id": "281"
+  },
+  {
+    "id": "10387",
+    "name": "Trung Tú",
+    "enName": "Trung Tu",
+    "fullName": "Xã Trung Tú",
+    "enFullName": "Trung Tu Commune",
+    "codeName": "trung_tu",
+    "district_id": "281"
+  },
+  {
+    "id": "10390",
+    "name": "Đồng Tân",
+    "enName": "Dong Tan",
+    "fullName": "Xã Đồng Tân",
+    "enFullName": "Dong Tan Commune",
+    "codeName": "dong_tan",
+    "district_id": "281"
+  },
+  {
+    "id": "10393",
+    "name": "Tảo Dương Văn",
+    "enName": "Tao Duong Van",
+    "fullName": "Xã Tảo Dương Văn",
+    "enFullName": "Tao Duong Van Commune",
+    "codeName": "tao_duong_van",
+    "district_id": "281"
+  },
+  {
+    "id": "10396",
+    "name": "Vạn Thái",
+    "enName": "Van Thai",
+    "fullName": "Xã Vạn Thái",
+    "enFullName": "Van Thai Commune",
+    "codeName": "van_thai",
+    "district_id": "281"
+  },
+  {
+    "id": "10399",
+    "name": "Minh Đức",
+    "enName": "Minh Duc",
+    "fullName": "Xã Minh Đức",
+    "enFullName": "Minh Duc Commune",
+    "codeName": "minh_duc",
+    "district_id": "281"
+  },
+  {
+    "id": "10402",
+    "name": "Hòa Lâm",
+    "enName": "Hoa Lam",
+    "fullName": "Xã Hòa Lâm",
+    "enFullName": "Hoa Lam Commune",
+    "codeName": "hoa_lam",
+    "district_id": "281"
+  },
+  {
+    "id": "10405",
+    "name": "Hòa Xá",
+    "enName": "Hoa Xa",
+    "fullName": "Xã Hòa Xá",
+    "enFullName": "Hoa Xa Commune",
+    "codeName": "hoa_xa",
+    "district_id": "281"
+  },
+  {
+    "id": "10408",
+    "name": "Trầm Lộng",
+    "enName": "Tram Long",
+    "fullName": "Xã Trầm Lộng",
+    "enFullName": "Tram Long Commune",
+    "codeName": "tram_long",
+    "district_id": "281"
+  },
+  {
+    "id": "10411",
+    "name": "Kim Đường",
+    "enName": "Kim Duong",
+    "fullName": "Xã Kim Đường",
+    "enFullName": "Kim Duong Commune",
+    "codeName": "kim_duong",
+    "district_id": "281"
+  },
+  {
+    "id": "10414",
+    "name": "Hòa Nam",
+    "enName": "Hoa Nam",
+    "fullName": "Xã Hòa Nam",
+    "enFullName": "Hoa Nam Commune",
+    "codeName": "hoa_nam",
+    "district_id": "281"
+  },
+  {
+    "id": "10417",
+    "name": "Hòa Phú",
+    "enName": "Hoa Phu",
+    "fullName": "Xã Hòa Phú",
+    "enFullName": "Hoa Phu Commune",
+    "codeName": "hoa_phu",
+    "district_id": "281"
+  },
+  {
+    "id": "10420",
+    "name": "Đội Bình",
+    "enName": "Doi Binh",
+    "fullName": "Xã Đội Bình",
+    "enFullName": "Doi Binh Commune",
+    "codeName": "doi_binh",
+    "district_id": "281"
+  },
+  {
+    "id": "10423",
+    "name": "Đại Hùng",
+    "enName": "Dai Hung",
+    "fullName": "Xã Đại Hùng",
+    "enFullName": "Dai Hung Commune",
+    "codeName": "dai_hung",
+    "district_id": "281"
+  },
+  {
+    "id": "10426",
+    "name": "Đông Lỗ",
+    "enName": "Dong Lo",
+    "fullName": "Xã Đông Lỗ",
+    "enFullName": "Dong Lo Commune",
+    "codeName": "dong_lo",
+    "district_id": "281"
+  },
+  {
+    "id": "10429",
+    "name": "Phù Lưu",
+    "enName": "Phu Luu",
+    "fullName": "Xã Phù Lưu",
+    "enFullName": "Phu Luu Commune",
+    "codeName": "phu_luu",
+    "district_id": "281"
+  },
+  {
+    "id": "10432",
+    "name": "Đại Cường",
+    "enName": "Dai Cuong",
+    "fullName": "Xã Đại Cường",
+    "enFullName": "Dai Cuong Commune",
+    "codeName": "dai_cuong",
+    "district_id": "281"
+  },
+  {
+    "id": "10435",
+    "name": "Lưu Hoàng",
+    "enName": "Luu Hoang",
+    "fullName": "Xã Lưu Hoàng",
+    "enFullName": "Luu Hoang Commune",
+    "codeName": "luu_hoang",
+    "district_id": "281"
+  },
+  {
+    "id": "10438",
+    "name": "Hồng Quang",
+    "enName": "Hong Quang",
+    "fullName": "Xã Hồng Quang",
+    "enFullName": "Hong Quang Commune",
+    "codeName": "hong_quang",
+    "district_id": "281"
+  },
+  {
+    "id": "10441",
+    "name": "Đại Nghĩa",
+    "enName": "Dai Nghia",
+    "fullName": "Thị trấn Đại Nghĩa",
+    "enFullName": "Dai Nghia Township",
+    "codeName": "dai_nghia",
+    "district_id": "282"
+  },
+  {
+    "id": "10444",
+    "name": "Đồng Tâm",
+    "enName": "Dong Tam",
+    "fullName": "Xã Đồng Tâm",
+    "enFullName": "Dong Tam Commune",
+    "codeName": "dong_tam",
+    "district_id": "282"
+  },
+  {
+    "id": "10447",
+    "name": "Thượng Lâm",
+    "enName": "Thuong Lam",
+    "fullName": "Xã Thượng Lâm",
+    "enFullName": "Thuong Lam Commune",
+    "codeName": "thuong_lam",
+    "district_id": "282"
+  },
+  {
+    "id": "10450",
+    "name": "Tuy Lai",
+    "enName": "Tuy Lai",
+    "fullName": "Xã Tuy Lai",
+    "enFullName": "Tuy Lai Commune",
+    "codeName": "tuy_lai",
+    "district_id": "282"
+  },
+  {
+    "id": "10453",
+    "name": "Phúc Lâm",
+    "enName": "Phuc Lam",
+    "fullName": "Xã Phúc Lâm",
+    "enFullName": "Phuc Lam Commune",
+    "codeName": "phuc_lam",
+    "district_id": "282"
+  },
+  {
+    "id": "10456",
+    "name": "Mỹ Thành",
+    "enName": "My Thanh",
+    "fullName": "Xã Mỹ Thành",
+    "enFullName": "My Thanh Commune",
+    "codeName": "my_thanh",
+    "district_id": "282"
+  },
+  {
+    "id": "10459",
+    "name": "Bột Xuyên",
+    "enName": "Bot Xuyen",
+    "fullName": "Xã Bột Xuyên",
+    "enFullName": "Bot Xuyen Commune",
+    "codeName": "bot_xuyen",
+    "district_id": "282"
+  },
+  {
+    "id": "10462",
+    "name": "An Mỹ",
+    "enName": "An My",
+    "fullName": "Xã An Mỹ",
+    "enFullName": "An My Commune",
+    "codeName": "an_my",
+    "district_id": "282"
+  },
+  {
+    "id": "10465",
+    "name": "Hồng Sơn",
+    "enName": "Hong Son",
+    "fullName": "Xã Hồng Sơn",
+    "enFullName": "Hong Son Commune",
+    "codeName": "hong_son",
+    "district_id": "282"
+  },
+  {
+    "id": "10468",
+    "name": "Lê Thanh",
+    "enName": "Le Thanh",
+    "fullName": "Xã Lê Thanh",
+    "enFullName": "Le Thanh Commune",
+    "codeName": "le_thanh",
+    "district_id": "282"
+  },
+  {
+    "id": "10471",
+    "name": "Xuy Xá",
+    "enName": "Xuy Xa",
+    "fullName": "Xã Xuy Xá",
+    "enFullName": "Xuy Xa Commune",
+    "codeName": "xuy_xa",
+    "district_id": "282"
+  },
+  {
+    "id": "10474",
+    "name": "Phùng Xá",
+    "enName": "Phung Xa",
+    "fullName": "Xã Phùng Xá",
+    "enFullName": "Phung Xa Commune",
+    "codeName": "phung_xa",
+    "district_id": "282"
+  },
+  {
+    "id": "10477",
+    "name": "Phù Lưu Tế",
+    "enName": "Phu Luu Te",
+    "fullName": "Xã Phù Lưu Tế",
+    "enFullName": "Phu Luu Te Commune",
+    "codeName": "phu_luu_te",
+    "district_id": "282"
+  },
+  {
+    "id": "10480",
+    "name": "Đại Hưng",
+    "enName": "Dai Hung",
+    "fullName": "Xã Đại Hưng",
+    "enFullName": "Dai Hung Commune",
+    "codeName": "dai_hung",
+    "district_id": "282"
+  },
+  {
+    "id": "10483",
+    "name": "Vạn Kim",
+    "enName": "Van Kim",
+    "fullName": "Xã Vạn Kim",
+    "enFullName": "Van Kim Commune",
+    "codeName": "van_kim",
+    "district_id": "282"
+  },
+  {
+    "id": "10486",
+    "name": "Đốc Tín",
+    "enName": "Doc Tin",
+    "fullName": "Xã Đốc Tín",
+    "enFullName": "Doc Tin Commune",
+    "codeName": "doc_tin",
+    "district_id": "282"
+  },
+  {
+    "id": "10489",
+    "name": "Hương Sơn",
+    "enName": "Huong Son",
+    "fullName": "Xã Hương Sơn",
+    "enFullName": "Huong Son Commune",
+    "codeName": "huong_son",
+    "district_id": "282"
+  },
+  {
+    "id": "10492",
+    "name": "Hùng Tiến",
+    "enName": "Hung Tien",
+    "fullName": "Xã Hùng Tiến",
+    "enFullName": "Hung Tien Commune",
+    "codeName": "hung_tien",
+    "district_id": "282"
+  },
+  {
+    "id": "10495",
+    "name": "An Tiến",
+    "enName": "An Tien",
+    "fullName": "Xã An Tiến",
+    "enFullName": "An Tien Commune",
+    "codeName": "an_tien",
+    "district_id": "282"
+  },
+  {
+    "id": "10498",
+    "name": "Hợp Tiến",
+    "enName": "Hop Tien",
+    "fullName": "Xã Hợp Tiến",
+    "enFullName": "Hop Tien Commune",
+    "codeName": "hop_tien",
+    "district_id": "282"
+  },
+  {
+    "id": "10501",
+    "name": "Hợp Thanh",
+    "enName": "Hop Thanh",
+    "fullName": "Xã Hợp Thanh",
+    "enFullName": "Hop Thanh Commune",
+    "codeName": "hop_thanh",
+    "district_id": "282"
+  },
+  {
+    "id": "10504",
+    "name": "An Phú",
+    "enName": "An Phu",
+    "fullName": "Xã An Phú",
+    "enFullName": "An Phu Commune",
+    "codeName": "an_phu",
+    "district_id": "282"
+  }
+]

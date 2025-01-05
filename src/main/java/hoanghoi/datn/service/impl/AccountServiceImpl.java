@@ -6,21 +6,21 @@ import hoanghoi.datn.dto.request.Creation.loginRequest;
 import hoanghoi.datn.dto.request.Update.AccountUpdatePassword;
 import hoanghoi.datn.dto.response.ApiResponse;
 import hoanghoi.datn.entity.Account;
+import hoanghoi.datn.entity.TransactionWallet;
 import hoanghoi.datn.entity.User;
+import hoanghoi.datn.enumvar.Role;
 import hoanghoi.datn.exception.CustomException;
 import hoanghoi.datn.exception.ErrorCode;
 import hoanghoi.datn.mapper.AccountMapper;
 import hoanghoi.datn.repository.AccountRepository;
 import hoanghoi.datn.repository.UserRepository;
+import hoanghoi.datn.repository.WalletRepository;
 import hoanghoi.datn.service.AccountService;
 import hoanghoi.datn.util.JWToken;
+import hoanghoi.datn.util.UserUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
@@ -31,6 +31,8 @@ import java.util.UUID;
 @Service
 public class AccountServiceImpl implements AccountService {
     @Autowired
+    private WalletRepository walletRepository;
+    @Autowired
     private UserRepository userRepository;
     @Autowired
     private AccountRepository accountRepository;
@@ -40,15 +42,19 @@ public class AccountServiceImpl implements AccountService {
     private CustomPasswordEncoder passwordEncoder;
     @Autowired
     private JWToken jwToken;
+    @Autowired
+    private UserUtils userUtils;
 
 
     @Override
     @PreAuthorize("hasAuthority('ADMIN')")
-    public ApiResponse adminGetAllAccount() {
+    public ApiResponse adminGetAllAccount(Role role) {
+
         ApiResponse res = new ApiResponse();
         res.setCode(1000);
-        res.setMessage("Register Sucessfully!");
-        res.setResult(accountRepository.findAll());
+        res.setMessage("get all Sucessfully!");
+        res.setSucess(true);
+        res.setData(accountRepository.findAllByRole(role));
         return res;
     }
 
@@ -61,8 +67,18 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     @PreAuthorize("hasAuthority('ADMIN')")
-    public ApiResponse adminDisableAccount() {
-        return null;
+    public ApiResponse adminDisableAccount(UUID id) {
+        var targetAcc = accountRepository.findById(id).orElse(null);
+        if(Objects.isNull(targetAcc)){
+            throw new RuntimeException("cant find acc");
+        }
+        targetAcc.setActive(false);
+        ApiResponse res = new ApiResponse();
+        res.setCode(1000);
+        res.setMessage("get all Sucessfully!");
+        res.setSucess(true);
+        res.setData(accountRepository.save(targetAcc));
+        return res;
     }
 
     @Override
@@ -84,7 +100,7 @@ public class AccountServiceImpl implements AccountService {
                 res.setCode(1000);
                 res.setMessage("login Sucessfully!");
                 res.setSucess(true);
-                res.setResult(token);
+                res.setData(token);
 
                 return res;
             } else {
@@ -108,15 +124,24 @@ public class AccountServiceImpl implements AccountService {
                 throw new CustomException(ErrorCode.USER_EXISTED);
 
             User newUser = new User();
+            newUser.setUserImg("https://cdn-icons-png.flaticon.com/128/456/456212.png");
             userRepository.save(newUser);
             Account account = accountMapper.toAccount(request, passwordEncoder);
-            account.setIdUser(newUser.getId());
+//            account.setIdUser(newUser.getId());
+            account.setUser(newUser);
+            var targetAccount = accountRepository.save(account);
             ApiResponse res = new ApiResponse();
             res.setCode(1000);
             res.setMessage("Register Sucessfully!");
             res.setSucess(true);
-            res.setResult(accountRepository.save(account));
+            res.setData(targetAccount);
 
+            TransactionWallet wallet = new TransactionWallet().builder()
+                    .balance(0)
+                    .accountId(targetAccount.getId())
+                    .build();
+            newUser.setTransactionWallet(wallet);
+            walletRepository.save(wallet);
             return res;
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -148,7 +173,7 @@ public class AccountServiceImpl implements AccountService {
         res.setCode(1000);
         res.setSucess(true);
         res.setMessage("get detail sucessfully");
-        res.setResult(targetAcc);
+        res.setData(targetAcc);
 
         return res;
     }
@@ -194,7 +219,7 @@ public class AccountServiceImpl implements AccountService {
                 res.setCode(1000);
                 res.setSucess(true);
                 res.setMessage("sucessfully");
-                res.setResult(accountRepository.save(Account));
+                res.setData(accountRepository.save(Account));
 
                 return res;
             } else {
@@ -217,22 +242,96 @@ public class AccountServiceImpl implements AccountService {
             if (accountRepository.existsByUserName(username))
                 throw new CustomException(ErrorCode.USER_EXISTED);
 
-
+            User newUser = new User();
+            userRepository.save(newUser);
             Account account = accountMapper.toStaffAccount(request, passwordEncoder);
 //        Account acc = Account.builder().build();
 
 //        Account account = new Account();
 //        account.setUserName(request.getUserName());
 //        account.setPassword(passwordEncoder.encode(request.getPassword()));
-//        account.setRole(Role.USER);
+//        account.setRole(Role.USER);       ac
+//            account.setIdUser(newUser.getId());
+            account.setUser(newUser);
             ApiResponse res = new ApiResponse();
             res.setCode(1000);
+            res.setSucess(true);
             res.setMessage("Register Sucessfully!");
-            res.setResult(accountRepository.save(account));
+            res.setData(accountRepository.save(account));
 
             return res;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
+
+    @Override
+    public ApiResponse forgotPassword(String email)  {
+
+
+        try{
+            var acc = userUtils.findAccountFromEmail(email);
+            var resetToken = jwToken.genResetPasswordToken(acc);
+            // send email
+            new  ApiResponse<>();
+
+            return ApiResponse.builder()
+                    .isSucess(true)
+                    .code(1000)
+                    .message("send email sucessfully")
+                    .build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    @PreAuthorize("hasAuthority('ADMIN')")
+    @Override
+    public ApiResponse getDetailAccByAdmin(UUID id) {
+        var targetAcc = accountRepository.findById(id).orElse(null);
+        if(Objects.isNull(targetAcc)){
+            throw new CustomException(ErrorCode.NOT_EXISTED);
+        }
+
+        ApiResponse res = new ApiResponse();
+        res.setCode(1000);
+        res.setSucess(true);
+        res.setMessage("get detail sucessfully");
+        res.setData(targetAcc);
+
+        return res;
+    }
+
+    @Override
+    @PreAuthorize("hasAuthority('ADMIN')")
+    public ApiResponse adminCreateAccount(AccountCreationRequest request) {
+        try {
+            String username = request.getUserName();
+            if (accountRepository.existsByUserName(username))
+                throw new CustomException(ErrorCode.USER_EXISTED);
+
+            User newUser = new User();
+            userRepository.save(newUser);
+            Account account = accountMapper.toAccount(request, passwordEncoder);
+//        Account acc = Account.builder().build();
+
+//        Account account = new Account();
+//        account.setUserName(request.getUserName());
+//        account.setPassword(passwordEncoder.encode(request.getPassword()));
+//        account.setRole(Role.USER);       ac
+//            account.setIdUser(newUser.getId());
+            account.setUser(newUser);
+            ApiResponse res = new ApiResponse();
+            res.setCode(1000);
+            res.setSucess(true);
+            res.setMessage("Register Sucessfully!");
+            res.setData(accountRepository.save(account));
+
+            return res;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }

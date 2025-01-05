@@ -9,7 +9,6 @@ import java.util.UUID;
 @Setter
 @Getter
 @Entity
-//@Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,9 +18,20 @@ public class Parking {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     @NotNull
-    private int areaId;
-    private UUID priceId;
-    private UUID staffId;
+    @ManyToOne
+    @JoinColumn(name = "wardId", referencedColumnName = "id")
+    private Ward ward;
+    @ManyToOne
+    @JoinColumn(name = "districtId", referencedColumnName = "id")
+    private District district;
+    @OneToOne
+    @JoinColumn(name ="priceId" , referencedColumnName = "id")
+    private Price price;
+
+    private UUID deviceId;
+    @ManyToOne
+    @JoinColumn(name ="staffId" , referencedColumnName = "id")
+    private Account account;
     private Double latitude;
     private Double longtitude;
     private String parkingName;

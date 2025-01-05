@@ -2,19 +2,21 @@ package hoanghoi.datn.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.UUID;
 
 @Setter
 @Getter
 @Entity
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "areas")
 public class Area {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int areaId;
+    private int id;
     @NotNull
     private String areaName;
     @NotNull
@@ -25,7 +27,14 @@ public class Area {
     private String City;
     @NotNull
     private boolean isActive = true;
+    @ManyToOne
+    @JoinColumn(name="staffId",referencedColumnName = "id")
+    private Account account;
 
-    private UUID staffId;
-
+    @PrePersist
+    public void setDefaultValues() {
+        if(City == null) {
+            City = "Hanoi";
+        }
+    }
 }
