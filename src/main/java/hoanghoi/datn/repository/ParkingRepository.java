@@ -1,5 +1,6 @@
 package hoanghoi.datn.repository;
 
+import hoanghoi.datn.entity.Account;
 import hoanghoi.datn.entity.District;
 import hoanghoi.datn.entity.Parking;
 import hoanghoi.datn.entity.Ward;
@@ -14,7 +15,7 @@ public interface ParkingRepository extends JpaRepository<Parking, UUID> {
     List<Parking> findAllByWard(Ward ward);
 
     List<Parking> findAllByDistrict(District district);
-
+    List<Parking> findAllByAccount(Account account);
     Parking findByDeviceId(UUID deviceId);
 //    List<Parking> findByDistrictId(String id);
 

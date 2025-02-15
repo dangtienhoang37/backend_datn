@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -42,36 +43,50 @@ public class AreaServiceImpl implements AreaService {
 
 
     @Override
-    public ApiResponse initLocation() throws IOException {
-            try{
-                ObjectMapper objectMapper = new ObjectMapper();
-                List<District> districts = objectMapper.readValue(new File("src/main/resources/locationResource/district.json"),objectMapper.getTypeFactory().constructCollectionType(List.class, District.class));
-                districtRepository.saveAll(districts);
-                return null;
-            } catch (DatabindException e) {
-                throw new RuntimeException(String.valueOf(e));
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-
+    public ApiResponse initLocation() {
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("locationResource/district.json")) {
+            if (inputStream == null) {
+                throw new RuntimeException("File not found in resources: locationResource/district.json");
             }
 
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<District> districts = objectMapper.readValue(inputStream,
+                    objectMapper.getTypeFactory().constructCollectionType(List.class, District.class));
 
+            districtRepository.saveAll(districts);
+            return new ApiResponse().builder()
+                    .message("init ok")
+                    .isSucess(true)
+                    .code(1000)
+                    .build();
+        } catch (IOException e) {
+            throw new RuntimeException("Error reading JSON file", e);
+        }
     }
 
+
     @Override
-    public ApiResponse initWard() throws IOException {
-        try{
+    public ApiResponse initWard() {
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("locationResource/ward.json")) {
+            if (inputStream == null) {
+                throw new RuntimeException("File not found in resources: locationResource/ward.json");
+            }
+
             ObjectMapper objectMapper = new ObjectMapper();
             log.info("okkkkkk");
-            List<warDTO> wards = objectMapper.readValue(new File("src/main/resources/locationResource/ward.json"),objectMapper.getTypeFactory().constructCollectionType(List.class, warDTO.class));
+
+            List<warDTO> wards = objectMapper.readValue(inputStream,
+                    objectMapper.getTypeFactory().constructCollectionType(List.class, warDTO.class));
+
             log.info(wards.toString());
 
             List<Ward> wardList = new ArrayList<>();
-            for(warDTO w: wards){
+            for (warDTO w : wards) {
                 var district = districtRepository.findById(w.getDistrict_id()).orElse(null);
-                if(Objects.isNull(district)) {
-                    throw new RuntimeException("cant find district");
+                if (Objects.isNull(district)) {
+                    throw new RuntimeException("Cannot find district with ID: " + w.getDistrict_id());
                 }
+
                 Ward indexWard = new Ward();
                 indexWard.setId(w.getId());
                 indexWard.setName(w.getName());
@@ -83,15 +98,18 @@ public class AreaServiceImpl implements AreaService {
 
                 wardList.add(indexWard);
             }
-            wardRepository.saveAll(wardList);
-            return null;
-        } catch (DatabindException e) {
-            throw new RuntimeException(String.valueOf(e));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
 
+            wardRepository.saveAll(wardList);
+            return new ApiResponse().builder()
+                    .message("init ok")
+                    .isSucess(true)
+                    .code(1000)
+                    .build();
+        } catch (IOException e) {
+            throw new RuntimeException("Error reading JSON file", e);
         }
     }
+
 
     @Override
     public ApiResponse getAllDistrict() {

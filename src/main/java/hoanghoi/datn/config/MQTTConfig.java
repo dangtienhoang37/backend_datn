@@ -25,10 +25,11 @@ import java.util.UUID;
 @IntegrationComponentScan
 public class MQTTConfig {
     // tạo ra nhiều topic cho các chức năng khác nhau
-    private static final String MQTT_BROKER_URL = "tcp://localhost:1883"; // Đổi theo URL broker của bạn
+//    test.mosquitto.org
+    private static final String MQTT_BROKER_URL = "tcp://test.mosquitto.org:1883"; // Đổi theo URL broker của bạn
     private static final String CLIENT_ID = UUID.randomUUID().toString();
     private static final String TOPIC = "handle";
-    private static final String CHECKIN_TOPIC = "checkin";
+    private static final String CHECKIN_TOPIC = "ocr";
     private static final String CHECKOUT_TOPIC = "checkout";
     private static final String USER_NAME = "admin";
     private static final String PASSWD = "12345678";

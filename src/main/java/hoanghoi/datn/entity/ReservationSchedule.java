@@ -25,5 +25,7 @@ public class ReservationSchedule {
     private Parking parking;
     private Instant startTime;
     private Instant endTime;
+    private Boolean valid;
+    private String moreInfor;
 
 }
