@@ -38,6 +38,7 @@ public class AuthController {
     }
     @PostMapping("/introspect")
     public ApiResponse authenticate(@RequestBody IntrospectRequest introspectRequest) throws JOSEException, ParseException {
+        System.out.println(introspectRequest.toString());
         return authService.introspect(introspectRequest);
     }
 

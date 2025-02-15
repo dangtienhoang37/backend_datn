@@ -28,11 +28,15 @@ public class AuthServiceImpl implements AuthService {
             response.setSucess(false);
             response.setCode(1001);
             response.setData("false");
+            System.out.println("loi roi");
+
             return response;
         }
         response.setSucess(true);
         response.setCode(1000);
         response.setData("ok");
+        System.out.println("ok");
+
         return response;
 
 

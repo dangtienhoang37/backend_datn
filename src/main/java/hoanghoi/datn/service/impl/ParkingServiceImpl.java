@@ -8,6 +8,7 @@ import hoanghoi.datn.exception.ErrorCode;
 import hoanghoi.datn.mapper.ParkingMapper;
 import hoanghoi.datn.repository.*;
 import hoanghoi.datn.service.ParkingService;
+import hoanghoi.datn.util.JWToken;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +32,8 @@ public class ParkingServiceImpl implements ParkingService {
     private PriceRepository priceRepository;
     @Autowired
     private ParkingRepository parkingRepository;
+    @Autowired
+    private JWToken jwToken;
     @Autowired
     private ParkingMapper parkingMapper;
     private static final Logger logger = LoggerFactory.getLogger(ParkingServiceImpl.class);
@@ -148,6 +151,22 @@ public class ParkingServiceImpl implements ParkingService {
                 .message("get by Area sucessfully")
                 .isSucess(true)
                 .data(parkingRepository.findAllByWard(targetWard))
+                .build();
+    }
+
+    @Override
+    public ApiResponse getAllParkingByStaff(String token) {
+        var targetStaffId = jwToken.getIdFromToken(token);
+        var targtetStaff = accountRepository.findById(targetStaffId).orElse(null);
+        if(Objects.isNull(targtetStaff)){
+            throw new RuntimeException("cant find staff");
+        }
+        var targtParking = parkingRepository.findAllByAccount(targtetStaff);
+        return  ApiResponse.builder()
+                .code(1000)
+                .message("get parking by staff sucessfully")
+                .isSucess(true)
+                .data(targtParking)
                 .build();
     }
 

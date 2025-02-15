@@ -245,14 +245,9 @@ public class AccountServiceImpl implements AccountService {
             User newUser = new User();
             userRepository.save(newUser);
             Account account = accountMapper.toStaffAccount(request, passwordEncoder);
-//        Account acc = Account.builder().build();
 
-//        Account account = new Account();
-//        account.setUserName(request.getUserName());
-//        account.setPassword(passwordEncoder.encode(request.getPassword()));
-//        account.setRole(Role.USER);       ac
-//            account.setIdUser(newUser.getId());
             account.setUser(newUser);
+            account.setRole(Role.STAFF);
             ApiResponse res = new ApiResponse();
             res.setCode(1000);
             res.setSucess(true);

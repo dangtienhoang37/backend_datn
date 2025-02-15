@@ -20,4 +20,6 @@ public interface ParkingService {
     ApiResponse getAllParkingByDistrict(String districtId);
 
     ApiResponse getAllParkingByWard(String wardId);
+
+    ApiResponse getAllParkingByStaff(String token);
 }

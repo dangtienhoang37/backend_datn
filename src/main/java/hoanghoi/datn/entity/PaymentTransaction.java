@@ -22,9 +22,12 @@ public class PaymentTransaction {
     UUID id;
 
     int amount;
-    int orderCode;
+    long orderCode;
+    long balance;
     @Enumerated(EnumType.ORDINAL)
     PaymentStatus paymentStatus;
+
+
     @JoinColumn(name = "walletId", referencedColumnName = "id")
     @ManyToOne
     TransactionWallet transactionWallet;

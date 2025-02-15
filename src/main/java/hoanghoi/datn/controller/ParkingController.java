@@ -43,7 +43,10 @@ public class ParkingController {
         return parkingService.adminUpdateParkingService(id, request);
     }
 
-
+    @GetMapping("/staff/get-all")
+    public ApiResponse getAllByStaff(@RequestHeader("Authorization") String token) {
+        return parkingService.getAllParkingByStaff(token);
+    }
 
 
 
